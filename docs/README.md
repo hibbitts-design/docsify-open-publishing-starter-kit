@@ -23,7 +23,7 @@ Want to delete the fork dependency of your newly created repository?
 **"Edit the Page on GitHub" Link Setup**  
 
 1. Edit the file `index.html` in your repository
-2. Find the sample GutHub repository URL `https://github.com/paulhibbitts/Docsify/blob/master/docs/` and replace it with your own repository URL, for example `https://github.com/YOURNAME/Docsify/blob/master/docs/`
+2. Find the sample GutHub repository URL `https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs` and replace it with your own repository URL, for example `https://github.com/YOURNAME/Docsify/blob/master/docs/`
 3. Commit your changes.
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site.
