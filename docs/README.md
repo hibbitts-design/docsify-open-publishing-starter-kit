@@ -26,7 +26,14 @@ Want to delete the fork dependency of your newly created repository?
 2. Find the sample GutHub repository URL `https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/` and replace it with your own repository URL, for example `https://github.com/YOURNAME/Docsify/blob/master/docs/`
 3. Commit your changes.
 
-You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site.
+**Editing your Docsify Site Locally**  
+
+1. Tap **Clone** on your repository page
+2. Choose **Open Desktop** and follow the prompts, installing GitHub Desktop if not already present
+3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. atom.io)
+4. Use GitHub Desktop to push any changes to your repository. [Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project).
+
+You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.now.sh/deploy?id=gitlab-pages)!
 
@@ -35,7 +42,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 ![ Docsify Open Publishing Kit Skeleton](screenshot.png)
 Figure 1. Docsify Open Publishing Kit Skeleton_
 
-📼Video Walkthrough of Docsify Install/Config
+📼Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
