@@ -12,7 +12,7 @@
 
 1. Fork this repository
 2. Go to **Settings** of your repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.now.sh/deploy?id=gitlab-pages))
-3. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it may take a few minutes for your site to be accessible)
+3. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it can take up to 20 minutes for your site to be initially available)
 
 Want to delete the fork dependency of your newly created repository?
 
