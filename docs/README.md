@@ -51,4 +51,8 @@ _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvar
 
 📚 Learn More about Docsify
 ---
-[ Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)
+[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)
+
+🙇‍Credits and Special Thanks
+---
+[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)
