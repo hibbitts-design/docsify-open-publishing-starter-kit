@@ -56,4 +56,3 @@ _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvar
 🙇‍Credits and Special Thanks
 ---
 [Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)  
-[@Wsine](https://github.com/Wsine) for collapsable sidebar items  
