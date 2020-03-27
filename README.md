@@ -4,8 +4,8 @@
 
 📸 Docsify Open Publishing Starter Kit Screenshot
 ---
-![ Docsify Open Publishing Kit Skeleton](screenshot.jpg)
-_Figure 1. Docsify Open Publishing Kit Skeleton_
+![ Docsify Open Publishing Starter Kit](screenshot.jpg)
+_Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-design.github.io/docsify-open-publishing-starter-kit/](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/)_
 
 🚀 Quick GitHub Pages Install Instructions
 ---
