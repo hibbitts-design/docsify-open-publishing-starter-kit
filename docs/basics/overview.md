@@ -627,22 +627,9 @@ Images have a similar syntax to links but include a preceding exclamation point.
 ```
 ![Minion](http://octodex.github.com/images/minion.png)
 
-or
-```markdown
-![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-```
-![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
+or with a local image
 
 ```markdown
-![Alt text][id]
+![Octocat](images/octocat.jpg)
 ```
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: http://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-    [id]: http://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+![Octocat](images/octocat.jpg)
