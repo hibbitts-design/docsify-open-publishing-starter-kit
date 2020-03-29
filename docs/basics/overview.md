@@ -52,10 +52,6 @@ HTML:
 <h6>h6 Heading</h6>
 ```
 
-<br>
-<br>
-<br>
-
 ## Comments
 
 Comments should be HTML compatible
@@ -70,10 +66,6 @@ Comment below should **NOT** be seen:
 <!--
 This is a comment
 -->
-
-<br>
-<br>
-<br>
 
 ## Horizontal Rules
 
@@ -92,11 +84,6 @@ ___
 ***
 
 
-<br>
-<br>
-<br>
-
-
 ## Body Copy
 
 Body copy written as normal, plain text will be wrapped with `<p></p>` tags in the rendered HTML.
@@ -111,12 +98,6 @@ renders to this HTML:
 ```html
 <p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
 ```
-
-
-<br>
-<br>
-<br>
-
 
 ## Emphasis
 
@@ -174,11 +155,6 @@ HTML:
 <del>Strike through this text.</del>
 ```
 
-<br>
-<br>
-<br>
-
-
 ## Blockquotes
 For quoting blocks of content from another source within your document.
 
@@ -215,11 +191,6 @@ Renders to:
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
-
-
-<br>
-<br>
-<br>
 
 ## Lists
 
@@ -351,12 +322,6 @@ Renders to:
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
 
-
-<br>
-<br>
-<br>
-
-
 ## Code
 
 ### Inline code
@@ -481,12 +446,6 @@ grunt.initConfig({
 };
 ```
 
-<br>
-<br>
-<br>
-
-
-
 ## Tables
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
@@ -548,12 +507,6 @@ Adding a colon on the right side of the dashes below any heading will right alig
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
-
-<br>
-<br>
-<br>
-
-
 ## Links
 
 ### Basic link
@@ -612,12 +565,6 @@ Content for chapter one.
 Content for chapter one.
 ```
 **NOTE** that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
-
-
-<br>
-<br>
-<br>
-
 
 ## Images
 Images have a similar syntax to links but include a preceding exclamation point.
