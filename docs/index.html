@@ -38,11 +38,6 @@
       homepage: '/basics/overview.md',
       plugins: [
         function (hook, vm) {
-          hook.afterEach(function(html, next) {
-              let reg = new RegExp("src=\"\/", 'ig');
-              html = html.replace(reg, "src=\"");
-              next(html);
-          })
           hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
