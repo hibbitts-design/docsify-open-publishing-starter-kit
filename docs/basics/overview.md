@@ -630,6 +630,6 @@ Images have a similar syntax to links but include a preceding exclamation point.
 or with a local image
 
 ```markdown
-![Octocat](basics/images/octocat.jpg)
+![Octocat](images/octocat.jpg)
 ```
-![Octocat](basics/images/octocat.jpg)
+![Octocat](images/octocat.jpg)
