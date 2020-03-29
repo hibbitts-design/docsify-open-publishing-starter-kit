@@ -47,7 +47,7 @@
               url = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
-            html = html.replace(new RegExp("../assets", 'ig'), "/assets");
+            html = html.replace(new RegExp("/assets", 'ig'), "../assets");
 
             return editHtml
               + html
