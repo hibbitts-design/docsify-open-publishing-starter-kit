@@ -48,6 +48,8 @@
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
+            html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
+
             return editHtml
               + html
               + '\n\n----\n\n'

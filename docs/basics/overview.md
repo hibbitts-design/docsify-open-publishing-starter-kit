@@ -627,7 +627,7 @@ Images have a similar syntax to links but include a preceding exclamation point.
 ```
 ![Minion](http://octodex.github.com/images/minion.png)
 
-and using a local image:
+and using a local image (which also displays in GitHub):
 
 ```markdown
 ![Octocat](../basics/octocat.jpg)
