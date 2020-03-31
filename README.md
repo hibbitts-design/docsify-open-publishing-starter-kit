@@ -1,8 +1,8 @@
-# What's this Site About?
-
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/LICENSE)
 [![Docsify Gitter Chat](https://badges.gitter.im/Docsify%20Gitter%20Chat.svg)](https://gitter.im/docsifyjs/Lobby)
+
+# What's this Site About?
 
 > This is a starter kit to create an open [Docsify](https://docsify.js.org) documentation site, with a link automatically created on each page to edit the source Markdown text in a GitHub or GitLab repository.
 
