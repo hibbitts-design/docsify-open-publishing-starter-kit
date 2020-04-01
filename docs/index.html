@@ -8,11 +8,6 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="assets/favicon/favicon.png">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-  <link rel="stylesheet" href="unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-  <link rel="stylesheet" href="unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
-
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
   <link rel="stylesheet" href="assets/css/theme-custom.css">
@@ -21,22 +16,33 @@
   <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults">
   <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark">
 
-  <!-- Test Stylesheets -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/buble.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/dark.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/pure.css"> -->
+  <!-- Font Awesome Stylesheets -->
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
 
 </head>
 <body>
   <div id="app"></div>
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script>
+    // Docsify
     window.$docsify = {
+      // GENERAL SETTINGS
+      // -----------------------------------------------------------------
       name: 'Docsify Open Publishing Starter Kit',
       repo: 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
-      loadSidebar: true,
       homepage: '/basics/overview.md',
+      loadSidebar: true,
+
+      // SIDEBAR NAVIGATION
+      // -----------------------------------------------------------------
+      auto2top   : true,
+      maxLevel   : 2,
+      subMaxLevel: 0,
+
+      // CUSTOM PLUGINS
+      // -----------------------------------------------------------------
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
@@ -49,7 +55,7 @@
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
-            // Adjust GitHub compatible image URL to also work in Docsify
+            // Adjust GitHub displayable image URL format to also work in Docsify
             html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
             return editHtml
@@ -63,16 +69,20 @@
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 
-  <!-- Search Box -->
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-
-  <!-- Emoji Support -->
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-
-  <!-- Tabs-->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-
   <!-- Customizable Theme-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+
+  <!-- Search Box Plugin -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Emoji Plugin -->
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+
+  <!-- Font Awesome Plugin -->
+  <script src="https://unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+
+  <!-- Tabs Plugin-->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
 </body>
 </html>
