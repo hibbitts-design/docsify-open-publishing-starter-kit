@@ -25,9 +25,10 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 Want to delete the fork dependency of your newly created repository?
 
-1. Select the + sign in the top right corner, and choose **Import repository**
-2. Import your forked repository (the new repository won't have the fork dependency)
-3. Delete the original forked repository via the repository **settings**.
+1. Tap the **Clone or download** button and copy the HTTPS address of your repository
+2. Select the + sign in the top right corner, and choose **Import repository**
+3. Paste the URL of your forked repository (the new repository won't have the fork dependency)
+4. Delete the original forked repository via the repository **settings**.
 
 📝 "Edit the Page on GitHub" Link Setup
 ---
