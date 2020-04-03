@@ -2,6 +2,9 @@
 
 **Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
+![The Markdown Mark](../assets/images/markdown.png)  
+_Figure 1: The Markdown Mark_
+
 Some of the key benefits are:
 
 1. Markdown is simple to learn, with minimal extra characters so it's also quicker to write content.
