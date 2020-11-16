@@ -1,5 +1,7 @@
 :root {
-    --base-font-size                                  : 16px;
+    --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    --base-font-size                                  : 18px;
+    --heading-h3-font-weight                          : 600;
     --link-color                                      : #0A75BD;
     --sidebar-name-color                              : #0A75BD;
     --sidebar-nav-link-color--active                  : #4D4D4D;
