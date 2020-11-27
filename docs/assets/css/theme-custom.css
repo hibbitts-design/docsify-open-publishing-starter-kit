@@ -1,7 +1,18 @@
 :root {
     --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
-    --base-font-size                                  : 18px;
-    --heading-h3-font-weight                          : 600;
+    --base-font-size: 1.1rem;
+    --heading-h1-font-size: 1.85rem;
+    --heading-h2-font-size: 1.6rem;
+    --heading-h3-font-size: 1.4rem;
+    --heading-h4-font-size: 1.3rem;
+    --heading-h5-font-size: 1.2rem;
+    --heading-h6-font-size: 1.1rem;
+    --heading-h1-font-weight: 400;
+    --heading-h2-font-weight: 400;
+    --heading-h3-font-weight: 400;
+    --heading-h4-font-weight: 400;
+    --heading-h5-font-weight: 400;
+    --heading-h6-font-weight: 400;
     --link-color                                      : #0A75BD;
     --sidebar-name-color                              : #0A75BD;
     --sidebar-nav-link-color--active                  : #4D4D4D;
