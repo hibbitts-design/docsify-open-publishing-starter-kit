@@ -19,16 +19,10 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 **Installation Steps**  
 
-1. Fork this repository
-2. Go to **Settings** of your repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.now.sh/deploy?id=gitlab-pages))
+1. Tap **Use this template** on the source repository (upper-right green button)
+2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
+2. Go to **Settings** of your newly created repository, scroll down to **GitHub Pages** and chose **master branch/docs folder** (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 3. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it can take up to 20 minutes for your site to be initially available)
-
-Want to delete the fork dependency of your newly created repository?
-
-1. Tap the **Clone or download** button and copy the HTTPS address of your repository
-2. Select the + sign in the top right corner, and choose **Import repository**
-3. Paste the URL of your forked repository (the new repository won't have the fork dependency)
-4. Delete the original forked repository via the repository **settings**
 
 📝 "Edit the Page on GitHub" Link Setup
 ---
