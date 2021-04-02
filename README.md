@@ -45,6 +45,17 @@ You can also clone (i.e download) a copy of your repository to your computer and
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.now.sh/deploy?id=gitlab-pages)!
 
+🧩 Embedding Docsify Page Content into Other Systems
+---  
+
+The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sidebar and optional navbar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams etc.
+
+To only display Docsify page content, add the following to a Docsify page URL:
+
+`?embedded=true`
+
+For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/ would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
+
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
