@@ -29,6 +29,14 @@
 <body>
   <div id="app"></div>
   <script>
+  function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
@@ -37,13 +45,14 @@
       // repo: 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
       homepage: '/basics/overview.md',
       loadSidebar: true,
+      externalLinkTarget: '_blank',
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top   : true,
       maxLevel   : 2,
       subMaxLevel: 0,
-      externalLinkTarget: '_blank',
+      hideSidebar: getParameterByName('embedded') === 'true',
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
