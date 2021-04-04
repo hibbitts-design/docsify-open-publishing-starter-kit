@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
-> This is a starter kit to create an open [Docsify](https://docsify.js.org) documentation site, with a link automatically created on each page to edit the source Markdown text in a GitHub or GitLab repository.
+> This is a starter kit to create an open [Docsify](https://docsify.js.org) documentation site. Global navigation elements can be hidden for seamlessly embedding pages into other platforms. Includes a pre-configured "Edit this Page on GitHub" link.
 
 📸 Docsify Open Publishing Screenshot
 ---
