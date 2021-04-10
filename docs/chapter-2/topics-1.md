@@ -1,3 +1,5 @@
+Chapter 2
+
 # Topic 1
 
 Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide

@@ -1,14 +1,33 @@
-- Basics
-  - [Overview](basics/overview.md)
-    - [Sub Topic](basics/requirements/sub-topic.md)
-  - [Installation](basics/installation.md)
-- Intermediate
-  - [Topic 1](intermediate/topics-1.md)
-  - [Topic 2](intermediate/topics-2.md)
-  - [Topic 3](intermediate/topics-3.md)
-  - [Topic 4](intermediate/topics-4.md)
-- Advanced
-  - [Topic 1](advanced/adv-topic-1.md)
-  - [Topic 2](advanced/adv-topic-2.md)
-- **Project Documentation**
-  - [ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/README.md)
+- Overview
+  - [Welcome](/)
+- Chapter One
+  - [Introduction](chapter-1/introduction.md)
+  - [Topic 1](chapter-1/topic-1.md)
+  - [Topic 2](chapter-1/topic-2.md)
+- Chapter Two
+  - [Introduction](chapter-2/introduction.md)
+  - [Topic 1](chapter-2/topics-1.md)
+  - [Topic 2](chapter-2/topics-2.md)
+  - [Topic 3](chapter-2/topics-3.md)
+  - [Topic 4](chapter-2/topics-4.md)
+- Chapter Three
+  - [Introduction](chapter-3/introduction.md)
+  - [Topic 1](chapter-3/topic-1.md)
+  - [Topic 2](chapter-3/topic-2.md)
+- Chapter Four
+  - [Introduction](#)
+  - [Topic 1](#)
+  - [Topic 2](#)
+- Chapter Five
+  - [Introduction](#)
+  - [Topic 1](#)
+  - [Topic 2](#)
+  - [Topic 3](#)
+  - [Topic 4](#)
+- Chapter Six
+  - [Introduction](#)
+  - [Topic 1](#)
+  - [Topic 2](#)
+
+**PROJECT DOCUMENTATION**
+[ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/README.md)

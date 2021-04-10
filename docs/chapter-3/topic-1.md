@@ -1,4 +1,6 @@
-# Advanced Topic 1
+Chapter 3  
+
+# Topic 1
 
 Lorem markdownum voces. Adire nant ingreditur quam evadere dixit caelestum
 meliora. Induitur videndi Timoli videres et *quae*, niteant.

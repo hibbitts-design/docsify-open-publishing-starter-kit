@@ -1,3 +1,5 @@
+Chapter 2
+
 # Topic 3
 
 Lorem markdownum in maior in corpore ingeniis: causa clivo est. Rogata Veneri
