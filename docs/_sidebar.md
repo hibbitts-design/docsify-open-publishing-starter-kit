@@ -14,20 +14,6 @@
   - [Introduction](chapter-3/introduction.md)
   - [Topic 1](chapter-3/topic-1.md)
   - [Topic 2](chapter-3/topic-2.md)
-- Chapter Four
-  - [Introduction](#)
-  - [Topic 1](#)
-  - [Topic 2](#)
-- Chapter Five
-  - [Introduction](#)
-  - [Topic 1](#)
-  - [Topic 2](#)
-  - [Topic 3](#)
-  - [Topic 4](#)
-- Chapter Six
-  - [Introduction](#)
-  - [Topic 1](#)
-  - [Topic 2](#)
 
 **PROJECT DOCUMENTATION**
 [ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/README.md)
