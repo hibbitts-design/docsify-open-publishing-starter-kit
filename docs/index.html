@@ -115,9 +115,6 @@
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
-            // Adjust GitHub displayable image URL format to also work in Docsify
-            html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
-
             if (!(getParameterByName('hidegithublink') === 'true')) {
               return editHtml + '\n\n' + html + '\n\n----\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Powered by docsify</a>'
             } else {
