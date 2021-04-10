@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Docsify Open Publishing Starter Kit</title>
@@ -25,17 +26,51 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
+  <style>
+    :root {
+      --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+      --base-line-height: 1.6;
+      --base-font-size: 1.1rem;
+
+      --heading-h2-border-style: none;
+      --heading-h1-margin: 0rem 0rem -1.25rem 0rem;
+      --heading-h2-margin: 0rem 0rem -2rem 0rem;
+      --heading-h3-margin: 0rem 0rem -1rem 0rem;
+      --heading-h4-margin: 0rem 0rem -.75rem 0rem;
+      --heading-h5-margin: 0rem 0rem -.5rem 0rem;
+      --heading-h6-margin: 0rem 0rem 0rem 0rem;
+      --heading-h1-font-size: 28px;
+      --heading-h2-font-size: 24px;
+      --heading-h3-font-size: 21px;
+      --heading-h4-font-size: 19px;
+      --heading-h5-font-size: 18px;
+      --heading-h6-font-size: 16px;
+      --heading-h1-font-weight: 400;
+      --heading-h2-font-weight: 400;
+      --heading-h3-font-weight: 400;
+      --heading-h4-font-weight: 400;
+      --heading-h5-font-weight: 400;
+      --heading-h6-font-weight: 400;
+
+      --sidebar-nav-link-font-weight--active: bold;
+
+      --pagination-title-color: #0B87DA;
+
+    }
+  </style>
+
 </head>
+
 <body>
   <div id="app"></div>
   <script>
-  function getParameterByName(name, url = window.location.href) {
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    function getParameterByName(name, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
         results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
     // Docsify
     window.$docsify = {
@@ -43,36 +78,36 @@
       // -----------------------------------------------------------------
       name: 'Docsify Open Publishing Starter Kit',
       // repo: 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
-      homepage: '/basics/overview.md',
+      homepage: 'home.md',
       loadSidebar: true,
       externalLinkTarget: '_blank',
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
-      auto2top   : true,
-      maxLevel   : 2,
-      subMaxLevel: 0,
+      auto2top: true,
       hideSidebar: getParameterByName('embedded') === 'true',
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
       search: {
-        depth      : 3,
-        noData     : 'No matches found.',
+        depth: 3,
+        noData: 'No matches found.',
         placeholder: 'Enter search text here...'
       },
 
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
-        function (hook, vm) {
+
+        function(hook, vm) {
+
           hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              url = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/' + vm.route.file
+              url = 'https://github.com/paulhibbitts/test-docsify-open-publishing-starter-kit/tree/master/docs/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
@@ -80,13 +115,37 @@
             html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
             if (!(getParameterByName('hidegithublink') === 'true')) {
-              return editHtml + html + '\n\n----\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Powered by docsify</a>'
+              return editHtml + '\n\n' + html + '\n\n----\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Powered by docsify</a>'
             } else {
               return html + '\n\n----\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Powered by docsify</a>'
             }
-            
           })
+
+          // Expand/collapse Sidebar
+          hook.doneEach(function() {
+            document.querySelectorAll(".sidebar-nav > ul > li").forEach(
+              function(node, index, nodelist) {
+                var span = document.createElement("span");
+                span.innerHTML = node.firstChild.data;
+                span.style.cursor = "pointer";
+                span.onclick = function(event) {
+                  var ul = event.target.nextElementSibling;
+                  if (ul.style.display === "none") {
+                    ul.style.display = "block";
+                  } else {
+                    ul.style.display = "none";
+                  }
+                };
+                node.firstChild.replaceWith(span);
+                node.lastChild.style.display = "none";
+              });
+            var active = document.querySelector(".sidebar-nav li.active");
+            if (active) {
+              active.parentElement.style.display = "block";
+            }
+          });
         }
+
       ]
     }
   </script>
@@ -107,5 +166,13 @@
   <!-- Tabs Plugin-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
+  <!-- Pagination Plugin -->
+  <script>
+    if (!(getParameterByName('embedded') === 'true')) {
+        document.write('<script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"><\/script>');
+    }
+  </script>
+
 </body>
+
 </html>
