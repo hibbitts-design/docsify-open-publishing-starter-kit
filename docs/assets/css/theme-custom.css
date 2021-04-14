@@ -157,10 +157,17 @@
 
 .video-container {
   position: relative;
-  padding-bottom: 75%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
+}
+
+.video-container-4by3 {
+  padding-bottom: 75%;
+}
+
+.video-container-16by9 {
+  padding-bottom: 56.25%;
 }
 
 .video-container iframe, .embed-container object, .embed-container embed {
