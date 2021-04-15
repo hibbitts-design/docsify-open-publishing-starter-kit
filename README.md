@@ -32,9 +32,15 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 2. Find the current GitHub repository URL https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
 3. Commit your changes
 
-💻 Editing your Docsify Site Locally
+💻 Editing your Docsify Site Pages
 ---  
 
+**Editing Your Docsify Site Pages on GitHub**
+1. Go to the GitHub Docsify site page (in the `docs` folder) you want to edit
+2. Tap the **Pencil Icon** (top left-hand toolbar area) and then make the edits you want
+3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+
+**Editing Your Docsify Site Pages on Your Desktop**
 1. Tap **Clone** on your repository page
 2. Choose **Open Desktop** and follow the prompts, installing GitHub Desktop if not already present
 3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. atom.io)
