@@ -1,7 +1,7 @@
 # Docsify Open Publishing Starter Kit
 
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/main/LICENSE)
 <a href="https://discord.gg/Sn8RtSmw">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
@@ -29,7 +29,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 🔗 Change Linked GitHub Repository
 ---
 1. Edit the file index.html in the 'docs' folder of repository
-2. Find the current GitHub repository URL https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/tree/master/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
+2. Find the current GitHub repository URL https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
 3. Commit your changes
 
 💻 Editing your Docsify Site Locally
