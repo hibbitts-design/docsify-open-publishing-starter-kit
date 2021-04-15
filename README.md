@@ -28,7 +28,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 🔗 Change Linked GitHub Repository
 ---
-1. Edit the file index.html in your repository
+1. Edit the file index.html in the 'docs' folder of repository
 2. Find the current GitHub repository URL https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/tree/master/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
 3. Commit your changes
 
