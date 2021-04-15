@@ -111,8 +111,9 @@
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              // Replace the below URL with your own Repository base URL, such as https://github.com/YourGitHubUsername/Docsify/blob/master/docs/
-              url = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/' + vm.route.file
+              // Replace the below URL variable with your own Repository URL path up to, and including, '/docs'
+              // For example, 'https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs'
+              url = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit-canvaslms/tree/master/docs' +'/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
