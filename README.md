@@ -26,13 +26,6 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 3. Go to **Settings** of your newly created repository, tap on the **GitHub Pages** tab, choose **main branch/docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 4. And you're done! (view your new site using the provided URL right below your **GitHub Pages** section - it can take up to 20 minutes for your site to be initially available)
 
-📝 "Edit the Page on GitHub" Link Setup
----
-
-1. Edit the file `index.html` in your repository
-2. Find the sample GitHub repository URL `https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs/` and replace it with your own repository URL, for example `https://github.com/YourGitHubUsername/Docsify/blob/master/docs/`
-3. Commit your changes.
-
 💻 Editing your Docsify Site Locally
 ---  
 
@@ -61,6 +54,15 @@ To optionally hide the 'Edit this Page on GitHub' link, use the following:
 `?embedded=true&hidegithublink=true`
 
 For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/ would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
+
+🧰 Troubleshooting
+---  
+
+If the automatically generated 'Edit this Page on GitHub' link is not working, you can manually set the source URL to your GitHub Repository.
+
+1. Edit the file index.html in your repository
+2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs
+3. Commit your changes
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
