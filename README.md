@@ -13,7 +13,7 @@
 ![ Docsify Open Publishing Starter Kit](screenshot.jpg)
 _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-design.github.io/docsify-open-publishing-starter-kit/](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/)_
 
-🚀 Quick GitHub Pages Install Instructions
+🚀 GitHub Pages Install Instructions
 ---
 **Pre-flight Checklist**  
 
@@ -26,8 +26,8 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch/docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 20 minutes for your site to be initially available)
 
-🔗 Change Linked GitHub Repository
----
+**Configure Linked GitHub Repository**  
+
 1. Edit the file index.html in the 'docs' folder of repository
 2. Find the current GitHub repository URL https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
 3. Commit your changes
