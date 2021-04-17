@@ -64,6 +64,9 @@
 <body>
   <div id="app"></div>
   <script>
+    // Replace the below URL with your own GitHub Repository URL
+    var yourRepo = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit';
+
     function getParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -111,9 +114,7 @@
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              // Replace the below URL variable with your own Repository URL path up to, and including, '/docs'
-              // For example, 'https://github.com/YourGitHubUsername/YourRepositoryName/tree/master/docs'
-              url = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/tree/master/docs' +'/' + vm.route.file
+              url = yourRepo +'/blob/main/docs/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
