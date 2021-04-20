@@ -1,4 +1,4 @@
-## Welcome to the Docsify Open Publishing Starter Kit!
+# Welcome to the Docsify Open Publishing Starter Kit!
 
 ![SFU Burnaby](assets/images/mountain.jpg)
 
