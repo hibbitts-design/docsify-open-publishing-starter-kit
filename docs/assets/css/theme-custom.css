@@ -46,6 +46,15 @@
   object-position: 50% 50%;
 }
 
+.markdown-section .banner-tall-image {
+  width: 100%;
+  /* width of container */
+  height: 400px;
+  /* height of container */
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .markdown-section blockquote {
     margin: 1.5em 0;
 }
