@@ -1,1 +1,1 @@
-* [Standard Page](standard-page.md)
+* [Standalone Page](standalone-page.md)

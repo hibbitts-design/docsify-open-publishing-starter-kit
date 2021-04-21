@@ -1,6 +1,6 @@
-# Standard Page
+# Standalone Page
 
-This is an example standard page, where an image from a shared folder is included. This page also shows how to add classes to Markdown images for altering their appearance.
+This is an example standalone page, where an image from a shared folder is included. This page also shows how to add classes to Markdown images for altering their appearance.
 
 ![Mountain](assets/images/chase-moyer-730496-unsplash.jpg)  
 
