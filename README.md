@@ -49,19 +49,22 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 🧩 Embedding Docsify Page Content into Other Systems
 ---  
 
+![ Docsify Open Publishing Page Ready for Embedding](screenshot-2.jpg)
+_Figure 2. Docsify Open Publishing page ready for embedding_
+
 The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sidebar and optional navbar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams etc.
 
 To only display Docsify page content, add the following to a Docsify page URL:
 
 `?embedded=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/ would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
+For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
 
 To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
 `?embedded=true&hidegithublink=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/ would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
+For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
