@@ -1,3 +1,75 @@
+.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 4.5rem;
+}
+
+.pagination-item, .pagination-item-title {
+  opacity: .9 !important;
+}
+
+.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
+  opacity: .9 !important;
+  transition: all .2s;
+}
+
+.markdown-section {
+    padding: 1rem 40px;
+}
+
+.markdown-section blockquote {
+    margin: 1.5em 0;
+}
+
+.markdown-section blockquote ul {
+  list-style: none;
+  margin-top: .5em;
+  padding-top: 0;
+  margin-bottom: .5em;
+  padding-bottom: 0;
+}
+
+.markdown-section blockquote ul li {
+  padding-left: 0em;
+}
+
+.markdown-section blockquote ul li:before {
+  content: '\2713';
+  padding-right: 5px;
+}
+
+.markdown-section .reminders {
+  overflow: visible;
+  margin: 2em 0;
+  padding: 1.5em;
+  border-width: var(--blockquote-border-width, 0);
+  border-style: var(--blockquote-border-style);
+  border-color: var(--blockquote-border-color);
+  border-radius: var(--blockquote-border-radius);
+  background: var(--blockquote-background);
+  color: var(--blockquote-color);
+  font-family: var(--blockquote-font-family);
+  font-size: var(--blockquote-font-size);
+  font-style: var(--blockquote-font-style);
+  font-weight: var(--blockquote-font-weight);
+  quotes: "“""”""‘""’";
+}
+
+.markdown-section .reminders ul {
+  list-style: none;
+  margin-top: .5em;
+  padding-top: 0;
+  margin-bottom: .5em;
+  padding-bottom: 0;
+}
+
+.markdown-section .reminders ul li {
+  padding-left: 0em;
+}
+
+.markdown-section .reminders ul li:before {
+  content: '\2713';
+  padding-right: 5px;
+}
+
 .markdown-section .button {
   cursor: pointer;
   color: white;
@@ -35,49 +107,6 @@
   cursor: pointer;
   color: white;
   text-decoration: none;
-}
-
-.markdown-section .banner-image {
-  width: 100%;
-  /* width of container */
-  height: 200px;
-  /* height of container */
-  object-fit: cover;
-  object-position: 50% 50%;
-}
-
-.markdown-section .banner-tall-image {
-  width: 100%;
-  /* width of container */
-  height: 400px;
-  /* height of container */
-  object-fit: cover;
-  object-position: 50% 50%;
-}
-
-.markdown-section blockquote {
-    margin: 1.5em 0;
-}
-
-.markdown-section blockquote ul {
-  list-style: none;
-  margin-top: .5em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
-}
-
-.markdown-section blockquote ul li {
-  padding-left: 0em;
-}
-
-.markdown-section blockquote ul li:before {
-  content: '\2713';
-  padding-right: 5px;
-}
-
-.markdown-section {
-    padding: 1rem 40px;
 }
 
 .markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
@@ -126,45 +155,7 @@
     text-align: left;
 }
 
-.reminders {
-  overflow: visible;
-  margin: 2em 0;
-  padding: 1.5em;
-  border-width: var(--blockquote-border-width, 0);
-  border-style: var(--blockquote-border-style);
-  border-color: var(--blockquote-border-color);
-  border-radius: var(--blockquote-border-radius);
-  background: var(--blockquote-background);
-  color: var(--blockquote-color);
-  font-family: var(--blockquote-font-family);
-  font-size: var(--blockquote-font-size);
-  font-style: var(--blockquote-font-style);
-  font-weight: var(--blockquote-font-weight);
-  quotes: "“""”""‘""’";
-}
-
-.reminders ul {
-  list-style: none;
-  margin-top: .5em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
-}
-
-.reminders ul li {
-  padding-left: 0em;
-}
-
-.reminders ul li:before {
-  content: '\2713';
-  padding-right: 5px;
-}
-
-.app-nav:not(:empty) ~ main .markdown-section {
-    padding-top: 4.5rem;
-}
-
-.video-container {
+.markdown-section .video-container {
   position: relative;
   padding-bottom: 75%;
   height: 0;
@@ -172,15 +163,15 @@
   max-width: 100%;
 }
 
-.video-container-4by3 {
+.markdown-section .video-container-4by3 {
   padding-bottom: 75%;
 }
 
-.video-container-16by9 {
+.markdown-section .video-container-16by9 {
   padding-bottom: 56.25%;
 }
 
-.video-container iframe, .embed-container object, .embed-container embed {
+.markdown-section .video-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,15 +179,38 @@
   height: 93%;
 }
 
-.responsive-wrap iframe {
+.markdown-section .responsive-wrap iframe {
   max-width: 100%;
 }
 
-.pagination-item, .pagination-item-title {
-  opacity: .9 !important;
+.markdown-section .banner-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
-.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
-  opacity: .9 !important;
-  transition: all .2s;
+.markdown-section .banner-tall-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.markdown-section .column {
+  float: left;
+  padding-right: 1rem;
+  width: 50%;
+}
+
+.markdown-section .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:800px) {
+  .column {
+    width: 100%;
+  }
 }
