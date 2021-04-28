@@ -81,10 +81,15 @@ For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-k
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
 
-📚 Learn More about Docsify
+📗 Learn More about Docsify
 ---
 [Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
 [Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+
+📘 Learn More about Markdown
+---
+[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Guide](https://www.markdownguide.org/)  
 
 🙇‍Credits and Special Thanks
 ---
