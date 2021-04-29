@@ -78,20 +78,20 @@ To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
 For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
+📚 Docsify and Markdown Resources
+---
+**Docsify**  
+[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
+[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+
+**Markdown**  
+[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Guide](https://www.markdownguide.org/)  
+
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
-
-📗 Learn More about Docsify
----
-[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
-[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
-
-📘 Learn More about Markdown
----
-[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
-[Markdown Guide](https://www.markdownguide.org/)  
 
 🙇‍Credits and Special Thanks
 ---
