@@ -74,9 +74,9 @@ For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-k
 
 To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
-`?embedded=true&hidegithublink=true`
+`?embedded=true&hidegitlink=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&hidegithublink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
+For example, https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&hidegitlink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
 
 📚 Docsify and Markdown Resources
 ---
