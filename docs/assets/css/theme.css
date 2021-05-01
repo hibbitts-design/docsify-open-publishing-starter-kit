@@ -27,17 +27,13 @@
   padding-bottom: 0;
 }
 
-.markdown-section blockquote ul li {
-  padding-left: 0em;
-}
-
 .markdown-section blockquote ul li:before {
-  content: '\2B25';
-  color: #666666;
-  padding-right: 2px;
+  color: #333;
+  content: '\2B29';
+  font-weight: bold;
 }
 
-.markdown-section .reminders {
+.markdown-section .alert {
   overflow: visible;
   margin: 2em 0;
   padding: 1.5em;
@@ -54,7 +50,7 @@
   quotes: "“""”""‘""’";
 }
 
-.markdown-section .reminders ul {
+.markdown-section .alert ul {
   list-style: none;
   margin-top: .5em;
   padding-top: 0;
@@ -62,14 +58,10 @@
   padding-bottom: 0;
 }
 
-.markdown-section .reminders ul li {
-  padding-left: 0em;
-}
-
-.markdown-section .reminders ul li:before {
-  content: '\2B25';
-  color: #666666;
-  padding-right: 2px;
+.markdown-section .alert ul li:before {
+  color: #333;
+  content: '\2B29';
+  font-weight: bold;
 }
 
 .markdown-section .button {
