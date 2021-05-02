@@ -218,3 +218,16 @@
     width: 100%;
   }
 }
+
+.markdown-section hr {
+    margin: 1em 0;
+}
+
+body .docsify-pagination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 3em 0 1em;
+    border-top: 0px solid rgba(0,0,0,.07);
+}
