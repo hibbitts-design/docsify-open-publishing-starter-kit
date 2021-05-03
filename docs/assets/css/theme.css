@@ -181,24 +181,24 @@
 
 .markdown-section .banner-image {
   width: 100%;
-  height: 100px;
+  height: 125px;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
 @media (min-width: 576px) {
-    .markdown-section .banner-image { height: 200px; }
+    .markdown-section .banner-image { height: 250px; }
 }
 
 .markdown-section .banner-tall-image {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
 @media (min-width: 576px) {
-    .markdown-section .banner-tall-image { height: 400px; }
+    .markdown-section .banner-tall-image { height: 500px; }
 }
 
 .markdown-section .column {
