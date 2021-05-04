@@ -99,10 +99,9 @@
     text-decoration: none;
 }
 
-.markdown-section a.badge {
-  cursor: pointer;
-  color: white;
-  text-decoration: none;
+.markdown-section .badge a {
+    color: white;
+    text-decoration: none;
 }
 
 .markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
