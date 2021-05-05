@@ -174,7 +174,7 @@
   height: 93%;
 }
 
-.markdown-section .responsive-wrap iframe {
+.markdown-section .responsive-container iframe {
   max-width: 100%;
 }
 
