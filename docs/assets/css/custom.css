@@ -14,16 +14,7 @@ body .markdown-section {
     font-size: 16px;
 }
 
-.markdown-section a:link:not(:button), .markdown-section a:visited, .markdown-section a:hover, .markdown-section a:active {
-    color: #008EE2;
+.markdown-section a:link, .markdown-section a:visited, .markdown-section a:hover, .markdown-section a:active {
     text-decoration: none;
-}
-
-.markdown-section h1 a, .markdown-section h2 a, .markdown-section h3 a, .markdown-section h4 a, .markdown-section h5, .markdown-section h6 a {
-    text-decoration: none;
-}
-
-.markdown-section .button {
-  background-color: #008EE2;
 }
 */
