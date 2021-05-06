@@ -14,7 +14,11 @@ body .markdown-section {
     font-size: 16px;
 }
 
-.markdown-section a:link, .markdown-section a:visited, .markdown-section a:hover, .markdown-section a:active {
+.markdown-section a:link, .markdown-section a:visited, .markdown-section a:active {
     text-decoration: none;
+}
+
+.markdown-section a:hover {
+    text-decoration: underline;
 }
 */
