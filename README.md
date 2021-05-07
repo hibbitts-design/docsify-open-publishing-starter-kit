@@ -34,7 +34,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 [Learn more about pages in Docsify.](https://docsify.js.org/#/more-pages)
 
-**Activate the "Edit this Page on GitHub" Link**  
+**Activate the "Edit this Page on GitHub" Link (optional)**  
 
 1. Go to the file index.html in the `docs` folder of your repository
 2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
