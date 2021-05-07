@@ -21,10 +21,12 @@
 
 .markdown-section blockquote ul {
   list-style: none;
-  margin-top: .6em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
+  margin-top: .8em;
+  margin-bottom: -.3em;
+}
+
+.markdown-section blockquote ul li{
+  margin: 1px 0;
 }
 
 .markdown-section blockquote ul li:before {
@@ -53,10 +55,12 @@
 
 .markdown-section .alert ul {
   list-style: none;
-  margin-top: .6em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
+  margin-top: .8em;
+  margin-bottom: -.3em;
+}
+
+.markdown-section .alert ul li{
+  margin: 1px 0;
 }
 
 .markdown-section .alert ul li:before {
@@ -71,6 +75,7 @@
   color: white;
   height: auto;
   display: inline-block;
+  margin-top: 4px;
   padding: 8px;
   background-color: var(--link-color);
   text-decoration: none;
