@@ -1,5 +1,5 @@
-.app-nav:not(:empty) ~ main .markdown-section {
-    padding-top: 5.0rem;
+.app-nav:not(:empty)~main .markdown-section {
+  padding-top: 5.0rem;
 }
 
 .pagination-item, .pagination-item-title {
@@ -12,11 +12,11 @@
 }
 
 .markdown-section {
-    padding: 1rem 35px;
+  padding: 1rem 35px;
 }
 
 .markdown-section blockquote {
-    margin: 1.5em 0;
+  margin: 1.5em 0;
 }
 
 .markdown-section blockquote ul {
@@ -80,59 +80,59 @@
 .markdown-section a.button {
   cursor: pointer;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .markdown-section .badge {
-    color: #fff;
-    background-color: #6c757d;
-    display: inline-block;
-    padding: .25em .4em .25em .4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    text-decoration: none;
+  color: #fff;
+  background-color: #6c757d;
+  display: inline-block;
+  padding: .25em .4em .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-decoration: none;
 }
 
 .markdown-section .badge a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none !important;
 }
 
 .markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
-    width: 2em;
-    color: white;
-    font-weight: 600;
-    margin-top: 1.00rem;
-    padding-left: 0.5rem;
-    background: #666666;
+  width: 2em;
+  color: white;
+  font-weight: 600;
+  margin-top: 1.00rem;
+  padding-left: 0.5rem;
+  background: #666666;
 }
 
 .markdown-section .accordion {
-    margin-top: 1.05rem;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #CCCCCC;
-    border-radius: .15rem;
+  margin-top: 1.05rem;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #CCCCCC;
+  border-radius: .15rem;
 }
 
 .markdown-section details {
-    padding: .75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #CCCCCC;
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 .markdown-section summary {
@@ -140,6 +140,7 @@
   color: var(--link-color);
   padding: 0;
   background-color: #FFFFFF;
+
   h1, h2, h3 {
     margin: 0;
     display: inline-block;
@@ -147,7 +148,7 @@
 }
 
 .markdown-section .fa-fw {
-    text-align: left;
+  text-align: left;
 }
 
 .markdown-section .video-container-4by3 {
@@ -186,7 +187,9 @@
 }
 
 @media (min-width: 576px) {
-    .markdown-section .banner-image { height: 250px; }
+  .markdown-section .banner-image {
+    height: 250px;
+  }
 }
 
 .markdown-section .banner-tall-image {
@@ -197,7 +200,9 @@
 }
 
 @media (min-width: 576px) {
-    .markdown-section .banner-tall-image { height: 500px; }
+  .markdown-section .banner-tall-image {
+    height: 500px;
+  }
 }
 
 .markdown-section .column {
@@ -212,45 +217,49 @@
   clear: both;
 }
 
-@media screen and (max-width:800px) {
-  .column {
+@media screen and (max-width:900px) {
+  .markdown-section .column {
     width: 100%;
   }
 }
 
+.markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
+  margin: 1em 0em .5em 0em;
+}
+
 .markdown-section hr {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .markdown-section h1 {
-    line-height: 1.8rem;
+  line-height: 1.8rem;
 }
 
 .markdown-section h2 {
-    line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .markdown-section h3 {
-    line-height: 1.3rem;
+  line-height: 1.3rem;
 }
 
 .markdown-section h4 {
-    line-height: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .markdown-section h5 {
-    line-height: 1.15rem;
+  line-height: 1.15rem;
 }
 
 .markdown-section h6 {
-    line-height: 1.1rem;
+  line-height: 1.1rem;
 }
 
 body .docsify-pagination-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    overflow: hidden;
-    margin: 3em 0 1em;
-    border-top: 0px solid rgba(0,0,0,.07);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 3em 0 1em;
+  border-top: 0px solid rgba(0, 0, 0, .07);
 }

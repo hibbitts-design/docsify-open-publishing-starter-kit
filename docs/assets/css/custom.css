@@ -18,7 +18,7 @@ body .markdown-section {
     text-decoration: none;
 }
 
-.markdown-section a:hover:not(.button)  {
+.markdown-section a:hover {
     text-decoration: underline;
 }
 */
