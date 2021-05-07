@@ -74,8 +74,8 @@
 <body>
   <div id="app"></div>
   <script>
-    // Replace the below URL with your own GitHub Repository URL
-    var yourRepo = 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit';
+    // Enter the URL of your own GitHub Repository in between the two quotes below
+    var yourRepoURL = '';
 
     function getParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
@@ -133,11 +133,11 @@
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              url = yourRepo +'/blob/main/docs/' + vm.route.file
+              url = yourRepoURL +'/blob/main/docs/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
-            if (!(getParameterByName('hidegitlink') === 'true')) {
+            if ((!(getParameterByName('hidegitlink') === 'true'))  &&  (!!yourRepoURL)) {
               return editHtml + '\n' + html + '\n' + '<hr>' + '\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Built with docsify</a>'
             } else {
               return html
