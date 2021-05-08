@@ -34,7 +34,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
-[Learn more about pages in Docsify.](https://docsify.js.org/#/more-pages)
+[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
 📝 Activating the “Edit this Page” Link
 ---   
