@@ -44,6 +44,8 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 3. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes. For example, `var yourRepoURL = 'https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs'`.
 4. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
+[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Visual-Activating-the-Edit-this-Page-Link)
+
 [Learn more about Docsify's configuration options.](https://docsify.js.org/#/configuration?id=configuration)
 
 💻 Locally Editing your Docsify Site Pages
