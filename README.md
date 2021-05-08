@@ -46,8 +46,6 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 [View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Visual-Activating-the-Edit-this-Page-Link)
 
-[Learn more about Docsify's configuration options.](https://docsify.js.org/#/configuration?id=configuration)
-
 💻 Locally Editing your Docsify Site Pages
 ---  
 
