@@ -39,10 +39,11 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 📝 Activating the “Edit this Page” Link
 ---   
 
-1. Go to the file index.html in the `docs` folder of your repository
-2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-3. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes. For example, `var yourRepoURL = 'https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs'`.
-4. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+1. At the top-level of your GitHub Repository, copy the URL and then tap on the `docs` folder
+2. Tap on the file `index.html` within the `docs` folder 
+3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes. For example, `var yourRepoURL = 'https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs'`.
+5. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
 [View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Visual-Activating-the-Edit-this-Page-Link)
 
