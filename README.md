@@ -26,7 +26,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 20 minutes for your site to be initially available)
 
-[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Visual-Installation-and-Deployment-Guide)
+[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Installation-and-Deployment-Guide)
 
 **Editing Your Docsify Site Pages on GitHub**
 
@@ -44,7 +44,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
-[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Visual-Activating-the-Edit-this-Page-Link)
+[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/wiki/Activating-the-Edit-this-Page-Link)
 
 💻 Locally Editing your Docsify Site Pages
 ---  
