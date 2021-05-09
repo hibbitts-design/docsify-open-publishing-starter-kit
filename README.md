@@ -11,7 +11,7 @@
 📸 Docsify Open Publishing Screenshot
 ---
 ![ Docsify Open Publishing Starter Kit](screenshot.jpg)
-_Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-design.github.io/docsify-open-publishing-starter-kit/](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit/)_
+_Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/)_
 
 🚀 GitHub Pages Quickstart
 ---
