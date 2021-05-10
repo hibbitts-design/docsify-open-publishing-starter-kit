@@ -1,6 +1,6 @@
-Chapter 2
+# Chapter 2
 
-# Topic 2
+## Topic 2
 
 Lorem *markdownum saxum et* telum revellere in victus vultus cogamque ut quoque
 spectat pestiferaque siquid me molibus, mihi. Terret hinc quem Phoebus? Modo se

@@ -1,6 +1,6 @@
-Chapter 2 
+# Chapter 2
 
-# Topic 4
+## Topic 4
 
 Lorem markdownum scire deposito manumque facinus. Opprobria sic Iris vimque
 filia Thaumantea supremis solet occupat peperit, mittit, ea *ille* tamen forma:

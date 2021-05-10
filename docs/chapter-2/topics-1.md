@@ -1,6 +1,6 @@
-Chapter 2
+# Chapter 2
 
-# Topic 1
+## Topic 1
 
 Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide
 rugis Bacchum patria tuus dea, sum Thyneius liquor, undique. **Nimium** nostri

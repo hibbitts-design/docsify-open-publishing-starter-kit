@@ -1,15 +1,15 @@
-Chapter 1
+# Chapter 1
 
-# Introduction
+## Overview
 
-**Markdown** is a better way to write **HTML**, without all the complexities that usually accompanies it.
+**Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
 ![The Markdown Mark](https://upload.wikimedia.org/wikipedia/commons/3/37/Markdown-mark-solid.svg)  
 _Figure 1: The Markdown Mark_
 
 Some of the key benefits are:
 
-1. Markdown is simple to learn, with minimal extra characters so it's also quicker to write content.
+1. Markdown is simple to learn, with minimal extra characters, so it's also quicker to write content.
 2. Less chance of errors when writing in markdown.
 3. Produces valid XHTML output.
 4. Keeps the content and the visual display separate, so you cannot mess up the look of your site.
@@ -585,3 +585,5 @@ and using a local image (which also displays in GitHub):
 ![Octocat](../assets/images/octocat.jpg)
 ```
 ![Octocat](../assets/images/octocat.jpg)
+
+> Note: Example page content source: [GetGrav.org](https://learn.getgrav.org/17/content/markdown)

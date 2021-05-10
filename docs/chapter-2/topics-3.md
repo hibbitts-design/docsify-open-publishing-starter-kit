@@ -1,6 +1,6 @@
-Chapter 2
+# Chapter 2
 
-# Topic 3
+## Topic 3
 
 Lorem markdownum in maior in corpore ingeniis: causa clivo est. Rogata Veneri
 terrebant habentem et oculos fornace primusque et pomaria et videri putri,
