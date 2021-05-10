@@ -586,4 +586,4 @@ and using a local image (which also displays in GitHub):
 ```
 ![Octocat](../assets/images/octocat.jpg)
 
-> Note: Example page content source: [GetGrav.org](https://learn.getgrav.org/17/content/markdown)
+> Note: Example page content from [GetGrav.org](https://learn.getgrav.org/17/content/markdown), included to demonstrate the portability of Markdown-based content
