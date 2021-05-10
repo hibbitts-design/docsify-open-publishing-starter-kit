@@ -1,5 +1,4 @@
-- Overview
-  - [Welcome](/ "Docsify Open Publishing Starter Kit")
+- [Welcome](/ "Docsify Open Publishing Starter Kit")
 - Chapter One
   - [Introduction](chapter-1/introduction.md)
   - [Topic 1](chapter-1/topic-1.md)
