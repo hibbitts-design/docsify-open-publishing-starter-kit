@@ -15,6 +15,7 @@
     * Relocated embedly script to index.html file
     * Changed Welcome page to a top-level item in Sidebar
     * Updated example pages and removed home page from Sidebar
+    * Added example Coverpage (not enabled in index.html file)
 1. [](#bugfix)
     * Fixed label colour for linked badges
     * Consistent hover behaviour for linked badges and buttons
