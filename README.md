@@ -8,7 +8,7 @@
 
 > This is a starter kit to create a [Docsify](https://docsify.js.org) Markdown-based open publishing site. Global navigation elements can be hidden for seamlessly embedding pages into other platforms. Includes an optional "Edit this Page" link.
 
-📸 Docsify Open Publishing Screenshot
+📸 Docsify Open Publishing Screenshots
 ---
 ![ Docsify Open Publishing Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_kokonybo.png)
 _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/](https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/)_
