@@ -29,11 +29,11 @@
 
   <style>
     :root {
-      --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+      --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
       --base-line-height: 1.4;
       --base-font-size: 1.1rem;
 
-      --cover-max-width  : 45em;
+      --cover-max-width: 45em;
 
       --heading-h2-border-style: none;
       --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
@@ -92,35 +92,35 @@
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name              : 'Docsify Open Publishing Starter Kit',
+      name: 'Docsify Open Publishing Starter Kit',
       // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
-      homepage          : 'home.md',
+      homepage: 'home.md',
       // coverpage      : 'coverpage.md',
-      loadSidebar       : true,
-      loadNavbar        : !(getParameterByName('embedded') === 'true'),
+      loadSidebar: true,
+      loadNavbar: !(getParameterByName('embedded') === 'true'),
       externalLinkTarget: '_top',
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
-      auto2top   : true,
-      maxLevel   : 3,
+      auto2top: true,
+      maxLevel: 3,
       subMaxLevel: 0,
       hideSidebar: getParameterByName('embedded') === 'true',
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
       search: {
-        depth                  : 3,
-        noData                 : 'No matches found.',
-        placeholder            : 'Enter search text here...',
+        depth: 3,
+        noData: 'No matches found.',
+        placeholder: 'Enter search text here...',
         hideOtherSidebarContent: true,
         namespace: 'Docsify Open Publishing Starter Kit',
       },
 
       pagination: {
-        previousText    : 'PREV',
-        nextText        : 'NEXT',
-        crossChapter    : true,
+        previousText: 'PREV',
+        nextText: 'NEXT',
+        crossChapter: true,
         crossChapterText: true,
       },
 
@@ -130,17 +130,17 @@
 
         function(hook, vm) {
 
-          hook.beforeEach(function (html) {
+          hook.beforeEach(function(html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
                 .replace(/\/master/, '/blob/master')
             } else {
-              url = yourRepoURL +'/blob/main/docs/' + vm.route.file
+              url = yourRepoURL + '/blob/main/docs/' + vm.route.file
             }
             var editHtml = '[:memo: Edit this Page](' + url + ')\n'
 
-            if ((!(getParameterByName('hidegitlink') === 'true'))  &&  (!!yourRepoURL)) {
+            if ((!(getParameterByName('hidegitlink') === 'true')) && (!!yourRepoURL)) {
               return editHtml + '\n' + html + '\n' + '<hr>' + '\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Built with docsify</a>'
             } else {
               return html
