@@ -15,4 +15,4 @@
   - [Topic 2](chapter-3/topic-2.md)
 
 **PROJECT DOCUMENTATION**
-[ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/master/README.md)
+[ReadMe](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/blob/main/README.md)
