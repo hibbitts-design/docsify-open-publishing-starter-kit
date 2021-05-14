@@ -1,7 +1,21 @@
-# v1.0.0-preview.2
-## 05/10/2021
+# Changelog
 
-1. [](#improved)
+## [v1.0.0]()
+### XX/XX/2021
+
+**Improved:**
+    * Increased default maximum width of Coverpage
+    * ReadMe and screenshot updates
+    * Changed conditional loading of Pagination script to asynchronous
+    * Adjusted breakpoint for two column display
+    * Decreased padding between items in navbar
+**Bugfix:**
+    * Fixed URL to project ReadMe file
+
+## [v1.0.0-preview.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.0-preview.2)
+### 05/10/2021
+
+**Improved:**
     * Moved example Canvas LMS visual style adjustments from index.html to custom.css file
     * Adjusted CSS of Headers for improved line wrapping
     * Adjusted root base line height to increase lines in Sidebar
@@ -16,12 +30,12 @@
     * Changed Welcome page to a top-level item in Sidebar
     * Updated example pages and removed home page from Sidebar
     * Added example Coverpage (not enabled in index.html file)
-1. [](#bugfix)
+**Bugfix:**
     * Fixed label colour for linked badges
     * Consistent hover behaviour for linked badges and buttons
 
-# v1.0.0-preview.1
-## 05/04/2021
+## [v1.0.0-preview.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.0-preview.1)
+### 05/04/2021
 
-1. [](#new)
+**New:**
     * Welcome to the preview release of Docsify Open Publishing Starter Kit!
