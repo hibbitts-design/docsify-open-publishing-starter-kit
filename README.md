@@ -39,8 +39,13 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 ---  
 
 1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
+![ Editing Your Docsify Site Pages 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-1.png)
+
 2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+![ Editing Your Docsify Site Pages 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-2.png)
+
 3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+![ Editing Your Docsify Site Pages 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-3.png)
 
 [Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
 
