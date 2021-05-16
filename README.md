@@ -35,7 +35,16 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
 
-📝 Activating the “Edit this Page” Link
+✏️ Editing Your Docsify Site Pages on GitHub
+---  
+
+1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
+2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+
+[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
+
+📝 Activating the “Edit this Page” on Your Docsify Site
 ---   
 
 1. At the top-level of your GitHub Repository copy the URL
@@ -53,16 +62,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 4. Find the line `var yourRepoURL = '';` and enter the URL of your own GitHub Repository in between the two quotes and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-gitlink-5.png)
 
-✏️ Editing Your Docsify Site Pages on GitHub
----  
-
-1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
-2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
-
-[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
-
-💻 Locally Editing your Docsify Site Pages
+💻 Locally Editing Your Docsify Site Pages
 ---  
 
 **Editing Your Docsify Site Pages on Your Desktop**
@@ -75,7 +75,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-🧩 Embedding Docsify Page Content into Other Systems
+🧩 Embedding Your Docsify Page Content into Other Systems
 ---  
 
 ![ Docsify Open Publishing Page Ready for Embedding](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-ready-for-embedding.png)
