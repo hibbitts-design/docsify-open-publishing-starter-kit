@@ -1,7 +1,7 @@
 # Changelog
 
-## [v1.0.0]()
-### XX/XX/2021
+## [v1.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.0.0)
+### 05/18/2021
 
 **Improved:**  
 * Increased default maximum width of Coverpage
