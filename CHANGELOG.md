@@ -1,12 +1,12 @@
 # Changelog
 
-## v1.0.1
-### XX/XX/2021
+## [v1.0.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.1)
+### 05/30/2021
 
 **Improved:**
 * Changed variable name `yourRepoURL` to `gitLinkRepoURL` for improved clarity
 
-## [v1.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.0.0)
+## [v1.0.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.0)
 ### 05/18/2021
 
 **Improved:**  
