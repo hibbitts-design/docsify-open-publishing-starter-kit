@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.2)
+### 06/16/2021
+
+**Improved:**
+* Adjusted custom list bullet presentation
+
 ## [v1.0.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.1)
 ### 05/30/2021
 
