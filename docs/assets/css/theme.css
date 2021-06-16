@@ -22,18 +22,16 @@
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: .8em;
-  margin-bottom: -.3em;
 }
 
-.markdown-section blockquote ul li{
-  margin: 1px 0;
+.markdown-section blockquote ul li {
+  margin: 2px 0;
 }
 
 .markdown-section blockquote ul li:before {
-  color: #333;
+  position: absolute;
   content: '\2B29';
-  font-weight: bold;
-  padding-right: 2px;
+  margin-left: -18px;
 }
 
 .markdown-section .alert {
@@ -53,21 +51,23 @@
   quotes: "“""”""‘""’";
 }
 
+.markdown-section ul {
+  list-style: square outside none;
+}
+
 .markdown-section .alert ul {
   list-style: none;
   margin-top: .8em;
-  margin-bottom: -.3em;
 }
 
-.markdown-section .alert ul li{
-  margin: 1px 0;
+.markdown-section .alert ul li {
+  margin: 2px 0;
 }
 
 .markdown-section .alert ul li:before {
-  color: #333;
+  position: absolute;
   content: '\2B29';
-  font-weight: bold;
-  padding-right: 2px;
+  margin-left: -18px;
 }
 
 .markdown-section .button {
