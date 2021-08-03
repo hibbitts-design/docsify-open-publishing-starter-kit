@@ -82,6 +82,9 @@
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Propose Changes to this Page';
 
+    // Get value from GET-parameter in URL
+    // @param {string} name Parameter-name
+    // @returns {string|null} Parameter-value
     function getURLParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
