@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.3)
-### XX/XX/2021
+### 08/03/2021
 
 **Improved:**
 * Added variable for text of Edit this Page on GitHub links to make modifications easier
