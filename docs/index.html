@@ -79,6 +79,9 @@
     // Enter the URL of your own GitHub Repository in between the two quotes below
     var gitLinkRepoURL = '';
 
+    // Customize the text for your Edit this Page on GitHub link between the two quotes below
+    var editThisPageLinkText = 'Propose Changes to this Page';
+
     function getParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -138,7 +141,7 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo: Edit this Page](' + url + ')\n'
+            var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
             if ((!(getParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html + '\n' + '<hr>' + '\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Built with docsify</a>'
