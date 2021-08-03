@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.0.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.3)
+### XX/XX/2021
+
+**Improved:**
+* Added variable for text of Edit this Page on GitHub links to make modifications easier
+* Changed JS function name from `getParameterByName` to `getURLParameterByName` for improved clarity
+* Added the new JS function `returnByURLParameterByName` to return one of two values based on URL parameter (e.g. choose external link behaviour based on embedded status)
+
 ## [v1.0.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.2)
 ### 06/16/2021
 
