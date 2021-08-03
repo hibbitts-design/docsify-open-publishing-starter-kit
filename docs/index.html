@@ -82,7 +82,7 @@
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Propose Changes to this Page';
 
-    function getParameterByName(name, url = window.location.href) {
+    function getURLParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
         results = regex.exec(url);
@@ -100,7 +100,7 @@
       homepage: 'home.md',
       // coverpage      : 'coverpage.md',
       loadSidebar: true,
-      loadNavbar: !(getParameterByName('embedded') === 'true'),
+      loadNavbar: !(getURLParameterByName('embedded') === 'true'),
       externalLinkTarget: '_top',
 
       // SIDEBAR NAVIGATION
@@ -108,7 +108,7 @@
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 0,
-      hideSidebar: getParameterByName('embedded') === 'true',
+      hideSidebar: getURLParameterByName('embedded') === 'true',
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -143,7 +143,7 @@
             }
             var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
-            if ((!(getParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
+            if ((!(getURLParameterByName('hidegitlink') === 'true')) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html + '\n' + '<hr>' + '\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Built with docsify</a>'
             } else {
               return html
@@ -178,7 +178,7 @@
 
   <!-- Pagination Plugin -->
   <script>
-    if (!(getParameterByName('embedded') === 'true')) {
+    if (!(getURLParameterByName('embedded') === 'true')) {
       // Load pagination script asynchronously
       var sNew = document.createElement("script");
       sNew.async = true;
