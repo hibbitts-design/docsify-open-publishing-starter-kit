@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.4)
+### XX/XX03/2021
+
+**Improved:**
+* Adjusted tall banner images for use in multi-course setups
+
 ## [v1.0.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.3)
 ### 08/03/2021
 
