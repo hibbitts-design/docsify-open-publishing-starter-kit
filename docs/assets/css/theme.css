@@ -199,14 +199,14 @@
 
 .markdown-section .banner-tall-image {
   width: 100%;
-  height: 250px;
+  height: 175px;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
 @media (min-width: 576px) {
   .markdown-section .banner-tall-image {
-    height: 500px;
+    height: 350px;
   }
 }
 
