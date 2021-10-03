@@ -4,6 +4,7 @@
 ### 10/04/2021
 
 **Improved:**
+* Added 'Use this Template on GitHub' button on Sidebar
 * Revised Sidebar project links
 * Adjusted tall banner images for use in multi-course setups
 
