@@ -4,6 +4,7 @@
 ### 10/04/2021
 
 **Improved:**
+* Revised Sidebar project links
 * Adjusted tall banner images for use in multi-course setups
 
 ## [v1.0.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.3)
