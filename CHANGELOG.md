@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.4)
-### 10/04/2021
+### 10/05/2021
 
 **Improved:**
 * Added 'Use this Template on GitHub' button on Sidebar
