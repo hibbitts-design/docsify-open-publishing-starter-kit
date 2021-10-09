@@ -4,7 +4,7 @@
 
 **Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
-![The Markdown Mark](../assets/images/markdown-red.png)  
+![The Markdown Mark](../images/markdown-red.png)  
 _Figure 1: The Markdown Mark_
 
 Some of the key benefits are:
@@ -582,8 +582,8 @@ Images have a similar syntax to links but include a preceding exclamation point.
 and using a local image (which also displays in GitHub):
 
 ```markdown
-![Octocat](../assets/images/octocat.jpg)
+![Octocat](../images/octocat.jpg)
 ```
-![Octocat](../assets/images/octocat.jpg)
+![Octocat](../images/octocat.jpg)
 
 > Note: Example page content from [GetGrav.org](https://learn.getgrav.org/17/content/markdown), included to demonstrate the portability of Markdown-based content
