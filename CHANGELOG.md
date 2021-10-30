@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.6)
+### XX/XX/2021
+
+**Bugfix:**   
+* Added an additional new line before Edit this Page on GitHub links to ensure proper formatting break
+
 ## [v1.0.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.5)
 ### 10/15/2021
 
