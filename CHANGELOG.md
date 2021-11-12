@@ -3,6 +3,11 @@
 ## [v1.0.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.6)
 ### XX/XX/2021
 
+**Improved:**  
+* Adjusted header line heights for improved readability
+* Added initial support for responsive font sizing (480px only)
+* Improved badge alignment
+
 **Bugfix:**   
 * Added an additional new line before Edit this Page on GitHub links to ensure proper formatting break
 
