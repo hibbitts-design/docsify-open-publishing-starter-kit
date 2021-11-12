@@ -268,3 +268,37 @@ body .docsify-pagination-container {
   margin: 3em 0 1em;
   border-top: 0px solid rgba(0, 0, 0, .07);
 }
+
+@media only screen and (max-width: 480px) {
+
+   .markdown-section h1 {
+      font-size: 1.35rem;
+      line-height: 1.45rem;
+   }
+
+   .markdown-section h2 {
+      font-size: 1.25rem;
+      line-height: 1.35rem;
+   }
+
+   .markdown-section h3 {
+      font-size: 1.15rem;
+      line-height: 1.25rem;
+   }
+
+   .markdown-section h4 {
+      font-size: 1.10rem;
+      line-height: 1.15rem;
+   }
+
+   .markdown-section h5 {
+      font-size: 1.05rem;
+      line-height: 1.1rem;
+   }
+
+   .markdown-section h6 {
+      font-size: 1rem;
+      line-height: 1rem;
+   }
+
+}
