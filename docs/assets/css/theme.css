@@ -76,7 +76,8 @@
   height: auto;
   display: inline-block;
   margin-top: 4px;
-  padding: 8px;
+  padding: 10px;
+  line-height: 1.2rem;
   background-color: var(--link-color);
   text-decoration: none;
   border-radius: .25rem;
