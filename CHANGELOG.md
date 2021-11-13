@@ -7,6 +7,7 @@
 * Adjusted header line heights for improved readability
 * Added initial support for responsive font sizing (480px only)
 * Improved badge alignment
+* Improved text label spacing for buttons
 
 **Bugfix:**   
 * Added an additional new line before Edit this Page on GitHub links to ensure proper formatting break
