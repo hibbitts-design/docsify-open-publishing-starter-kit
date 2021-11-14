@@ -10,6 +10,7 @@
 * Improved text label spacing for buttons
 * Removed unneeded embedded check for Pagination Plugin
 * Adjusted right margin of navbar to improve alignment
+* Removed background colour from accordions to better support a dark theme
 
 **Bugfix:**   
 * Added an additional new line before Edit this Page on GitHub links to ensure proper formatting break
