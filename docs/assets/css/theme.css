@@ -262,6 +262,10 @@
   line-height: 1.1rem;
 }
 
+body .app-nav {
+  margin-right: -10px;
+}
+
 body .docsify-pagination-container {
   display: flex;
   flex-wrap: wrap;
