@@ -129,7 +129,6 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid #CCCCCC;
   border-radius: .15rem;
@@ -138,7 +137,6 @@
 .markdown-section details {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #FFFFFF;
   border-bottom: 1px solid #CCCCCC;
 }
 
@@ -146,7 +144,6 @@
   cursor: pointer;
   color: var(--link-color);
   padding: 0;
-  background-color: #FFFFFF;
 
   h1, h2, h3 {
     margin: 0;
