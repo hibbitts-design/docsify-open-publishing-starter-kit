@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.6)
-### XX/XX/2021
+### 11/15/2021
 
 **Improved:**  
 * Adjusted header line heights for improved readability
