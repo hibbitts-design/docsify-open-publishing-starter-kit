@@ -93,30 +93,20 @@ To only display Docsify page content, add the following to a Docsify page URL:
 `?embedded=true`
 
 Example standard Docsify page:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1  
 
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true
-
-To optionally show a page Table of Contents (based on included Headers), use the following:
-
-`?embedded=true&toc=true`
-
-Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true  
-
-Example Docsify page displaying only page content with a page Table of Contents included:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&toc=true 
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?embedded=true
 
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?embedded=true&hidegitlink=true`
 
 Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?embedded=true  
 
 Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/introduction?embedded=true&hidegitlink=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?embedded=true&hidegitlink=true  
 
 📚 Docsify and Markdown Resources
 ---
