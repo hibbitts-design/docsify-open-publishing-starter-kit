@@ -84,9 +84,9 @@ You can also clone (i.e download) a copy of your repository to your computer and
 ---  
 
 ![ Docsify Open Publishing Page Ready for Embedding](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-ready-for-embedding.png)
-_Figure 2. Docsify Open Publishing page ready for embedding_
+_Figure 2. Docsify Open Publishing page ready for embedding or linking as standalone content_
 
-The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab. The parameter 'embedded' is supported as an alias for `standalone`. 
+The optional ‘standalone’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab. The parameter 'embedded' is supported as an alias for `standalone`.
 
 To only display Docsify page content, add the following to a Docsify page URL:
 
