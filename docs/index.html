@@ -83,29 +83,41 @@
     var editThisPageLinkText = 'Edit this Page';
 
     // Get value from GET-parameter in URL
-    // @param {string} name Parameter-name
-    // @returns {string|null} Parameter-value
-    function getURLParameterByName(name, url = window.location.href) {
-      name = name.replace(/[\[\]]/g, '\\$&');
-      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-      if (!results) return null;
-      if (!results[2]) return '';
-      return decodeURIComponent(results[2].replace(/\+/g, ' '));
-    }
-
-    // Return given parameter if given key in URL
-    // @param {string} name Parameter-name
+    // @param {array} name Parameter-name
     // @param {*} isTrue Return if found
     // @param {*} isFalse Return if not found
-    // @returns {*} Given parameter
-    function returnByURLParameterByName(name, isTrue, isFalse, url = window.location.href) {
-      name = name.replace(/[\[\]]/g, '\\$&');
-      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-          results = regex.exec(url);
-      if (!results) return isFalse;
-      if (!results[2]) return isFalse;
-      return isTrue;
+    // @returns {string|null} Parameter-value
+    function getURLParameterByName(name, isTrue = null, isFalse = null, url = window.location.href) {
+
+      let exists = false;
+
+      if (Array.isArray(name)) {
+
+        name.forEach(element => {
+          if (getURLParameterByName(element)) {
+            exists = true;
+          }
+        });
+
+      } else {
+
+        name = name.toLowerCase().replace(/[\[\]]/g, '\\$&');
+
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+        var results = regex.exec(url.toLowerCase());
+
+        exists = (results && results[2]) ? true : false;
+      }
+
+      if (exists && isTrue) {
+        return isTrue;
+      }
+
+      if (!exists && isFalse) {
+        return isFalse;
+      }
+
+      return exists;
     }
 
     // Docsify
@@ -117,15 +129,15 @@
       homepage: 'home.md',
       // coverpage      : 'coverpage.md',
       loadSidebar: true,
-      loadNavbar: !(getURLParameterByName('embedded') === 'true'),
-      externalLinkTarget: (returnByURLParameterByName('embedded','_top','_blank')),
+      loadNavbar        : !(getURLParameterByName(['standalone','embedded'])),
+      externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 0,
-      hideSidebar: getURLParameterByName('embedded') === 'true',
+      hideSidebar: getURLParameterByName(['standalone','embedded']),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -146,7 +158,7 @@
 
       toc: {
         scope: '.markdown-section',
-        headings: 'h2, h3, h4, h5, h6',
+        headings: 'h2, h3',
         title: 'Table of Contents',
       },
 
