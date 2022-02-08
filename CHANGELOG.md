@@ -9,6 +9,7 @@
 **Improved:**  
 * Restored user zoom ability for improved accessibility
 * Added titles on sub-topic sidebar links for improved accessibility
+* Revised JS function `getURLParameterByName` to accept multiple terms (i.e. to support aliases) and also include functionality of previous returnByURLParameterByName function
 
 ## [v1.0.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.6)
 ### 11/15/2021
