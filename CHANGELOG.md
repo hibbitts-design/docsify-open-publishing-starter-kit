@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.7](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.7)
-### XX/XX/2022
+### 02/15/2022
 
 **New:**  
 * Added conditional display of page table of contents (`?toc=true`)
