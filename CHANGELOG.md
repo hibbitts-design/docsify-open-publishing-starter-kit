@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.0.8](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.8)
-### XX/XX/2022
+### 03/21/2022
 
 **Improved:**  
 * Adjusted link colours for improved contrast
