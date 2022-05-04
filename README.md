@@ -129,7 +129,7 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/cha
 [Docsify Themeable GitHub](https://github.com/jhildenbiddle/docsify-themeable)  
 
 **Markdown**  
-[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
 [Markdown Guide](https://www.markdownguide.org/)  
 
 📼 Video Walkthrough of Local Docsify Install/Config
