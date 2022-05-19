@@ -10,6 +10,9 @@
 * Updated example site content
 * Adjusted margins for site name in Sidebar
 
+**Bugfix:**   
+* Fixed 'hidegitlink' URL parameter detection
+
 ## [v1.0.8](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.8)
 ### 03/21/2022
 
