@@ -93,30 +93,30 @@ To only display Docsify page content, add the following to a Docsify page URL:
 `?‘standalone’=true`
 
 Example standard Docsify page:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/  
 
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?‘standalone’=true
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/?standalone=true  
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
 `?‘standalone’=true&toc=true`
 
 Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?‘standalone’=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true  
 
 Example Docsify page displaying only page content with a page Table of Contents included:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?‘standalone’=true&toc=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&toc=true  
 
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?‘standalone’=true&hidegitlink=true`
 
 Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?‘standalone’=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true  
 
 Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/chapter-1/topic-1?‘standalone’=true&hidegitlink=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&hidegitlink=true. 
 
 📚 Docsify and Markdown Resources
 ---
