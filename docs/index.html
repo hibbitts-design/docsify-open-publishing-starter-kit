@@ -58,6 +58,7 @@
       --navbar-root-margin: 0 0 0 .8em;
 
       --sidebar-name-color: #0374B5;
+      --sidebar-name-margin: 1.5rem -.2rem;
       --sidebar-nav-link-font-weight--active: bold;
 
       --link-color: #0374B5;
@@ -137,7 +138,9 @@
       // -----------------------------------------------------------------
       auto2top: true,
       maxLevel: 3,
-      subMaxLevel: 0,
+      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
+      subMaxLevel: 2,
+      // Set hideSidebar to true to permanently hide the Sidebar
       hideSidebar: getURLParameterByName(['standalone','embedded']),
 
       // PLUGIN SETTINGS
