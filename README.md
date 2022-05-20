@@ -116,7 +116,9 @@ Example Docsify page displaying only page content:
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true  
 
 Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&hidegitlink=true. 
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&hidegitlink=true.
+
+It is also possible to permanently display all pages as standalone, and to also always display a page Table of Contents - details can be found within the `index.html` file.
 
 📚 Docsify and Markdown Resources
 ---
