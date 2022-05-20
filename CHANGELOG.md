@@ -9,6 +9,7 @@
 * Adjusted left Markdown section padding
 * Adjusted margins for site name in Sidebar
 * Updated example site content
+* Added documentation in index.html to permanently alter the display of all pages (i.e. hidden Sidebar)
 
 **Bugfix:**   
 * Fixed 'hidegitlink' URL parameter detection
