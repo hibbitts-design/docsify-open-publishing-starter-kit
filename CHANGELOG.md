@@ -7,8 +7,8 @@
 * Aligned default link colour to be the same as Canvas LMS
 * Added example link colours to be the same as Moodle LMS
 * Adjusted left Markdown section padding
-* Updated example site content
 * Adjusted margins for site name in Sidebar
+* Updated example site content
 
 **Bugfix:**   
 * Fixed 'hidegitlink' URL parameter detection
