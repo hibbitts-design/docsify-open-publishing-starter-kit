@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.0)
-### XX/XX/2022
+### 05/30/2022
 
 **Improved:**  
 * Aligned default link colour to be the same as Canvas LMS
