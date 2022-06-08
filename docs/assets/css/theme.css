@@ -244,7 +244,7 @@
 }
 
 .markdown-section h3 {
-  line-height: 1.15rem;
+  line-height: 1.25rem;
 }
 
 .markdown-section h4 {
@@ -285,8 +285,8 @@ body .docsify-pagination-container {
    }
 
    .markdown-section h3 {
-      font-size: 1.15rem;
-      line-height: 1.25rem;
+      font-size: 1.2rem;
+      line-height: 1.3rem;
    }
 
    .markdown-section h4 {
