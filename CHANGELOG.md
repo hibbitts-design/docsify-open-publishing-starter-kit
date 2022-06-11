@@ -6,6 +6,7 @@
 **Improved:**  
 * Reduced page margins when displayed as embedded or standalone
 * Adjusted font size and line height for Topics index items
+* Added example CSS colours to be the same as Sakai LMS
 
 ## [v1.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.0)
 ### 05/30/2022
