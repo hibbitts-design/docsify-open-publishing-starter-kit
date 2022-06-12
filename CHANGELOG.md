@@ -7,6 +7,7 @@
 * Reduced page margins when displayed as embedded or standalone
 * Adjusted font size and line height for Topics index items
 * Added example CSS colours to be the same as Sakai LMS
+* Streamlined settings for custom CSS colours
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
