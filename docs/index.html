@@ -207,13 +207,13 @@
             var creditHtml = '\n\n' + 'This site was built with the <a href="https://github.com/hibbitts-design/docsify-open-publishing-starter-kit" target="_blank">Docsify Open Publishing Starter Kit</a>.'
 
             if ( !(getURLParameterByName(['standalone','embedded'])) && !(getURLParameterByName('hidegitlink'))  && (!!gitLinkRepoURL)) {
-              return editHtml + '\n' + html + '<br />' + '\n\n' + '<hr>' + creditHtml
-
-            } else if ( !(getURLParameterByName(['standalone','embedded'])) && (getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
-              return html + '<br />' + '\n\n' + '<hr>' + creditHtml
+            return editHtml + '\n' + html + '<br />' + '\n\n' + '<hr>' + creditHtml
 
             } else if ( getURLParameterByName(['standalone','embedded']) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html
+
+            } else if ( !(getURLParameterByName(['standalone','embedded']))) {
+              return html + '<br />' + '\n\n' + '<hr>' + creditHtml
 
             } else {
               return html
