@@ -204,8 +204,17 @@
             }
             var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
-            if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
-              return editHtml + '\n' + html + '\n\n' + '<hr>' + '\n\n' + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal;">Built with docsify</a>'
+            var creditHtml = '\n\n' + 'This site was built with the <a href="https://github.com/hibbitts-design/docsify-open-publishing-starter-kit" target="_blank">Docsify Open Publishing Starter Kit</a>.'
+
+            if ( !(getURLParameterByName(['standalone','embedded'])) && !(getURLParameterByName('hidegitlink'))  && (!!gitLinkRepoURL)) {
+              return editHtml + '\n' + html + '<br />' + '\n\n' + '<hr>' + creditHtml
+
+            } else if ( !(getURLParameterByName(['standalone','embedded'])) && (getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
+              return html + '<br />' + '\n\n' + '<hr>' + creditHtml
+
+            } else if ( getURLParameterByName(['standalone','embedded']) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
+              return editHtml + '\n' + html
+
             } else {
               return html
             }
