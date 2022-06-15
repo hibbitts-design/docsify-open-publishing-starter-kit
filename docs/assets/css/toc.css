@@ -75,7 +75,6 @@ aside.nav.nothing {
 @media screen and (max-width: 1100px) {
   .page_toc {
     position: relative;
-    left: 25px;
     top: -20px;
     padding: 10px 0;
     border: none;
