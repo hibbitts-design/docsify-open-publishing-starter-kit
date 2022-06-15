@@ -9,6 +9,7 @@
 * Added example CSS colours to be the same as Sakai LMS
 * Streamlined settings for custom CSS colours
 * Updated default site footer behaviour and appearance
+* Simplified 'ToC' setting in index.html
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
