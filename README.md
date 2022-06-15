@@ -130,7 +130,7 @@ In addition to using URL parameters when embedding Docsify page content into oth
 
 **To Display Page Table of Contents**
 1. Open the `index.html` file for editing.
-2. Locate the line `var showToC = getURLParameterByName('toc');` and change it to `var showToC = true;`.
+2. Locate the line `var ToC = false;` and change it to `var showToC = true;`.
 3. Save the `index.html` file and reload site.
 
 Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
