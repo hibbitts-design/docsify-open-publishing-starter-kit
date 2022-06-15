@@ -107,6 +107,9 @@
     // Set standalone to true to permanently hide the Sidebar and Navbar
     var standalone = false;
 
+    // Set ToC to true to permanently show page Table of Contents (Sidebar must also be hidden)
+    var ToC = false;
+
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
     // @param {*} isTrue Return if found
@@ -260,9 +263,7 @@
 
   <!-- Table of Contents Plugin -->
   <script>
-    <!-- Set showToC to true to permanently show page Table of Contents (Sidebar must also be hidden, see above)  -->
-    var showToC = getURLParameterByName('toc');
-    if (showToC === true) {
+    if (getURLParameterByName('toc') || ToC) {
       document.write('<link rel="stylesheet" type="text/css" href="assets/css/toc.css" />');
       document.write('<script src="https://unpkg.com/docsify-toc@1.0.2/dist/toc.js"><\/script>');
     }
