@@ -25,6 +25,10 @@ aside.nav.nothing {
   padding-left: 5px;
 }
 
+.page_toc a > * {
+  pointer-events: none;
+}
+
 .page_toc code {
   background-color: #f8f8f8;
   border-radius: 2px;
@@ -69,7 +73,7 @@ aside.nav.nothing {
 }
 
 .page_toc ul li {
-  padding-top: .5em;
+  padding-top: 7px;
 }
 
 @media screen and (max-width: 1100px) {
