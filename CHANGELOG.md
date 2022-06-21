@@ -12,6 +12,7 @@
 * Simplified 'ToC' setting in index.html
 * Reduced left margin of page Table of Contents on smaller screens
 * Updated Table of Contents plugin items
+* Improved example alt text for images
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
