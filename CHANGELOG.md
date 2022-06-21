@@ -18,6 +18,7 @@
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
 * Support the removal of the '_sidebar.md' file with standalone setting
+* Fixed Sidebar and Navbar handling for Remote Docsify usage
 
 ## [v1.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.0)
 ### 05/30/2022
