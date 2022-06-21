@@ -573,15 +573,15 @@ Content for chapter one.
 Images have a similar syntax to links but include a preceding exclamation point.
 
 ```markdown
-![Minion](https://octodex.github.com/images/minion.png)
+![Image of Minion](https://octodex.github.com/images/minion.png)
 ```
-![Minion](https://octodex.github.com/images/minion.png)
+![Image of Minion](https://octodex.github.com/images/minion.png)
 
 and using a local image (which also displays in GitHub):
 
 ```markdown
-![Octocat](images/octocat.jpg)
+![Image of Octocat](images/octocat.jpg)
 ```
-![Octocat](images/octocat.jpg)
+![Image of Octocat](images/octocat.jpg)
 
 > Note: Example page content from [GetGrav.org](https://learn.getgrav.org/17/content/markdown), included to demonstrate the portability of Markdown-based content
