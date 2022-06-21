@@ -13,6 +13,7 @@
 * Reduced left margin of page Table of Contents on smaller screens
 * Updated Table of Contents plugin items
 * Improved example alt text for images
+* Added Editor.css file for better Markdown previews
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
