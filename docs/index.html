@@ -156,8 +156,8 @@
       // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
       homepage: 'home.md',
       // coverpage      : 'coverpage.md',
-      loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone),
-      loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone),
+      loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
+      loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
       externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
 
       // SIDEBAR NAVIGATION
