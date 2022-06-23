@@ -142,9 +142,9 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 
 It is possible to render remote Markdown files (i.e. a Markdown file in any GitHub repository) using Docsify by passing a URL parameter.  
 
-For example, to render a Markdown file named **README.md** (the expected default name) the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main#/
+For example, to render a Markdown file named **README.md** (the expected default name) the URL would be [https://hibbitts-design.github.io/docsify-project-docs/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main](https://hibbitts-design.github.io/docsify-project-docs/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main)
 
-To render a Markdown file with a name other than README.md, for example **introduction.md**, the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs/introduction.md#/
+To render a Markdown file with a name other than README.md, for example **introduction.md**, the URL would be [https://example.github.io/test-docsify-project-docs/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs/introduction.md#/](https://hibbitts-design.github.io/docsify-project-docs/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs/introduction.md#/)
 
 **Additional Examples**  
 
