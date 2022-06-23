@@ -135,6 +135,22 @@ In addition to using URL parameters when embedding Docsify page content into oth
 
 Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
 
+🛸 Docsify Remote Rendering
+---
+
+**Technical Details**  
+
+It is possible to render remote Markdown files (i.e. a Markdown file in any GitHub repository) using Docsify by passing a URL parameter.  
+
+For example, to render a Markdown file named **README.md** (the expected default name) the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main#/
+
+To render a Markdown file with a name other than README.md, for example **introduction.md**, the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs/introduction.md#/
+
+**Additional Examples**  
+
+* [Docsify Open Publishing Starter Kit, as a Single Page](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main&standalone=true)
+* [Docsify Open Publishing Starter Kit, as a Single Page with Table of Contents](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main&standalone=true&toc=true)
+
 📚 Docsify and Markdown Resources
 ---
 **Docsify**  
@@ -157,3 +173,4 @@ _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvar
 🙇‍Credits and Special Thanks
 ---
 [Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)  
+[Beau Shaw](https://github.com/DaddyWarbucks) for his [Remote Docsify](https://github.com/DaddyWarbucks/remote-docsify) example.  

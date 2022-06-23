@@ -154,8 +154,9 @@
       // -----------------------------------------------------------------
       name: 'Docsify Open Publishing Starter Kit',
       // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
-      homepage: 'home.md',
+      homepage          : 'home.md',
       // coverpage      : 'coverpage.md',
+      // Set last option for loadSidebar to true for Remote Docsify
       loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
       loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
       externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
@@ -227,6 +228,15 @@
 
       ]
     }
+
+    <!-- Credit to Beau Shaw for dymamic remote docsify technique -->
+    <!-- To render a Markdown file named **README.md** (the expected default name) the URL would be https://hibbitts-design.github.io/test-docsify-project-docs/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main -->
+    const params = new URLSearchParams(window.location.search);
+    params.forEach((value, key) => {
+      // TODO: Parse numbers?
+      window.$docsify[key] = value;
+    });
+
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -243,7 +253,7 @@
   <!-- Customizable Theme-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
-  <!-- Search Box Plugin -->
+  <!-- Search Box Plugin, remove with Remote Docsify -->
   <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
 
   <!-- Emoji Plugin -->
