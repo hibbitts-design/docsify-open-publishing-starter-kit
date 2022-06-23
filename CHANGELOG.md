@@ -14,6 +14,7 @@
 * Updated Table of Contents plugin items
 * Improved example alt text for images
 * Added Editor.css file for better Markdown previews
+* Added support for Remote Docsify usage
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
