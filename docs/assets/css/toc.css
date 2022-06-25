@@ -76,7 +76,7 @@ aside.nav.nothing {
   padding-top: 7px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
   .page_toc {
     position: relative;
     top: -20px;
@@ -87,7 +87,7 @@ aside.nav.nothing {
   }
   .nav {
     margin: 0 auto;
-    width: 1100px;
+    width: 960px;
   }
   .page_toc p.title {
     font-weight: 300;
