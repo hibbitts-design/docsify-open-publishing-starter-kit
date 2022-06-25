@@ -149,7 +149,7 @@ To render a Markdown file with a name other than README.md, for example **introd
 **Additional Examples**  
 
 * [Docsify Open Course Starter Kit, as a Single Page](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&standalone=true)
-* [Docsify Open Course Starter Kit, as a Single Page with Table of Contents](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&standalone=true&toc=true#/)
+* [Docsify Open Course Starter Kit, as a Single Page with Table of Contents](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&standalone=true&toc=true)
 
 📚 Docsify and Markdown Resources
 ---
