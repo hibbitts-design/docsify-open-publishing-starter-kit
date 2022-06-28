@@ -142,14 +142,15 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 
 It is possible to render remote Markdown files (i.e. a Markdown file in any GitHub repository) using Docsify by passing a URL parameter.  
 
-For example, to render a Markdown file named **README.md** (the expected default name) the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main
+For example, to render a Markdown file named **README.md** (the expected default name) as a standalone page the URL would be https://docsify-this.net/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/
 
-To render a Markdown file with a name other than README.md, for example **introduction.md**, the URL would be https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs/introduction.md
+To render a Markdown file named **README.md** (the expected default name) as a standalone page with a table of contents the URL would be https://docsify-this.net/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/&toc=true
 
-**Additional Examples**  
+To render a Markdown file with a name other than README.md, for example **introduction.md** as a standalone page, the URL would be https://docsify-this.net/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=introduction.md
 
-* [Docsify Open Course Starter Kit, as a Single Page](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&standalone=true)
-* [Docsify Open Course Starter Kit, as a Single Page with Table of Contents](https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&standalone=true&toc=true)
+To render a Markdown file with a name other than README.md, for example **introduction.md** as a standalone page with a table of contents, the URL would be https://docsify-this.net/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-publishing-starter-kit/main/docs&homepage=introduction.md&toc=true
+
+_TIP: To get the path of a file on GitHub for the **basepath** URL parameter, tap the **Raw** button when viewing the file and then remove the filename. If not a README file, the filename will need to be passed using the **homepage** URL parameter._
 
 📚 Docsify and Markdown Resources
 ---
