@@ -174,6 +174,17 @@ _TIP: To get the path of a file on GitHub for the **basepath** URL parameter, ta
 [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
 [Markdown Guide](https://www.markdownguide.org/)  
 
+🧰 Useful Markdown CSS Classes
+---
+
+* `badge`
+* `banner-image`
+* `banner-tall-image`
+* `button`  
+* `row` & `column`
+* `video-container-4by3`
+* `video-container-16by9`
+
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
