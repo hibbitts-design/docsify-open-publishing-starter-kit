@@ -177,13 +177,56 @@ _TIP: To get the path of a file on GitHub for the **basepath** URL parameter, ta
 🧰 Useful Markdown CSS Classes
 ---
 
-* `badge`
-* `banner-image`
-* `banner-tall-image`
-* `button`  
-* `row` & `column`
-* `video-container-4by3`
-* `video-container-16by9`
+`badge`  
+
+```html
+<span class='badge'> Tue Jun 12th 11:59pm PDT</span>
+```
+
+`banner-image`  
+
+```markdown
+![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image')
+```
+`banner-tall-image`  
+
+```markdown
+![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-tall-image')
+```
+
+`button`  
+
+```markdown
+[Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button')
+```
+
+`row` & `column`   
+
+```html
+<div class="row">
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+</div>
+```
+
+`video-container-4by3`  
+
+```html
+<div class="video-container-4by3"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+```
+
+`video-container-16by9`  
+```html
+<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+```
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
