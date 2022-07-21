@@ -138,7 +138,16 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 🛸 Docsify Remote Rendering
 ---
 
-It is possible to render remote Markdown files (for example, a Markdown file in a GitHub repository) using Docsify by passing a URL parameter.  
+It is possible to render remote Markdown files (for example, a Markdown file in a GitHub repository) using Docsify by passing a URL parameter. To enable this functionality, the following section of code in the `index.html` file must be uncommented:
+
+```
+/*
+const params = new URLSearchParams(window.location.search);
+params.forEach((value, key) => {
+  window.$docsify[key] = value;
+});
+*/
+```  
 
 For example, to render a Markdown file named **README.md** (the expected default name) as a regular Docsify page the URL would be:  
 https://hibbitts-design.github.io/docsify-open-publishing-starter-kit-remote/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/
