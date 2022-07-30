@@ -18,6 +18,7 @@
 * Improved display of Table of Contents on smaller screens
 * Auto search box loading and reduce manual configs for Remote Docsify
 * Added new Themeable support for light/dark theme switching (OS-level)
+* Adjusted link colours for dark theme
 
 **Bugfix:**   
 * Added missing Sidebar name and link colour settings
