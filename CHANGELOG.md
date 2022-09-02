@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.1)
-### XX/XX/2022
+### 09/02/2022
 
 **Improved:**  
 * Reduced page margins when displayed as embedded or standalone
