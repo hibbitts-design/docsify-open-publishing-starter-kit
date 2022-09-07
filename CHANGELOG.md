@@ -2,6 +2,8 @@
 
 ## [v1.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.2)
 ### XX/XX/XXXX
+
+**Improved:**
 * Aligned ToC CSS with Docsify-This.net
 * Support for scrolling of Table of Contents
 
