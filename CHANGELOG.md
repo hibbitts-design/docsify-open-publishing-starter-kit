@@ -6,6 +6,7 @@
 **Improved:**
 * Aligned ToC CSS with Docsify-This.net
 * Support for scrolling of Table of Contents
+* Support for displaying Navbar when displayed as embedded or standalone
 
 ## [v1.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.1)
 ### 09/02/2022
