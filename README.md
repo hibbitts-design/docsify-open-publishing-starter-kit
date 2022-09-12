@@ -123,7 +123,7 @@ To not hide the Navbar when displaying only page content, use the following:
 `?embedded=true&navbar=true`  
 
 Example Docsify page displaying only page content (i.e., no sidebar is shown) but still showing the Navbar:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true&navbar=true
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&navbar=true
 
 🖼 Presenting your Docsify Page Content as Standalone Webpages
 ---  
