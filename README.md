@@ -118,13 +118,6 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/int
 Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&hidegitlink=true
 
-To not hide the Navbar when displaying only page content, use the following:  
-
-`?embedded=true&navbar=true`  
-
-Example Docsify page displaying only page content (i.e., no sidebar is shown) but still showing the Navbar:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?standalone=true&navbar=true
-
 🖼 Presenting your Docsify Page Content as Standalone Webpages
 ---  
 
@@ -133,11 +126,6 @@ In addition to using URL parameters when embedding Docsify page content into oth
 **To Display all Pages as Standalone**
 1. Open the `index.html` file for editing.
 2. Locate the line `var standalone = false;` and change it to `var standalone = true;`.
-3. Save the `index.html` file and reload site.
-
-**To not Hide the Navbar When Displaying Pages as Standalone**
-1. Open the `index.html` file for editing.
-2. Locate the line `var navbar = false;` and change it to `var navbar = true;`.
 3. Save the `index.html` file and reload site.
 
 **To Display Page Table of Contents**
