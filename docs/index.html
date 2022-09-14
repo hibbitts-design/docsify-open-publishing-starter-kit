@@ -120,10 +120,7 @@
     // Set standalone to true to permanently hide the Sidebar and Navbar
     var standalone = false;
 
-    // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
-    var navbar = false;
-
-    // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
+    // Set ToC to true to permanently show page Table of Contents (Sidebar must also be hidden)
     var ToC = false;
 
     // Get value from GET-parameter in URL
@@ -173,7 +170,7 @@
       homepage          : 'home.md',
       // coverpage      : 'coverpage.md',
       loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
-      loadNavbar        : !( (getURLParameterByName(['standalone','embedded']) && (!(getURLParameterByName('navbar')))) || standalone && (!navbar) || false),
+      loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
       externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
 
       // SIDEBAR NAVIGATION
