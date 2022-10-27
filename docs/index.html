@@ -210,6 +210,59 @@
 
         function(hook, vm) {
 
+          hook.afterEach(function(html, next) {
+            // Invoked each time after the Markdown file is parsed.
+            // beforeEach and afterEach support asynchronous。
+            // ...
+            // call `next(html)` when task is done.
+
+            if (getURLParameterByName(['standalone','embedded']) || standalone ) {
+
+              // Carry any existing URL parms in links
+              var URLparms = '';
+
+              if (getURLParameterByName('standalone') || standalone ) {
+                URLparms = `?standalone=true`;
+              }
+
+              if (getURLParameterByName('embedded')) {
+                URLparms = `?embedded=true`;
+              }
+
+              if (getURLParameterByName('hidegitlink')) {
+                URLparms = URLparms + `&hidegitlink=true`;
+              }
+
+              if (getURLParameterByName('toc') || ToC) {
+                URLparms = URLparms + `&toc=true`;
+              }
+
+              var htmlElement = document.createElement('div');
+              htmlElement.innerHTML = html;
+
+              const links = Array.from(htmlElement.querySelectorAll('a'))
+
+              for (const link of links) {
+                //console.log(link.getAttribute('href'));
+                // Find any local Markdown file links not including Docsify id anchor links
+                if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) ===false)) {
+                  // Modify each Markdown file link to include existing parms
+                  var existingLink = link.getAttribute('href');
+                  //console.log(existingLink);
+                  // Update Markdown file link
+                  var newURL = existingLink + URLparms;
+                  //console.log("Changed:");
+                  //console.log(newURL);
+                  link.setAttribute('href', newURL);
+                  //console.log(link.getAttribute('href'));
+                  }
+                }
+              next(htmlElement.innerHTML);
+            } else {
+                next(html);
+            }
+          });
+          
           hook.beforeEach(function(html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
