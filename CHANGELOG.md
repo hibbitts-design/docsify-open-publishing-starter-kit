@@ -7,6 +7,9 @@
 * Aligned ToC CSS with Docsify-This.net
 * Support for scrolling of Table of Contents
 * ReadMe updated
+* Removed deprecated emoji plugin (as of Docsify v4.13)
+* Support for page-to-page navigation when embedded/standalone
+* Update example content
 
 ## [v1.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.1)
 ### 09/02/2022
