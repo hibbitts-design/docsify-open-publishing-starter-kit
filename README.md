@@ -98,8 +98,6 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/?embedding=true  
 
-Please note that Docsify page-to-page navigation is not currently supported with the ‘embedded’ URL parameter. This functionality, however, is available by using the [Docsify-This](https://docsify-this.net/#/) project to display the same Markdown pages.
-
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
 `?‘standalone’=true&toc=true`
