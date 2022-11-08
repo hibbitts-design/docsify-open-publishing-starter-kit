@@ -21,7 +21,7 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 **Installation and Deployment**
 
-1. Tap **Use this template** on the source repository (upper-right green button)
+1. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
 ![ Docsify Open Publishing Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-install-1.png)
 
 2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
