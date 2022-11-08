@@ -10,6 +10,7 @@
 * Removed deprecated emoji plugin (as of Docsify v4.13)
 * Support for page-to-page navigation when embedded/standalone
 * Update example content
+* Removed unneeded local ToC plugin assets
 
 ## [v1.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.1)
 ### 09/02/2022
