@@ -10,8 +10,10 @@
   <link rel="icon" href="assets/favicon/favicon.png">
 
   <!-- Theme: Simple (light + dark) -->
-  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -23,7 +25,9 @@
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <style>
     :root {
@@ -103,7 +107,6 @@
         --pagination-title-color: #89b6e9;
       }
     }
-
   </style>
 
 </head>
@@ -167,11 +170,11 @@
       // -----------------------------------------------------------------
       name: 'Docsify Open Publishing Starter Kit',
       // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
-      homepage          : 'home.md',
+      homepage: 'home.md',
       // coverpage      : 'coverpage.md',
-      loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
-      loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
-      externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
+      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
@@ -179,7 +182,7 @@
       maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 2,
-      hideSidebar: (getURLParameterByName(['standalone','embedded']) || standalone),
+      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -208,20 +211,20 @@
       // -----------------------------------------------------------------
       plugins: [
 
-        function(hook, vm) {
+        function (hook, vm) {
 
-          hook.afterEach(function(html, next) {
+          hook.afterEach(function (html, next) {
             // Invoked each time after the Markdown file is parsed.
             // beforeEach and afterEach support asynchronous。
             // ...
             // call `next(html)` when task is done.
 
-            if (getURLParameterByName(['standalone','embedded']) || standalone ) {
+            if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
 
               // Carry any existing URL parms in links
               var URLparms = '';
 
-              if (getURLParameterByName('standalone') || standalone ) {
+              if (getURLParameterByName('standalone') || standalone) {
                 URLparms = `?standalone=true`;
               }
 
@@ -245,7 +248,7 @@
               for (const link of links) {
                 //console.log(link.getAttribute('href'));
                 // Find any local Markdown file links not including Docsify id anchor links
-                if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) ===false)) {
+                if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) === false)) {
                   // Modify each Markdown file link to include existing parms
                   var existingLink = link.getAttribute('href');
                   //console.log(existingLink);
@@ -255,15 +258,15 @@
                   //console.log(newURL);
                   link.setAttribute('href', newURL);
                   //console.log(link.getAttribute('href'));
-                  }
                 }
+              }
               next(htmlElement.innerHTML);
             } else {
-                next(html);
+              next(html);
             }
           });
 
-          hook.beforeEach(function(html) {
+          hook.beforeEach(function (html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
@@ -275,13 +278,13 @@
 
             var creditHtml = '\n\n' + 'This site was built with the <a href="https://github.com/hibbitts-design/docsify-open-publishing-starter-kit" target="_blank">Docsify Open Publishing Starter Kit</a>.'
 
-            if ( !(getURLParameterByName(['standalone','embedded'])) && !(getURLParameterByName('hidegitlink'))  && (!!gitLinkRepoURL)) {
+            if (!(getURLParameterByName(['standalone', 'embedded'])) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html + '<br />' + '\n\n' + '<hr>' + creditHtml
 
-            } else if ( getURLParameterByName(['standalone','embedded']) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
+            } else if (getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html
 
-            } else if ( !(getURLParameterByName(['standalone','embedded']))) {
+            } else if (!(getURLParameterByName(['standalone', 'embedded']))) {
               return html + '<br />' + '\n\n' + '<hr>' + creditHtml
 
             } else {
@@ -300,7 +303,7 @@
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
-    if (getURLParameterByName(['standalone','embedded']) || standalone) {
+    if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
       var editCSS = document.createElement('style')
       editCSS.innerHTML = ".markdown-section {padding: 1rem 10px;}";
       document.body.appendChild(editCSS);
