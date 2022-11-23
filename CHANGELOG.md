@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.2)
-### XX/XX/XXXX
+### 11/23/2022
 
 **Improved:**
 * Aligned ToC CSS with Docsify-This.net
