@@ -294,7 +294,28 @@
             } else {
               return html
             }
-          })
+          });
+
+          // Invoked on each page load after new HTML has been appended to the DOM
+          hook.doneEach(function () {
+            var hasEmbedly = document.getElementsByClassName('embedly-card');
+            if (hasEmbedly.length > 0) {
+                // elements with class "embedly-card" exist
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://cdn.embedly.com/widgets/platform.js';    
+                document.head.appendChild(script);
+            }
+
+            // Remove optional ToC area if full width header image is present
+            var hasImageHeader = document.getElementsByClassName('header-image-full-width');
+            if (hasImageHeader.length > 0) {
+              const elements = document.getElementsByClassName("nav");
+              while (elements.length > 0) elements[0].remove();
+            }
+
+          });
+
 
         }
 
@@ -339,8 +360,6 @@
       document.write('<script src="https://unpkg.com/docsify-toc@1.1.0/dist/toc.js"><\/script>');
     }
   </script>
-  
-  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 </body>
 
