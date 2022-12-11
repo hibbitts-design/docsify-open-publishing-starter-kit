@@ -158,12 +158,13 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 <span class='badge'> Tue Jun 12th 11:59pm PDT</span>
 ```
 
-`banner-image`  
+`banner-image` (cropped to height of 250px on large screens, 125 px on small screens)  
 
 ```markdown
 ![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image')
 ```
-`banner-tall-image`  
+
+`banner-tall-image` (cropped to height of 350px on large screens, 175 px on small screens)  
 
 ```markdown
 ![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-tall-image')
@@ -175,10 +176,22 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button')
 ```
 
-`embedly-card`  
+`embedly-card` (for linked article previews, embedded slides/videos, etc.)  
 
-```html
-<a class="embedly-card" data-card-controls="0" data-card-align="left" data-card-width="100%" href="https://docs.google.com/presentation/d/1BLaaOTsGxDmNcAhg6pdx3hl9IvI8NErg8Oe5ceh83fw/edit?usp=sharing">Grav and Docsify Slides Placeholder</a>
+```markdown
+<a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://blog.prototypr.io/defining-usability-e7bf42e8abd0">Defining usability</a>
+```
+
+`header-image` (suggested size of 1200px to 2000px width and 400px to 600px height, and display of Table of Contents is not available)  
+
+```markdown
+![Welcome sign](images/mountain.jpg ':class=header-image')
+```
+
+`header-image-fade` (suggested width of 1200px to 2000px)  
+
+```markdown
+![Welcome sign](images/mountain.jpg ':class=header-image-fade')
 ```
 
 `row` & `column`   
@@ -201,12 +214,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `video-container-4by3`  
 
 ```html
-<div class="video-container-4by3"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+<div class="video-container-4by3"><div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
 ```
 
 `video-container-16by9`  
 ```html
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+<div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
 ```
 
 🌐 Using MAMP to View Docsify Sites Locally
