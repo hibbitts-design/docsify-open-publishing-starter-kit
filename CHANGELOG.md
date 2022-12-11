@@ -7,6 +7,9 @@
 * Support for background gradient header image (`header-image-fade`, with thanks to Jamie Adam for original CSS)
 * Support for full-width header image (`header-image-full-width`, optional Table of Contents not available)
 
+**Improved:**
+* ReadMe updated
+
 ## [v1.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.2)
 ### 11/23/2022
 
