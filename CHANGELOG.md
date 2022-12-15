@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.2)
-### XX/XX/XXXX
+### 12/15/2022
 
 **New**
 * Support for background gradient header image (`header-image-fade`, with thanks to Jamie Adam for original CSS)
