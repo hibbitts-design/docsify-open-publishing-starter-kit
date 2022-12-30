@@ -177,6 +177,7 @@
       homepage: 'home.md',
       // coverpage      : 'coverpage.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      // Set loadNavbar to true to always display Navbar, regardless of standalone setting
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
 
