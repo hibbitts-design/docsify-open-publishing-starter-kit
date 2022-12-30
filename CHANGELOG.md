@@ -1,6 +1,12 @@
 # Changelog
 
-## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.2)
+## [v1.1.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.4)
+### XX/XX/XXXX
+
+**Improved:**
+* Add comment in index.html regarding Navbar override for standalone setting (now fully supported with v1.1.2 release)
+
+## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.3)
 ### 12/15/2022
 
 **New**
