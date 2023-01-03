@@ -108,6 +108,16 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/int
 Example Docsify page displaying only page content with a page Table of Contents included:  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedding=true&toc=true  
 
+To optionally override the hiding of the navbar when displaying only page content, use the following:
+
+`?embedded=true&navbar=true`
+
+Example Docsify page displaying only page content:  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true  
+
+Example Docsify page displaying only page content with the navbar still displayed:  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true&navbar=true  
+
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?‘standalone’=true&hidegitlink=true`
