@@ -113,10 +113,10 @@ To optionally override the hiding of the navbar when displaying only page conten
 `?embedded=true&navbar=true`
 
 Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedded=true  
 
 Example Docsify page displaying only page content with the navbar still displayed:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true&navbar=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedded=true&navbar=true  
 
 To optionally hide the 'Edit this Page' link, use the following:
 
