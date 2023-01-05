@@ -3,8 +3,11 @@
 ## [v1.1.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.4)
 ### XX/XX/XXXX
 
-**New**
+**New:**
 * Support for optionaly showing the navbar when embedded/standalone (now fully supported with v1.1.2 release)
+
+**Improved:**
+* Adjusted opacity of 'header-image-fade' class for improved accessibility
 
 ## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.3)
 ### 12/15/2022
