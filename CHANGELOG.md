@@ -5,9 +5,13 @@
 
 **New:**
 * Support for optionaly showing the navbar when embedded/standalone (now fully supported with v1.1.2 release)
+* Support for displaying a footer ('_footer.md' file) via 'standalone' setting in index.html or using the URL parameter 'footer=true'
 
 **Improved:**
 * Adjusted opacity of 'header-image-fade' class for improved accessibility
+
+**Bugfix:**   
+* Pass 'navbar' URL parameter for page-to-page navigation links
 
 ## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.3)
 ### 12/15/2022
