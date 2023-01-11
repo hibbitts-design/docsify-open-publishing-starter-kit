@@ -132,7 +132,10 @@
     
     // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
     var navbar = false;
-    
+ 
+    // Set footer to true to permanently show the Footer ('_footer.md)
+    var footer = false;
+
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
     // @param {*} isTrue Return if found
@@ -182,6 +185,7 @@
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
+      loadFooter: (getURLParameterByName('footer') || footer || false),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
@@ -243,10 +247,18 @@
                 URLparms = URLparms + `&hidegitlink=true`;
               }
 
+              if (getURLParameterByName('navbar') || navbar) {
+                URLparms = URLparms + `&navbar=true`;
+              }
+
               if (getURLParameterByName('toc') || ToC) {
                 URLparms = URLparms + `&toc=true`;
               }
 
+              if (getURLParameterByName('footer') || footer) {
+                URLparms = URLparms + `&footer=true`;
+              }
+              
               var htmlElement = document.createElement('div');
               htmlElement.innerHTML = html;
 
@@ -283,20 +295,12 @@
             }
             var editHtml = '[:memo: ' + editThisPageLinkText + '](' + url + ')\n'
 
-            var creditHtml = '\n\n' + 'This site was built with the <a href="https://github.com/hibbitts-design/docsify-open-publishing-starter-kit" target="_blank">Docsify Open Publishing Starter Kit</a>.'
-
-            if (!(getURLParameterByName(['standalone', 'embedded'])) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
-              return editHtml + '\n' + html + '<br />' + '\n\n' + '<hr>' + creditHtml
-
-            } else if (getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('hidegitlink')) && (!!gitLinkRepoURL)) {
+            if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html
-
-            } else if (!(getURLParameterByName(['standalone', 'embedded']))) {
-              return html + '<br />' + '\n\n' + '<hr>' + creditHtml
-
             } else {
               return html
             }
+
           });
 
           // Invoked on each page load after new HTML has been appended to the DOM
@@ -355,6 +359,9 @@
 
   <!-- Pagination Plugin -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Footer Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
   <!-- Table of Contents Plugin -->
   <script>
