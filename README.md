@@ -133,10 +133,10 @@ To optionally show the footer ('_footer.md' file), use the following:
 `?embedded=true&footer=true`
 
 Example Docsify page without footer:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedded=true  
 
 Example Docsify page with footer shown:  
-https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/resources?embedded=true&footer=true  
+https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedded=true&footer=true  
 
 🖼 Presenting your Docsify Page Content as Standalone Webpages
 ---  
