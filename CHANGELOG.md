@@ -5,7 +5,7 @@
 
 **New:**
 * Support for optionaly showing the navbar when embedded/standalone (now fully supported with v1.1.2 release)
-* Support for displaying a footer ('_footer.md' file) via 'standalone' setting in index.html or using the URL parameter 'footer=true'
+* Support for displaying a footer ('_footer.md' file) via 'footer' setting in index.html or using the URL parameter 'footer=true'
 
 **Improved:**
 * Adjusted opacity of 'header-image-fade' class for improved accessibility
