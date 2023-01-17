@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.1.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.4)
-### XX/XX/XXXX
+### 01/17/2023
 
 **New:**
 * Support for optionaly showing the navbar when embedded/standalone (now fully supported with v1.1.2 release)
