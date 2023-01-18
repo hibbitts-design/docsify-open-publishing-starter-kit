@@ -16,7 +16,8 @@
 }
 
 .markdown-section blockquote {
-  margin: 1.5em 0;
+  margin: 1em 0;
+  padding: 1em;
 }
 
 .markdown-section blockquote ul {
@@ -36,8 +37,8 @@
 
 .markdown-section .alert {
   overflow: visible;
-  margin: 2em 0;
-  padding: 1.5em;
+  margin: 1em 0;
+  padding: 1em;
   border-width: var(--blockquote-border-width, 0);
   border-style: var(--blockquote-border-style);
   border-color: var(--blockquote-border-color);
