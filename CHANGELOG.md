@@ -6,6 +6,7 @@
 **Improved:**
 * Adjust page margins when content is being embedded
 * Adjust margins and padding for alerts and blockquotes
+* Increase clickable areas for Topics alphabetical index
 
 ## [v1.1.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.4)
 ### 01/17/2023
