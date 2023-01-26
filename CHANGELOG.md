@@ -3,6 +3,10 @@
 ## [v1.1.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.5)
 ### XX/XX/XXXX
 
+**New:**
+* Support for 75%, 50% and 25% scaled images (`image-75`,`image-50` and `image-25`)
+* ReadMe updated
+
 **Improved:**
 * Adjust page margins when content is being embedded
 * Adjust margins and padding for alerts and blockquotes
