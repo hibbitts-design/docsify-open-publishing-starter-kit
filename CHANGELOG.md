@@ -5,12 +5,13 @@
 
 **New:**
 * Support for 75%, 50% and 25% scaled images (`image-75`,`image-50` and `image-25`)
-* ReadMe updated
+* Additional languages for Prismjs (Bash, Go, Java, Kotlin, PHP, Python and Swift in addition to the base set https://docsify.js.org/#/language-highlight?id=language-highlighting)
 
 **Improved:**
 * Adjust page margins when content is being embedded
 * Adjust margins and padding for alerts and blockquotes
 * Increase clickable areas for Topics alphabetical index
+* ReadMe updated
 
 ## [v1.1.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.4)
 ### 01/17/2023
