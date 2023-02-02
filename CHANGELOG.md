@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.2.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.1)
+### XX/XX/2023
+
+**Improved:**   
+* Consolidate example custom CSS for LMSs
+* Additional support for optional dark mode
+
 ## [v1.2.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.0)
 ### 01/02/2023
 
