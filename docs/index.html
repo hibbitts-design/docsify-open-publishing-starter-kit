@@ -77,40 +77,8 @@
 
       --pagination-title-color: #0374B5;
 
-      // Link colours to match visual styling of Moodle LMS
-      // --navbar-root-color--active: #0F6CBF;
-      // --blockquote-border-color: #0F6CBF;
-      // --sidebar-name-color: #0F6CBF;
-      // --sidebar-nav-link-color--active: #0F6CBF;
-      // --sidebar-nav-link-border-color--active: #0F6CBF;
-      // --link-color: #0F6CBF;
-      // --pagination-title-color: #0F6CBF;
-
-      // Link colours to match visual styling of Sakai LMS
-      // --navbar-root-color--active: #0B1660;
-      // --blockquote-border-color: #0B1660;
-      // --sidebar-name-color: #0B1660;
-      // --sidebar-nav-link-color--active: #0B1660;
-      // --sidebar-nav-link-border-color--active: #0B1660;
-      // --link-color: #0B1660;
-      // --pagination-title-color: #0B1660;
-
     }
 
-    // Dark mode colours for light + dark themes
-    // @media (prefers-color-scheme: dark) {
-    //  :root {
-    //    --link-color: #89b6e9;
-    //    --navbar-root-color: #b2b4b4;
-    //    --navbar-root-color--active: #89b6e9;
-    //    --sidebar-name-color: #89b6e9;
-    //    --sidebar-nav-link-color: #b2b4b4;
-    //    --sidebar-nav-link-color--active: #89b6e9;
-    //    --sidebar-nav-link-border-color--active: #89b6e9;
-    //    --sidebar-nav-strong-color: #b2b4b4;
-    //    --pagination-title-color: #89b6e9;
-    //   }
-    // }
   </style>
 
 </head>
@@ -230,6 +198,9 @@
             // ...
             // call `next(html)` when task is done.
 
+            var htmlElement = document.createElement('div');
+            htmlElement.innerHTML = html;
+
             if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
 
               // Carry any existing URL parms in links
@@ -258,9 +229,6 @@
               if (getURLParameterByName('footer') || footer) {
                 URLparms = URLparms + `&footer=true`;
               }
-              
-              var htmlElement = document.createElement('div');
-              htmlElement.innerHTML = html;
 
               const links = Array.from(htmlElement.querySelectorAll('a'))
 
@@ -279,10 +247,27 @@
                   //console.log(link.getAttribute('href'));
                 }
               }
-              next(htmlElement.innerHTML);
-            } else {
-              next(html);
             }
+              
+            /* JS to change Embedly cards to light or dark theme based on system theme (uncomment to use) */
+            /*
+            const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
+
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                // dark mode
+                embeds.forEach(embed => {
+                  embed.setAttribute('data-card-theme', 'dark');
+                });
+                } else {
+                // light mode
+                embeds.forEach(embed => {
+                  embed.setAttribute('data-card-theme', 'light');
+                });
+            }
+            */
+
+            next(htmlElement.innerHTML);
+
           });
 
           hook.beforeEach(function (html) {
