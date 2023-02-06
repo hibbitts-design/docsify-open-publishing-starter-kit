@@ -253,22 +253,25 @@
             /*
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
             if (!(embeds.length === 0)) {
-              if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+               if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)  {
                   // dark mode
+                  // console.log("dark");
                   embeds.forEach(embed => {
                     embed.setAttribute('data-card-theme', 'dark');
                   });
                   } else {
                   // light mode
+                  // console.log("light");
                   embeds.forEach(embed => {
                     embed.setAttribute('data-card-theme', 'light');
                   });
               }
               window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
                 // console.log(`changed to ${e.matches ? "dark" : "light"} mode`);
-                // console.log(e.matches);
-                location.reload();
+                // console.log(e.matches);            
+                document.location.reload();
               });
+
             }
             */
 
