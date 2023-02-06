@@ -4,8 +4,8 @@
 ### XX/XX/2023
 
 **Improved:**   
-* Consolidate example custom CSS for LMSs
-* Additional support for optional dark mode
+* Consolidate and simplify example custom CSS for LMSs
+* Additional support and improvements for optional dark mode
 
 ## [v1.2.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.0)
 ### 01/02/2023
