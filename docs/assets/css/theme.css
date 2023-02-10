@@ -73,7 +73,7 @@
 
 .markdown-section .button {
   cursor: pointer;
-  color: white;
+  color: var(--base-background-color);
   height: auto;
   display: inline-block;
   margin-top: 4px;
@@ -86,7 +86,7 @@
 
 .markdown-section a.button {
   cursor: pointer;
-  color: white;
+  color: var(--base-background-color);
   text-decoration: none !important;
 }
 
@@ -272,6 +272,33 @@
   height: auto;
 }
 
+.markdown-section .image-75-border {
+  width: 75%;
+  height: auto;
+  border: 1px solid #dfdfdf;
+}
+
+.markdown-section .image-50-border {
+  width: 75%;
+  height: auto;
+  border: 1px solid #dfdfdf;
+}
+
+.markdown-section .image-25-border {
+  width: 75%;
+  height: auto;
+  border: 1px solid #dfdfdf;
+}
+
+.markdown-section .image-border {
+  border: 1px solid #dfdfdf;
+}
+
+.markdown-section .image-border-rounded {
+  border-radius: 0.35em;
+  border: 1px solid #dfdfdf;
+}
+
 .markdown-section .column {
   float: left;
   padding-right: 1rem;
@@ -287,6 +314,11 @@
 @media screen and (max-width:800px) {
   .markdown-section .column {
     width: 100%;
+  }
+
+  .markdown-section .image-75, .markdown-section .image-50, .markdown-section .image-25, .markdown-section .image-75-border, .markdown-section .image-50-border, .markdown-section .image-25-border {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -387,13 +419,5 @@ body .docsify-pagination-container {
     --pagination-title-color: #1BA1EE!important;
   }
   
-  .markdown-section .button {
-    color: #222222;
-  }
-
-  .markdown-section a.button {
-    color: #222222;
-  }
-
 }
 */
