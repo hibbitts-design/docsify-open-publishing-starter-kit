@@ -3,6 +3,10 @@
 ## [v1.2.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.1)
 ### XX/XX/2023
 
+**New:**
+* Support for images with border and rounded border (`image-border`,`image-border-rounded`)
+* Support for 75%, 50% and 25% scaled images with border (`image-75-border`,`image-50-border` and `image-25-border`)
+
 **Improved:**   
 * Consolidate and simplify example custom CSS for LMSs
 * Additional support and improvements for optional dark mode
