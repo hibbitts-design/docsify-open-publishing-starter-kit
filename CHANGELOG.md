@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.1)
-### XX/XX/2023
+### 02/13/2023
 
 **New:**
 * Support for images with border and rounded border (`image-border`,`image-border-rounded`)
