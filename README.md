@@ -90,7 +90,7 @@ The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sideb
 
 To only display Docsify page content, add the following to a Docsify page URL:
 
-`?‘standalone’=true`
+`?embedded=true`
 
 Example standard Docsify page:  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/  
@@ -100,7 +100,7 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/?em
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
-`?‘standalone’=true&toc=true`
+`?embedded=true&toc=true`
 
 Example Docsify page displaying only page content:  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedding=true  
@@ -120,7 +120,7 @@ https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/int
 
 To optionally hide the 'Edit this Page' link, use the following:
 
-`?‘standalone’=true&hidegitlink=true`
+`?embedded=true&hidegitlink=true`
 
 Example Docsify page displaying only page content:  
 https://hibbitts-design.github.io/demo-docsify-open-publishing-starter-kit/#/introduction?embedding=true  
