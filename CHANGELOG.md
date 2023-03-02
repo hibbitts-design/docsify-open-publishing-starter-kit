@@ -181,6 +181,7 @@
 * Changed conditional loading of Pagination script to asynchronous
 * Adjusted breakpoint for two column display
 * Decreased padding between items in navbar
+
 **Bugfix:**  
 * Fixed URL to project ReadMe file
 
