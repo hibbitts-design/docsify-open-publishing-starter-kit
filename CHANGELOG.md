@@ -6,6 +6,7 @@
 **Improved:**   
 * Restore initial header spacing except for alerts and blockquotes
 * ReadMe updated
+* Renamed 'coverpage.md' file to default '_coverpage.md'
 
 ## [v1.2.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.1)
 ### 02/13/2023
