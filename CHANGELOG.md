@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.2)
-### XX/XX/2023
+### 03/13/2023
 
 **Improved:**   
 * Restore initial header spacing except for alerts and blockquotes
