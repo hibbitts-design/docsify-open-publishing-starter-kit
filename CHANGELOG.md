@@ -6,7 +6,7 @@
 **Improved:**   
 * Set font of buttons to sans-serif
 * Set font of badges to sans-serif
-* Refined header font size and line heights
+* Refined responsize header font size and line heights
 
 ## [v1.2.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.2)
 ### 03/13/2023
