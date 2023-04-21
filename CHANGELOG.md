@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.3)
-### XX/XX/2023
+### 04/09/2023
 
 **Improved:**   
 * Set font of buttons to sans-serif
