@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.4)
-### XX/XX/2023
+### 05/08/2023
 
 **Improved:**   
 * Refined responsize header line heights
