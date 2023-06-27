@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.45)
-### XX/XX/2023
+### 06/27/2023
 
 **Improved:**   
 * Match Docsify-This Markdown file rendering with Docsify Starter Kits CSS (incl. faded header image ToC adjustments and automatic responsive iFrames for YouTube and Google Docs embeds)
