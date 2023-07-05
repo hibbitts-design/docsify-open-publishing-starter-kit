@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.2.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.6)
+### XX/XX/2023
+
+**New:**   
+*  Support for nav pill (`navpill`) Markdown CSS class
+
+**Improved:**   
+* ReadMe updated
+
 ## [v1.2.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.5)
 ### 06/27/2023
 
