@@ -178,6 +178,10 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 <span class='badge'> Tue Jun 12th 11:59pm PDT</span>
 ```
 
+```html
+<span class='badge'> [Tue May 16 2:30pm PT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CMPT-363+Blackboard+Mini-lectures+and+Activities&iso=20220516T1430&p1=256&ah=1&am=50)</span>  
+```
+
 `banner-image`  
 
 ```markdown
@@ -242,6 +246,46 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 
 ```markdown
 ![Photo of Mountain](images/mountain.jpg ':class=image-25')
+```
+
+`image-75-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-75-border')
+```
+
+`image-50-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-50-border')
+```
+
+`image-25-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-25-border')
+```
+
+`image-border`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-border')
+```
+
+`image-border-rounded`
+
+```markdown
+![Photo of Mountain](images/mountain.jpg ':class=image-border-rounded')
+```
+
+`navpill`
+
+```markdown
+[GitHub](https://github.com/hibbitts-design/docsify-this ':class=navpill')
+```
+
+```html
+<a class="navpill" href="https://github.com" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
 ```
 
 `row` & `column`  
