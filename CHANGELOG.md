@@ -7,6 +7,9 @@
 *  Support for nav pill (`navpill`) Markdown CSS class
 
 **Improved:**   
+* Added 'youtube-nocookie.com' to domains made responsive through the automatic addition of the CSS Markdown class `video-container-16by9`
+
+**Improved:**   
 * ReadMe updated
 
 ## [v1.2.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.5)
