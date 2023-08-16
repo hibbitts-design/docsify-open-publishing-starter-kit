@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.2.7](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.7)
+### XX/XX/2023
+
+**Improved:**   
+* Updated example custom CSS for LMSs
+* Cleanup default CSS
+
 ## [v1.2.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.6)
 ### 08/15/2023
 
