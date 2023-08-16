@@ -6,6 +6,7 @@
 **Improved:**   
 * Updated example custom CSS for LMSs
 * Cleanup default CSS
+* Adjusted badge colours for dark theme
 
 ## [v1.2.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.6)
 ### 08/15/2023
