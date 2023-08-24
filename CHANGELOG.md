@@ -9,6 +9,7 @@
 * Adjusted badge colours for dark theme
 * Use light/dark theme display for topic indexes
 * Clarify light + dark theme use comments
+* ReadMe updated
 
 ## [v1.2.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.6)
 ### 08/15/2023
