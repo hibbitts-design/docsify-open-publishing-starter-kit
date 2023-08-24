@@ -172,6 +172,28 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 🧰 Useful Markdown CSS Classes
 ---
 
+`accordion`
+
+```html
+<div class="accordion">
+
+<details>
+  <summary>Topic One</summary>
+  
+  Topic one details here.
+  
+</details>
+
+<details>
+  <summary>Topic Two</summary>
+  
+  Topic two details here.
+  
+</details>
+
+</div>
+```
+
 `badge`  
 
 ```html
@@ -182,13 +204,13 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 <span class='badge'> [Tue May 16 2:30pm PT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CMPT-363+Blackboard+Mini-lectures+and+Activities&iso=20220516T1430&p1=256&ah=1&am=50)</span>  
 ```
 
-`banner-image`  
+`banner-image` (cropped to height of 250px on large screens, 125px on small screens)  
 
 ```markdown
 ![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image')
 ```
 
-`banner-tall-image`  
+`banner-tall-image` (cropped to height of 350px on large screens, 175px on small screens)  
 
 ```markdown
 ![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-tall-image')
@@ -204,18 +226,6 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 
 ```markdown
 <a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://blog.prototypr.io/defining-usability-e7bf42e8abd0">Defining usability</a>
-```
-
-`banner-image` (cropped to height of 250px on large screens, 125px on small screens)  
-
-```markdown
-![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image')
-```
-
-`banner-tall-image` (cropped to height of 350px on large screens, 175px on small screens)  
-
-```markdown
-![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-tall-image')
 ```
 
 `header-image-fade` (suggested width of 1200px to 2000px)  
