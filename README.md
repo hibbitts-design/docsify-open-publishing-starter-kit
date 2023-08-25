@@ -327,6 +327,33 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 <div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
 ```
 
+🎨 Visual Customization
+---
+
+A Docsify Open Publishing Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file, [Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+
+Example of custom.css file:  
+
+```css
+:root {
+    --link-color: #0F6CBF!important;
+}
+*/
+```
+
+It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `_sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
+
+Example of CSS included within Sidebar file (`_sidebar.md`):
+
+```css
+<style>
+  :root {
+    --link-color: #CC0633;
+    --link-text-decoration: none;
+    --link-text-decoration--hover: underline;
+  }
+</style>
+
 🌐 Using MAMP to View Docsify Sites Locally
 ---
 
