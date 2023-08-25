@@ -353,6 +353,7 @@ Example of CSS included within Sidebar file (`_sidebar.md`):
     --link-text-decoration--hover: underline;
   }
 </style>
+```
 
 🌐 Using MAMP to View Docsify Sites Locally
 ---
