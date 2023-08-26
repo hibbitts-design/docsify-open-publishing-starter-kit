@@ -330,10 +330,35 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 🎨 Visual Customization
 ---
 
-A Docsify Open Publishing Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file, [Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+A Docsify Open Publishing Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file new Markdown CSS classes can be defined.
 
-Example of custom.css file:  
+CSS:  
+```css
+.markdown-section .mybutton, .markdown-section .mybutton:hover {
+  cursor: pointer;
+  color: #CC0000;
+  height: auto;
+  display: inline-block;
+  border: 2px solid #CC0000;
+  border-radius: 4rem;
+  margin: 2px 0px 2px 0px;
+  padding: 8px 18px 8px 18px;
+  line-height: 1.2rem;
+  background-color: white;
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+```
 
+Markdown:  
+```markdown
+[Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=mybutton')
+```
+
+[Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+
+CSS:  
 ```css
 :root {
     --link-color: #0F6CBF!important;
@@ -341,10 +366,9 @@ Example of custom.css file:
 */
 ```
 
-It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `_sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
+It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `_sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true`)
 
-Example of CSS included within Sidebar file (`_sidebar.md`):
-
+CSS in Sidebar file (`_sidebar.md`):  
 ```css
 <style>
   :root {
