@@ -67,6 +67,8 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 4. Find the line `var gitLinkRepoURL = '';` and enter the URL of your own GitHub Repository between the two quotes (replace `github.com` with `github.dev` to use the GitHub.dev web-based editor currently in Beta) and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-gitlink-5.png)
 
+To remove the “Edit this Page” link on your Docsify site, restore the value of `gitLinkRepoURL` to `''`;
+
 💻 Locally Editing Your Docsify Site Pages
 ---  
 
@@ -154,6 +156,14 @@ In addition to using URL parameters when embedding Docsify page content into oth
 3. Save the `index.html` file and reload site.
 
 Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
+
+❛❜ Setting the Name of your Docsify Site 
+---  
+
+1. Open the `index.html` file for editing.
+2. Locate the line `<title>Docsify Open Publishing Starter Kit</title>` and change the text between the title tags to be displayed as the site name on the Browser tab
+3. Locate the line `name: 'Docsify Open Publishing Starter Kit',` and change the text between the quotes to be displayed as the site name at the top of the Docsify Sidebar
+4. Save the `index.html` file and reload site.
 
 📚 Docsify and Markdown Resources
 ---
