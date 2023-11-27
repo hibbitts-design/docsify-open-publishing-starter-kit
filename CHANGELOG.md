@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.10](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.10)
-### XX/XX/2023
+### 11/27/2023
 
 **Improved:**   
 * Added 'onedrive.live.com' to domains made responsive through the automatic addition of the CSS Markdown class `video-container-16by9`
