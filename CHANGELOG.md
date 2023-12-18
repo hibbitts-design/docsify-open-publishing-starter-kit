@@ -5,6 +5,7 @@
 
 **Improved:**   
 * Improved image alignment with two column layouts
+* Improved contrast for unselected Tabs
 
 ## [v1.2.10](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.10)
 ### 11/27/2023
