@@ -5,6 +5,7 @@
 
 **New:**   
 * Added CSS Markdown class `reverse-columns`
+* Added CSS Markdown class for taller full width header image `header-tall-image-full-width`
 
 **Improved:**   
 * Improved image alignment with two column layouts
