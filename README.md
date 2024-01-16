@@ -232,10 +232,22 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button')
 ```
 
+`button-secondary`  
+
+```markdown
+[Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button-secondary')
+```
+
 `button-rounded`  
 
 ```markdown
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button-rounded')
+```
+
+`button-rounded-secondary`  
+
+```markdown
+[Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button-rounded-secondary')
 ```
 
 `embedly-card` (for linked article previews, embedded slides/videos, etc.)  

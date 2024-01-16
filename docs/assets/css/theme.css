@@ -56,7 +56,6 @@
   color: var(--base-background-color);
   height: auto;
   display: inline-block;
-  margin-top: 4px;
   padding: 10px;
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   line-height: 1.2rem;
@@ -68,6 +67,26 @@
 .markdown-section a.button {
   cursor: pointer;
   color: var(--base-background-color);
+  text-decoration: none !important;
+}
+
+.markdown-section .button-secondary {
+  cursor: pointer;
+  color: var(--link-color);
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.2rem;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid var(--link-color)!important;
+  border-radius: .25rem;
+}
+
+.markdown-section a.button-secondary {
+  cursor: pointer;
+  color: var(--link-color);
   text-decoration: none !important;
 }
 
@@ -87,6 +106,26 @@
 .markdown-section a.button-rounded {
   cursor: pointer;
   color: var(--base-background-color);
+  text-decoration: none !important;
+}
+
+.markdown-section .button-secondary-rounded {
+  cursor: pointer;
+  color: var(--link-color);
+  height: auto;
+  display: inline-block;
+  padding: 10px min(20px, 5%) 10px min(20px, 5%);
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.2rem;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid var(--link-color)!important;
+  border-radius: 1.4rem;
+}
+
+.markdown-section a.button-secondary-rounded {
+  cursor: pointer;
+  color: var(--link-color);
   text-decoration: none !important;
 }
 
