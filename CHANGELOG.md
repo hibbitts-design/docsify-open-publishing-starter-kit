@@ -7,6 +7,7 @@
 * Added CSS Markdown class `reverse-columns`
 * Added CSS Markdown class for taller full width header image `header-tall-image-full-width`
 * Added CSS Markdown class for rounded button `button-rounded`
+* Added CSS Markdown classes for secondary buttons `button-secondary` and `button-secondary-rounded`
 
 **Improved:**   
 * Improved image alignment with two column layouts
