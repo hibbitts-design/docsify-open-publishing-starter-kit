@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.11](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.11)
-### XX/XX/2023
+### 01/18/2024
 
 **New:**   
 * Added CSS Markdown class `reverse-columns`
