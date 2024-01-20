@@ -343,6 +343,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 ```
 
+```html
+<div class="row reverse-columns">
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+</div>
+```
+
+```html
+<div class="row">
+<div class="column">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+<div class="column-right">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+</div>
+</div>
+
 `video-container-4by3`  
 
 ```html
