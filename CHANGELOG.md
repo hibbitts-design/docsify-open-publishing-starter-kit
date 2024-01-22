@@ -5,6 +5,7 @@
 
 **New:**
 * Added CSS Markdown class for right-aligned columns `column-right`
+* Added CSS Markdown class for full width background gradient header image (`header-image-fade-full-width`)
 
 **Improved:**   
 * ReadMe updated
