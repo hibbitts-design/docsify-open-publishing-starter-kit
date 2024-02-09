@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.2.13](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.13)
+### XX/XX/2024
+
+**Improved:**
+* Add ability to define custom colors for badges
+* Updated ReadMe
+
 ## [v1.2.12](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.12)
 ### 02/09/2024
 
