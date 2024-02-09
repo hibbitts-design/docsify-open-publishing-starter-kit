@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.12](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.12)
-### XX/XX/2024
+### 02/09/2024
 
 **New:**
 * Added CSS Markdown class for right-aligned columns `column-right`
