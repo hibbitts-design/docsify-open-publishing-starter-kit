@@ -3,6 +3,9 @@
 ## [v1.2.13](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.13)
 ### XX/XX/2024
 
+**New:**
+* Support for the Browser-level image lazy loading (with thanks and appreciation to @sy-records for the source plugin 'docsify-loading')
+
 **Improved:**
 * Add ability to define custom colors for badges (with thanks to @cmadland for the example use of colored badges)
 * Updated ReadMe
