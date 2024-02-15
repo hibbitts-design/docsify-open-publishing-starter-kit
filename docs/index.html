@@ -290,14 +290,6 @@
 
             }
             */
-
-            /* Support Browser-level image lazy loading of images */
-            htmlElement.innerHTML = htmlElement.innerHTML.replace(/<img(.*?)>/g, function (match, p1) {
-              if (p1.indexOf('loading=') === -1) {
-                return match.replace('>', ' loading="lazy">');
-              }
-              return match;
-            });
             
             next(htmlElement.innerHTML);
 
@@ -405,11 +397,17 @@
   <!-- Run External Scripts Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
 
-  <!-- Pagination Plugin -->
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Footnotes Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
 
   <!-- Footer Plugin -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+
+  <!-- Pagination Plugin -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Docsify Browser-level Image Lazy Loading Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-loading/lib/index.min.js"></script>
 
   <!-- Table of Contents Plugin -->
   <script>
