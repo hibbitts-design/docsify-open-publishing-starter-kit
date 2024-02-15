@@ -10,6 +10,10 @@
 * Add ability to define custom colors for badges (with thanks to @cmadland for the example use of colored badges)
 * Updated ReadMe
 * Updated Editor.css file for improved Markdown previews
+* Use docsify-loading plugin rather than added Javascript
+
+**Bugfix:**   
+* Include missing docsify-footnotes plugin
 
 ## [v1.2.12](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.12)
 ### 02/09/2024
