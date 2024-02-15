@@ -11,6 +11,7 @@
 * Updated ReadMe
 * Updated Editor.css file for improved Markdown previews
 * Use docsify-loading plugin rather than added Javascript
+* Updated example content to include use of footnote
 
 **Bugfix:**   
 * Include missing docsify-footnotes plugin
