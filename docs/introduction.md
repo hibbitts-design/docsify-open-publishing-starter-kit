@@ -14,7 +14,7 @@ Some of the key benefits are:
 5. Write in any text editor or Markdown application you like.
 6. Markdown is a joy to use!
 
-John Gruber, the author of Markdown, puts it like this:
+John Gruber[^1], the author of Markdown, puts it like this:
 
 > The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters, the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 > -- <cite>John Gruber</cite>
@@ -585,3 +585,5 @@ and using a local image (which also displays in GitHub):
 ![Image of Octocat](images/octocat.jpg)
 
 > Note: Example page content from [GetGrav.org](https://learn.getgrav.org/17/content/markdown), included to demonstrate the portability of Markdown-based content
+
+[^1]: [Markdown - John Gruber](https://daringfireball.net/projects/markdown/)
