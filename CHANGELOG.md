@@ -12,7 +12,7 @@
 * Updated Editor.css file for improved Markdown previews
 * Use docsify-loading plugin rather than added Javascript
 * Updated example content to include use of footnote
-* Reorganize custom assets (as used in Docsify-This)
+* Reorganize and update custom assets (as used in Docsify-This)
 
 **Bugfix:**   
 * Include missing docsify-footnotes plugin
