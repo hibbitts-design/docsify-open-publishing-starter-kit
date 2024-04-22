@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.2.14](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.14)
+### XX/XX/2024
+
+**Bugfix:**
+* Remove CSS for use with accordion elements with plain details/summary elements
+
 ## [v1.2.13](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.13)
 ### 03/04/2024
 
