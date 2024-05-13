@@ -340,6 +340,12 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 <a class="navpill" href="https://github.com" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
 ```
 
+`responsive`
+
+```html
+<img src="https://raw.githubusercontent.com/hibbitts-design/publishing-with-docsify-this/main/images/docsify-this-web-page-builder.jpg" width="910" height="682" class="responsive image-border" alt="Docsify-This Web Page Builder">
+```
+
 `row` & `column`  
 
 ```html
