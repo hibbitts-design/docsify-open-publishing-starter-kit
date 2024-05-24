@@ -8,6 +8,7 @@
 
 **Bugfix:**
 * Added CSS to automatically wrap links that overflow
+* Added CSS to automatically wrap code blocks that overflow
 
 ## [v1.2.14](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.14)
 ### 04/29/2024
