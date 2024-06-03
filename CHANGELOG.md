@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.15](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.15)
-### XX/XX/2024
+### 06/03/2024
 
 **Improved:**
 * Added CSS Markdown class to support responsive HTML images `responsive`
