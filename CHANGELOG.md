@@ -6,6 +6,9 @@
 **Improved:**
 * Adjusted bottom margin for summary elements
 
+**Bugfix:**
+* Check the global variable 'standalone' when setting externalLinkTarget
+
 ## [v1.2.15](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.15)
 ### 06/03/2024
 
