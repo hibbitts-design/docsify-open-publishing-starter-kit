@@ -5,6 +5,7 @@
 
 **Improved:**
 * Adjusted bottom margin for summary elements
+* Improved Search plugin results list presentation, including source page title when appropriate
 
 **Bugfix:**
 * Check the global variable 'standalone' when setting externalLinkTarget
