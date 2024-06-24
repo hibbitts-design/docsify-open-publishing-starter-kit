@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.16](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.16)
-### XX/XX/2024
+### 06/24/2024🏒
 
 **Improved:**
 * Adjusted bottom margin for summary elements
