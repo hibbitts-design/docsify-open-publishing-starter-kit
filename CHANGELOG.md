@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.2.18](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.18)
+### XX/XX/2024
+
+**Improved:**
+* Updated ReadMe
+
 ## [v1.2.17](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.17)
 ### 07/23/2024
 
