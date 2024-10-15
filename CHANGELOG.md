@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
-### 10/15/2024
+### XX/XX/2024
 
 **Bugfix:**
 * Scroll offset fix (with thanks and appreciation to @rizdaprasetya for the initial code)
