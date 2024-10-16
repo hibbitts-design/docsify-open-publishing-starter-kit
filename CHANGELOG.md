@@ -3,6 +3,9 @@
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### XX/XX/2024
 
+**Improved:**
+* Updated CSS with word-wrap for code blocks
+
 **Bugfix:**
 * Scroll offset fix (with thanks and appreciation to @rizdaprasetya for the initial code)
 * Added missing Markdown Prism language file
