@@ -229,12 +229,18 @@
 }
 
 .markdown-section code {
-  white-space: pre-wrap!important;
-  overflow-wrap: anywhere;
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
+}
+
+.markdown-section pre {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
 }
 
 .markdown-section pre code {
-  word-break: break-all!important;
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
 }
 
 .markdown-section a {
