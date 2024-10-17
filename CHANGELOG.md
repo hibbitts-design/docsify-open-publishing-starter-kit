@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
-### XX/XX/2024
+### 10/17/2024
 
 **Improved:**
 * Updated CSS with word-wrap for code blocks
