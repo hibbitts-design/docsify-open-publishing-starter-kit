@@ -282,7 +282,7 @@
                     embed.setAttribute('data-card-theme', 'light');
                   });
               }
-              window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
                 // console.log(`changed to ${e.matches ? "dark" : "light"} mode`);
                 // console.log(e.matches);            
                 document.location.reload();
