@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.2.21](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.21)
+### XX/XX/2024
+
+**Improved:**
+* Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
+
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 10/17/2024
 
