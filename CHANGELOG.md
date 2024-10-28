@@ -5,6 +5,7 @@
 
 **Improved:**
 * Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
+* Cleanup HTML
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 10/17/2024
