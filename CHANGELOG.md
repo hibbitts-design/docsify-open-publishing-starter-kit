@@ -4,7 +4,7 @@
 ### XX/XX/2024
 
 **New:**
-* Added default setting of off for `mergeNavbar` to move Navbar items to the top of the Sidebar on smaller screens
+* Added default setting of false for `mergeNavbar` to move Navbar items to the top of the Sidebar on smaller screens
 
 **Improved:**
 * Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
