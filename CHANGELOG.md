@@ -9,7 +9,6 @@
 **Improved:**
 * Use of window.matchMedia.addListener replaced with window.matchMedia.addEventListener
 * Cleanup HTML
-* Update uses of Font Awesome
 * Match Docsify-This CSS with Docsify Starter Kits CSS
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
