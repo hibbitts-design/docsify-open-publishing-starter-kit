@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.2.21](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.21)
-### XX/XX/2024
+### 12/03/2024
 
 **New:**
 * Added default setting of false for `mergeNavbar` to move Navbar items to the top of the Sidebar on smaller screens
