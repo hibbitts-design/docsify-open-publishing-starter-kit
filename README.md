@@ -21,16 +21,18 @@ _Figure 1. Docsify Open Publishing Starter Kit. Explore a demo at [hibbitts-desi
 
 **Installation and Deployment**
 
-1. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
+1.  Sign in to [GitHub](https://github.com) if you have not already done so
+
+2. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
 ![ Docsify Open Publishing Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-install-1.png)
 
-2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
+3. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
 ![ Docsify Open Publishing Starter Kit - Install Page 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-install-2.png)
 
-3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
+4. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
 ![ Docsify Open Publishing Starter Kit - Install Page 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-install-3.png)
 
-4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
+5. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
 ![ Docsify Open Publishing Starter Kit - Install Page 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-op-install-4.png)
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
