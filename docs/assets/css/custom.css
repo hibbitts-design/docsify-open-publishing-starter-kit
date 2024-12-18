@@ -87,6 +87,9 @@ body .markdown-section {
 /*
 :root {
     --link-color: #0F6CBF!important;
+    --link-color--hover: #03005D!important;
+    --link-text-decoration: none!important;
+    --link-text-decoration--hover: underline!important;
 
     --sidebar-name-color: #0F6CBF!important;
     --sidebar-nav-link-color--active: #0F6CBF!important;
