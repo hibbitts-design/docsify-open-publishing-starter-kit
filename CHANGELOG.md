@@ -5,6 +5,7 @@
 
 **Improved:**
 * Updated ReadMe
+* Updated example custom CSS for Moodle LMS
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 12/03/2024
