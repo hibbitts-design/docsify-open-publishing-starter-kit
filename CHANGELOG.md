@@ -1,11 +1,12 @@
 # Changelog
 
 ## [v1.2.21](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.21)
-### XX/XX/20XX
+### XX/XX/2025
 
 **Improved:**
 * Updated ReadMe
 * Updated example custom CSS for Moodle LMS
+* Support horizontal scrolling in code blocks
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 12/03/2024
