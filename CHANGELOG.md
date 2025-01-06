@@ -7,7 +7,7 @@
 * Updated ReadMe
 * Updated example custom CSS for Moodle LMS
 * Support horizontal scrolling in code blocks
-* Updated example Coverpage
+* Updated example Coverpage title
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 12/03/2024
