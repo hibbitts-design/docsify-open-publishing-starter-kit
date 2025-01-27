@@ -3,6 +3,10 @@
 ## [v1.2.21](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.21)
 ### XX/XX/2025
 
+**New:**
+* Support for image grid plugin, with customizations (with thanks and appreciation to @gllmAR)
+* Include zoom image plugin (not enabled by default)
+
 **Improved:**
 * Updated ReadMe
 * Updated example custom CSS for Moodle LMS
@@ -10,6 +14,7 @@
 * Updated example Coverpage title
 * Adjusted bottom margin for summary elements
 * Match Docsify-This CSS with Docsify Starter Kits CSS
+* Browser-level image lazy loading via plugin 'docsify-loading' no longer enabled by default to match updated Docsify-This behaviour
 
 ## [v1.2.20](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.20)
 ### 12/03/2024
