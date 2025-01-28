@@ -2,7 +2,7 @@
 
 **Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
-![The Markdown Mark](images/markdown-red.png)  
+![The Markdown Mark](images/markdown-red.png ":no-zoom")  
 _Figure 1: The Markdown Mark_
 
 Some of the key benefits are:
