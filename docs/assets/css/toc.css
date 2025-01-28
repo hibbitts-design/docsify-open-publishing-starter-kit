@@ -42,7 +42,7 @@ aside.nav.nothing {
   padding-left: 5px;
   position: -webkit-sticky;
   position: fixed;
-  overflow-y: scroll;
+  overflow: auto;
   max-height: 100vh;
   top: 0;
   bottom: auto;
@@ -102,7 +102,7 @@ aside.nav.nothing {
   padding-top: 7px;
 }
 
-@media screen and (max-width: 980) {
+@media screen and (max-width: 980px) {
   .page_toc {
     position: relative;
     top: -20px;
