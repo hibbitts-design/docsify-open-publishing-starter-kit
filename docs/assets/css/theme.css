@@ -1,5 +1,5 @@
-.app-nav:not(:empty)~main .markdown-section {
-  padding-top: 5.0rem;
+.app-nav:not(:empty) ~ main .markdown-section {
+  padding-top: 5rem;
 }
 
 .sidebar-nav a,
@@ -8,20 +8,24 @@
   white-space: break-spaces;
 }
 
-.pagination-item, .pagination-item-title {
-  opacity: .9 !important;
+.pagination-item,
+.pagination-item-title {
+  opacity: 0.9 !important;
 }
 
-.pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
-  opacity: .9 !important;
-  transition: all .2s;
+.pagination-item:not(:last-child) a .pagination-item-label,
+.pagination-item:not(:last-child) a .pagination-item-subtitle,
+.pagination-item:not(:last-child) a .pagination-item-title {
+  opacity: 0.9 !important;
+  transition: all 0.2s;
 }
 
 .markdown-section {
   padding: 1rem 40px;
 }
 
-.markdown-section .alert, .markdown-section blockquote {
+.markdown-section .alert,
+.markdown-section blockquote {
   overflow: visible;
   margin: 1em 0;
   padding: 1em;
@@ -35,25 +39,28 @@
   font-size: var(--blockquote-font-size);
   font-style: var(--blockquote-font-style);
   font-weight: var(--blockquote-font-weight);
-  quotes: "“""”""‘""’";
+  quotes: "“" "”" "‘" "’";
 }
 
 .markdown-section ul {
   list-style: square outside none;
 }
 
-.markdown-section .alert ul, .markdown-section blockquote ul {
+.markdown-section .alert ul,
+.markdown-section blockquote ul {
   list-style: none;
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
-.markdown-section .alert ul li, .markdown-section blockquote ul li {
+.markdown-section .alert ul li,
+.markdown-section blockquote ul li {
   margin: 2px 0;
 }
 
-.markdown-section .alert ul li:before, .markdown-section blockquote ul li:before {
+.markdown-section .alert ul li:before,
+.markdown-section blockquote ul li:before {
   position: absolute;
-  content: '\2B29';
+  content: "\2B29";
   margin-left: -18px;
 }
 
@@ -67,7 +74,7 @@
   line-height: 1.2rem;
   background-color: var(--link-color);
   text-decoration: none;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .markdown-section a.button {
@@ -86,8 +93,8 @@
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
-  border: 1px solid var(--link-color)!important;
-  border-radius: .25rem;
+  border: 1px solid var(--link-color) !important;
+  border-radius: 0.25rem;
 }
 
 .markdown-section a.button-secondary {
@@ -125,7 +132,7 @@
   line-height: 1.2rem;
   background-color: transparent;
   text-decoration: none;
-  border: 1px solid var(--link-color)!important;
+  border: 1px solid var(--link-color) !important;
   border-radius: 1.4rem;
 }
 
@@ -145,8 +152,8 @@
   padding: 4px 14px 4px 14px;
   margin-bottom: 4px;
   margin-right: 6px;
-  font-size: .8rem;
-  line-height: .9rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
   background-color: --base-background-color;
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   font-weight: bold;
@@ -155,17 +162,23 @@
 
 .markdown-section a.navpill {
   cursor: pointer;
-  color: var(--base-color)!important;
+  color: var(--base-color) !important;
   border: 1px solid var(--base-color);
   text-decoration: none !important;
 }
 
 .markdown-section .badge {
-  color: var(--badge-text-color, var(--base-background-color)); /* Default text color */
-  background-color: var(--badge-bg-color, color-mix(in srgb, var(--base-color) 70%, transparent)); /* Default background */
+  color: var(
+    --badge-text-color,
+    var(--base-background-color)
+  ); /* Default text color */
+  background-color: var(
+    --badge-bg-color,
+    color-mix(in srgb, var(--base-color) 70%, transparent)
+  ); /* Default background */
 
   display: inline-block;
-  padding: .25em .4em .25em .4em;
+  padding: 0.25em 0.4em 0.25em 0.4em;
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   font-size: 75%;
   font-weight: 700;
@@ -174,17 +187,46 @@
   white-space: nowrap;
   vertical-align: middle;
   margin-top: -0.4em;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   text-decoration: none;
 }
 
 .markdown-section .badge a {
-  color: var(--badge-text-color, var(--base-background-color))!important; /* Default text color */
+  color: var(
+    --badge-text-color,
+    var(--base-background-color)
+  ) !important; /* Default text color */
   text-decoration: none !important;
 }
 
-.markdown-section a[href$="?id=a"], .markdown-section a[href$='?id=b'], .markdown-section a[href$="?id=c"], .markdown-section a[href$="?id=d"], .markdown-section a[href$="?id=e"], .markdown-section a[href$="?id=f"], .markdown-section a[href$="?id=g"], .markdown-section a[href$="?id=h"], .markdown-section a[href$="?id=i"], .markdown-section a[href$="?id=j"], .markdown-section a[href$="?id=k"], .markdown-section a[href$="?id=l"], .markdown-section a[href$="?id=m"], .markdown-section a[href$="?id=n"], .markdown-section a[href$="?id=o"], .markdown-section a[href$="?id=p"], .markdown-section a[href$="?id=q"], .markdown-section a[href$="?id=r"], .markdown-section a[href$="?id=s"], .markdown-section a[href$="?id=t"], .markdown-section a[href$="?id=u"], .markdown-section a[href$="?id=v"], .markdown-section a[href$="?id=w"], .markdown-section a[href$="?id=x"], .markdown-section a[href$="?id=y"], .markdown-section a[href$="?id=z"] {
+.markdown-section a[href$="?id=a"],
+.markdown-section a[href$="?id=b"],
+.markdown-section a[href$="?id=c"],
+.markdown-section a[href$="?id=d"],
+.markdown-section a[href$="?id=e"],
+.markdown-section a[href$="?id=f"],
+.markdown-section a[href$="?id=g"],
+.markdown-section a[href$="?id=h"],
+.markdown-section a[href$="?id=i"],
+.markdown-section a[href$="?id=j"],
+.markdown-section a[href$="?id=k"],
+.markdown-section a[href$="?id=l"],
+.markdown-section a[href$="?id=m"],
+.markdown-section a[href$="?id=n"],
+.markdown-section a[href$="?id=o"],
+.markdown-section a[href$="?id=p"],
+.markdown-section a[href$="?id=q"],
+.markdown-section a[href$="?id=r"],
+.markdown-section a[href$="?id=s"],
+.markdown-section a[href$="?id=t"],
+.markdown-section a[href$="?id=u"],
+.markdown-section a[href$="?id=v"],
+.markdown-section a[href$="?id=w"],
+.markdown-section a[href$="?id=x"],
+.markdown-section a[href$="?id=y"],
+.markdown-section a[href$="?id=z"] {
   display: inline-flex;
   padding-top: 0px;
   padding-right: 6px;
@@ -193,11 +235,36 @@
   line-height: 1.2em;
 }
 
-.markdown-section #a, .markdown-section #b, .markdown-section #c, .markdown-section #d, .markdown-section #e, .markdown-section #f, .markdown-section #g, .markdown-section #h, .markdown-section #i, .markdown-section #j, .markdown-section #k, .markdown-section #l, .markdown-section #m, .markdown-section #n, .markdown-section #o, .markdown-section #p, .markdown-section #q, .markdown-section #r, .markdown-section #s, .markdown-section #t, .markdown-section #u, .markdown-section #v, .markdown-section #w, .markdown-section #x, .markdown-section #y, .markdown-section #z {
+.markdown-section #a,
+.markdown-section #b,
+.markdown-section #c,
+.markdown-section #d,
+.markdown-section #e,
+.markdown-section #f,
+.markdown-section #g,
+.markdown-section #h,
+.markdown-section #i,
+.markdown-section #j,
+.markdown-section #k,
+.markdown-section #l,
+.markdown-section #m,
+.markdown-section #n,
+.markdown-section #o,
+.markdown-section #p,
+.markdown-section #q,
+.markdown-section #r,
+.markdown-section #s,
+.markdown-section #t,
+.markdown-section #u,
+.markdown-section #v,
+.markdown-section #w,
+.markdown-section #x,
+.markdown-section #y,
+.markdown-section #z {
   width: 2em;
   color: var(--base-background-color);
   font-weight: 700;
-  margin-top: 1.00rem;
+  margin-top: 1rem;
   padding-left: 0.25rem;
   background: color-mix(in srgb, var(--base-color) 70%, transparent);
 }
@@ -212,22 +279,26 @@
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid #CCCCCC;
-  border-radius: .15rem;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-radius: 0.15rem;
 }
 
 .markdown-section .accordion details {
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
 .markdown-section summary {
   cursor: pointer;
   color: var(--link-color);
   padding: 0;
-  
-  h1, h2, h3 {
+
+  h1,
+  h2,
+  h3 {
     margin: 0;
     display: inline-block;
   }
@@ -247,6 +318,11 @@
   overflow-wrap: anywhere;
 }
 
+/* Included to support earlier Markdown Schedule templates */
+.markdown-section h2 .fa-fw {
+  text-align: left;
+}
+
 .markdown-section .video-container-4by3 {
   position: relative;
   padding-bottom: 75%;
@@ -263,7 +339,10 @@
   max-width: 100%;
 }
 
-.video-container-16by9 iframe, .video-container-4by3 iframe, .embed-container object, .embed-container embed {
+.video-container-16by9 iframe,
+.video-container-4by3 iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +356,7 @@
 
 .markdown-section .responsive {
   max-width: 100%;
-  height: auto
+  height: auto;
 }
 
 .markdown-section .banner-image {
@@ -312,8 +391,14 @@
   position: absolute;
   top: 0px;
   left: 0;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.4;
   z-index: -1;
 }
@@ -328,8 +413,14 @@
   position: absolute;
   width: 100vw;
   max-width: 100vw;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.4;
   z-index: -1;
 }
@@ -418,11 +509,11 @@
 }
 
 .markdown-section .column img {
-  padding-top: .35rem;
+  padding-top: 0.35rem;
 }
 
 .markdown-section .column-right img {
-  padding-top: .35rem;
+  padding-top: 0.35rem;
 }
 
 .markdown-section .reverse-columns .column {
@@ -435,21 +526,30 @@
   clear: both;
 }
 
-@media screen and (max-width:768px) {
-  .markdown-section .column, .markdown-section .column-right {
+@media screen and (max-width: 800px) {
+  .markdown-section .column,
+  .markdown-section .column-right {
     width: 100%;
     padding-right: 0rem;
     padding-left: 0rem;
   }
 
-  .markdown-section .image-75, .markdown-section .image-50, .markdown-section .image-25, .markdown-section .image-75-border, .markdown-section .image-50-border, .markdown-section .image-25-border {
+  .markdown-section .image-75,
+  .markdown-section .image-50,
+  .markdown-section .image-25,
+  .markdown-section .image-75-border,
+  .markdown-section .image-50-border,
+  .markdown-section .image-25-border {
     width: 100%;
     height: auto;
   }
 }
 
-.markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
-  margin: 1em 0em .5em 0em;
+.markdown-section figure,
+.markdown-section p,
+.markdown-section ol,
+.markdown-section ul {
+  margin: 1em 0em 0.5em 0em;
 }
 
 .markdown-section h1 {
@@ -476,36 +576,43 @@
   line-height: 1.2rem;
 }
 
-.markdown-section .alert hr, .markdown-section blockquote hr {
+.markdown-section .alert hr,
+.markdown-section blockquote hr {
   margin: 1em 0;
 }
 
-.markdown-section .alert h1, .markdown-section blockquote h1 {
+.markdown-section .alert h1,
+.markdown-section blockquote h1 {
   font-size: 1.5rem;
   line-height: 1.6rem;
 }
 
-.markdown-section .alert  h2, .markdown-section blockquote h2 {
+.markdown-section .alert h2,
+.markdown-section blockquote h2 {
   font-size: 1.35rem;
   line-height: 1.45rem;
 }
 
-.markdown-section .alert  h3, .markdown-section blockquote h3 {
+.markdown-section .alert h3,
+.markdown-section blockquote h3 {
   font-size: 1.2rem;
   line-height: 1.3rem;
 }
 
-.markdown-section .alert  h4, .markdown-section blockquote h4 {
+.markdown-section .alert h4,
+.markdown-section blockquote h4 {
   font-size: 1.15rem;
   line-height: 1.25rem;
 }
 
-.markdown-section .alert  h5, .markdown-section blockquote h5 {
+.markdown-section .alert h5,
+.markdown-section blockquote h5 {
   font-size: 1.1rem;
   line-height: 1.2rem;
 }
 
-.markdown-section .alert  h6, .markdown-section blockquote h6 {
+.markdown-section .alert h6,
+.markdown-section blockquote h6 {
   font-size: 1rem;
   line-height: 1.1rem;
 }
@@ -529,7 +636,7 @@ body .docsify-pagination-container {
   justify-content: space-between;
   overflow: hidden;
   margin: 3em 0 1em;
-  border-top: 0px solid rgba(0, 0, 0, .07);
+  border-top: 0px solid rgba(0, 0, 0, 0.07);
 }
 
 .progress {
@@ -537,7 +644,6 @@ body .docsify-pagination-container {
 }
 
 @media only screen and (max-width: 480px) {
-
   .markdown-section h1 {
     font-size: 1.45rem;
     line-height: 1.5rem;
@@ -568,36 +674,41 @@ body .docsify-pagination-container {
     line-height: 1.05rem;
   }
 
-  .markdown-section .alert h1, .markdown-section blockquote h1 {
+  .markdown-section .alert h1,
+  .markdown-section blockquote h1 {
     font-size: 1.3rem;
     line-height: 1.4rem;
   }
 
-  .markdown-section .alert h2, .markdown-section blockquote h2 { 
+  .markdown-section .alert h2,
+  .markdown-section blockquote h2 {
     font-size: 1.2rem;
     line-height: 1.3rem;
   }
 
-  .markdown-section .alert h3, .markdown-section blockquote h3 {
+  .markdown-section .alert h3,
+  .markdown-section blockquote h3 {
     font-size: 1.15rem;
     line-height: 1.25rem;
   }
 
-  .markdown-section .alert h4, .markdown-section blockquote h4 {
+  .markdown-section .alert h4,
+  .markdown-section blockquote h4 {
     font-size: 1.1rem;
     line-height: 1.2rem;
   }
 
-  .markdown-section .alert h5, .markdown-section blockquote h5 {
+  .markdown-section .alert h5,
+  .markdown-section blockquote h5 {
     font-size: 1.05rem;
     line-height: 1.1rem;
   }
 
-  .markdown-section .alert h6, .markdown-section blockquote h6 {
+  .markdown-section .alert h6,
+  .markdown-section blockquote h6 {
     font-size: 1rem;
     line-height: 1.05rem;
   }
-
 }
 
 /* Dark mode colours for use with Simple light + dark theme (uncomment to use) */

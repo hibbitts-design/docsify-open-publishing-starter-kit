@@ -1,4 +1,4 @@
-# My **Open Publishing** Space
+# My Open Publishing Space
 
 ## Create, Share and Collaborate
 
