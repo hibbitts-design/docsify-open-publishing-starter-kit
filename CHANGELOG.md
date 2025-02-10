@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.3.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.1)
+### XX/XX/2025
+
+**Improved:**
+* Various minor enhancements to Search plugin
+
 ## [v1.3.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.0)
 ### 02/04/2025
 
