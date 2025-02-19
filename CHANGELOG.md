@@ -6,6 +6,9 @@
 **Improved:**
 * Various minor enhancements to Search plugin
 
+**Bugfix:**
+* Fixed incorrect theme CSS with regards to image scaling (with thanks and appreciation to @harlows for the PR)
+
 ## [v1.3.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.0)
 ### 02/04/2025
 
