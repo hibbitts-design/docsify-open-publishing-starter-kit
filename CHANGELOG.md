@@ -5,6 +5,7 @@
 
 **Improved:**
 * Various minor enhancements to Search plugin
+* Adjusted default behaviour of image grid to add needed whitespace (padding) instead of cropping when source images are of different sizes (thanks to a helpful discussion with @davidmalawey)
 
 **Bugfix:**
 * Fixed incorrect theme CSS with regards to image scaling (with thanks and appreciation to @harlows for the PR)

@@ -35,7 +35,7 @@
                 imgClone.style.cssText = `
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                 `;
                 anchorClone.appendChild(imgClone);
                 wrapper.appendChild(anchorClone);
@@ -44,7 +44,7 @@
                 clone.style.cssText = `
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                 `;
                 wrapper.appendChild(clone);
             }
