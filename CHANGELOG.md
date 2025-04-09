@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.3.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.2)
-### XX/XX/2025
+### 04/09/2025
 
 **Bugfix:**
 * Set margin instead of padding for images contained in columns
