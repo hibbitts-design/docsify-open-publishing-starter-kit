@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.3.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.3)
+### 07/02/2025
+
+**Improved:**
+* Updated to use latest docsify-footnotes plugin (v2.2.1)
+
 ## [v1.3.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.2)
 ### 04/09/2025
 
