@@ -287,6 +287,61 @@ function test() {
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=button-rounded-secondary')
 ```
 
+`card`
+
+```html
+<div class="card">
+
+  ## [Card Title](#)
+  ![Card Image](images/example.jpg)
+  Card content goes here.
+
+</div>
+```
+
+`card-list`
+
+```html
+<div class="card-list">
+ <div class="card">
+
+ ## [Blog Post Title Link](#)
+ ![Blog Post Image](images/mountain.jpg)
+
+ Blog post preview text goes here with more details about the content.  
+
+ Jan 1, 1970. 
+
+ [Read More](# ":class=navpill")
+
+ </div>
+ <div class="card">
+
+ ## [Another Blog Post](#)
+ ![Blog Post Image](images/forest.jpg)
+
+ Another blog post preview with different content.  
+
+ Jan 1, 1970. 
+
+ [Read More](# ":class=navpill")
+    
+ </div>
+</div>
+```
+
+`card-rounded`
+
+```html
+<div class="card-rounded">
+
+  ## [Card Title](#)
+  ![Card Image](images/example.jpg)
+  Card content goes here.
+
+</div>
+```
+
 `embedly-card` (for linked article previews, embedded slides/videos, etc.)  
 
 ```markdown
