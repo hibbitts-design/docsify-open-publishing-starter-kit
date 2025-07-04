@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.3.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.4)
+### XX/XX/2025
+
+**New:**
+* Added CSS Markdown classes to support cards (`card` & `card-rounded`) and responsive card lists (`card-list`)
+
 ## [v1.3.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.3)
 ### 07/02/2025
 
