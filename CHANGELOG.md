@@ -5,7 +5,13 @@
 
 **New:**
 * Added CSS Markdown classes to support cards (`card` & `card-rounded`) and responsive card lists (`card-list`)
-* Added CSS Markdown classes to support header overlays on full-width images (`header-image-full-width-header-overlay` & `card-rounded`) and responsive card lists (`header-tall-image-full-width-header-overlay`)
+* Added CSS Markdown classes to support header overlays on full-width images (`header-image-full-width-headings-overlay` & `card-rounded`) and responsive card lists (`header-tall-image-full-width-headings-overlay`)
+
+**Improved:**
+* Updated ReadMe
+
+**Bugfix:**
+* Minor CSS fixes
 
 ## [v1.3.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.3)
 ### 07/02/2025
