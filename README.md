@@ -8,6 +8,8 @@
 
 > This is a starter kit to quickly create Markdown-based article, tutorial, portfolio and documentation websites with the site generator [Docsify](https://docsify.js.org). Global navigation elements can be hidden for seamlessly embedding pages into other platforms or shared as standalone pages. Includes an optional "Edit this Page" link.
 
+Docsify sites use client-side rendering, which means your content will not be indexed by search engines like Google, Bing, or DuckDuckGo.
+
 📸 Docsify Open Publishing Screenshots
 ---
 ![ Docsify Open Publishing Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_l3dl0det.png)
