@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.3.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.45)
+### XX/XX/2025
+
+**New:**
+* Added sidebar banner image support via HTML image
+* Automatic image path resolution for HTML image assets using data-src attribute relative to site base path with fallback support
+
 ## [v1.3.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.4)
 ### 08/01/2025
 
