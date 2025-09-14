@@ -1,0 +1,156 @@
+/* CSS generated/assisted by Anthropic Claude AI */
+@media print {
+  :root {
+    --print-body-size: 10pt;
+    --print-h1-size: 14pt;
+    --print-h2-size: 12pt;
+    --print-h3-size: 11pt;
+    --print-h4-h6-size: 10pt;
+    --print-code-size: 9pt;
+    --print-url-size: 8pt;
+  }
+
+  /* Hide UI elements */
+  .cover,
+  .app-nav,
+  #__sidebar,
+  aside,
+  .pagination-item,
+  .docsify-pagination-container,
+  .button,
+  .button-secondary,
+  .button-rounded,
+  .button-secondary-rounded,
+  nav,
+  header,
+  .search,
+  .edit-link,
+  .github-corner,
+  .skip-link,
+  [role="navigation"],
+  .emoji {
+    display: none !important;
+  }
+
+  /* Reset layout for print */
+  body,
+  main,
+  .content,
+  .app,
+  .markdown-section {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    transform: none !important;
+    position: static !important;
+  }
+
+  body {
+    font-size: var(--print-body-size);
+    line-height: 1.4;
+  }
+
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+
+  /* Typography */
+  .markdown-section h1 {
+    font-size: var(--print-h1-size) !important;
+    page-break-after: avoid;
+    margin-top: 1.5em;
+  }
+
+  .markdown-section h2 {
+    font-size: var(--print-h2-size) !important;
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+
+  .markdown-section h3 {
+    font-size: var(--print-h3-size) !important;
+    page-break-after: avoid;
+    margin-top: 1em;
+  }
+
+  .markdown-section h4,
+  .markdown-section h5,
+  .markdown-section h6 {
+    font-size: var(--print-h4-h6-size) !important;
+    page-break-after: avoid;
+    margin-top: 0.8em;
+  }
+
+  .markdown-section p,
+  .markdown-section li,
+  .markdown-section td,
+  .markdown-section th {
+    font-size: var(--print-body-size) !important;
+  }
+
+  code,
+  pre {
+    font-family: monospace;
+    font-size: var(--print-code-size) !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Page flow */
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  blockquote,
+  pre,
+  table {
+    page-break-inside: avoid;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  th,
+  td {
+    border: 1pt solid #ccc;
+    padding: 4pt;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  /* Links */
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  /* External URLs */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: var(--print-url-size);
+    font-style: italic;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
