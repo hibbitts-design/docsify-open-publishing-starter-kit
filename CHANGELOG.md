@@ -8,6 +8,9 @@
 * Automatic image path resolution for HTML image assets using data-src attribute relative to site base path with fallback support
 * Added (long overdue) basic support for printing
 
+**Improved:**
+* Improved support for Docsify configuration settings of 'topMargin'
+
 ## [v1.3.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.4)
 ### 08/01/2025
 
