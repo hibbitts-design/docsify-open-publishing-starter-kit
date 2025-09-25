@@ -384,6 +384,9 @@
             let SCROLL_DELAY = 650; // in milliseconds
             let location = window.location;
 
+            // Get topMargin from Docsify config or use default
+            let topMargin = (window.$docsify && window.$docsify.topMargin) || 0;
+
             // Build the current URL without the hash
             let currentUrlWithoutHash = new URL(
               location.origin + location.pathname +
@@ -409,10 +412,16 @@
                 try {
                   let targetElement = document.querySelector('#' + urlId);
                   if (targetElement) {
-                    // Scroll to the element with smooth behavior
-                    targetElement.scrollIntoView({
-                      behavior: 'smooth',  // Enables smooth scrolling
-                      block: 'start',      // Aligns the top of the element to the top of the viewport
+                    // Calculate the scroll position with topMargin offset
+                    let scrollTop = targetElement.offsetTop - topMargin;
+                    
+                    // Ensure we don't scroll above the top of the page
+                    scrollTop = Math.max(0, scrollTop);
+                    
+                    // Scroll smoothly to the element's top position minus topMargin
+                    window.scrollTo({
+                      top: scrollTop,
+                      behavior: 'smooth'
                     });
                   }
                 } catch (e) {
