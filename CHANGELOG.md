@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.3.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.45)
-### XX/XX/2025
+### 11/26/2025
 
 **New:**
 * Added sidebar banner image support via HTML image
