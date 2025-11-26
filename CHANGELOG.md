@@ -11,6 +11,9 @@
 **Improved:**
 * Improved support for Docsify configuration settings of 'topMargin'
 
+**Bugfix:**
+* Restored missing content-max-width default
+
 ## [v1.3.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.4)
 ### 08/01/2025
 
