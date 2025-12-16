@@ -6,6 +6,7 @@
 **Improved:**
 * Hide empty rows in responsive tables
 * Left align rows in responsive tables
+* Version-lock Font Awesome CSS assets
 
 ## [v1.3.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.5)
 ### 11/26/2025
