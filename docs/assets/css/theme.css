@@ -969,6 +969,9 @@ body .docsify-pagination-container {
   :root {
     --link-color: #1BA1EE!important;
 
+    --sidebar-background: var(--mono-shade1)!important;
+    --sidebar-border-color: var(--mono-shade2)!important;
+    --sidebar-toggle-background: var(--mono-shade2)!important;
     --sidebar-name-color: #1BA1EE!important;
     --sidebar-nav-link-color--active: #1BA1EE!important;
     --sidebar-nav-link-border-color--active: #1BA1EE!important;
