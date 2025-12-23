@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v1.3.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.6)
-### XX/XX/2025
+### 12/23/2025
 
 **Improved:**
 * Hide empty rows in responsive tables
