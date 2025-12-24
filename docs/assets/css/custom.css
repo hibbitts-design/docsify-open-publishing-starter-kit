@@ -61,6 +61,9 @@ body .markdown-section {
     --link-text-decoration: none!important;
     --link-text-decoration--hover: underline!important;
 
+    --sidebar-background: var(--mono-shade1)!important;
+    --sidebar-border-color: var(--mono-shade2)!important;
+    --sidebar-toggle-background: var(--mono-shade2)!important;
     --sidebar-name-color: #EA7688!important;
     --sidebar-nav-link-color: #B2B4B4!important;
     --sidebar-nav-link-color--active: #EA7688!important;
