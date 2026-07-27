@@ -1,5 +1,39 @@
 # Changelog
 
+## [v2.0.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.0.0)
+### 07/27/2026
+
+**New:**
+* Built with the modernized and refactored Docsify v5 platform
+* Adoption of Docsify v5's new theme system for enhanced customization and a modern user interface
+* Use of Marked.js v17+ (from Docsify v5) for markdown rendering, providing improved compatibility and rendering capabilities
+* Added support for responsive tables (with thanks and appreciation to @jhildenbiddle for the original Docsify v4 Themeable plugin)
+
+**Improved:**
+* Updated ReadMe
+* Overall refined visual layout of various Markdown elements
+* Skip-link to content button, accessible via tab key (now via Docsify v5)
+* Aria attributes for Sidebar toggle button and current page link (now via Docsify v5)
+* Assigning proper roles and aria attributes to various site elements (now via Docsify v5)
+* Support for keyboard shortcuts, e.g. \ for hide or show Sidebar (now via Docsify v5)
+* Focus on hidden Sidebar items is prevented (now via Docsify v5)
+* Top navbar can now accept focus (now via Docsify v5)
+* Keyboard scrolling is supported within code blocks (via Docsify v5)
+* Improved search results, which exclude Markdown formatting syntax (via Docsify v5)
+* Added variable for applying Docsify v5 core theme defaults
+* Updated support of Docsify config topMargin to CSS var `scroll-padding-top`
+* Optional responsive table layout
+* Improve toc and toc-narrow display
+
+**Bugfix:**
+* Handle use of Coverpage title link with duplicate id
+* Fixed Font Awesome plugin regex to only match :fa- prefixed patterns
+
+**Breaking:**
+* With the use of Docsify v5, Legacy Browsers (for example, Internet Explorer 11) are no longer supported 
+
+# Changelog
+
 ## [v1.3.7](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.7)
 ### 06/03/2026
 
@@ -15,7 +49,7 @@
 * Version-lock Font Awesome CSS assets
 * Minor refresh of Sidebar UI
 
-## [v1.3.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.5)
+## [v1.3.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.45)
 ### 11/26/2025
 
 **New:**
@@ -25,9 +59,6 @@
 
 **Improved:**
 * Improved support for Docsify configuration settings of 'topMargin'
-
-**Bugfix:**
-* Restored missing content-max-width default
 
 ## [v1.3.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.4)
 ### 08/01/2025
@@ -67,7 +98,7 @@
 * Fixed incorrect theme CSS with regards to image scaling (with thanks and appreciation to @harlows for the PR)
 
 ## [v1.3.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.3.0)
-### 02/04/2025
+### 03/04/2025
 
 **New:**
 * Support for image grid plugin, including customizations (with thanks and appreciation to @gllmAR)
@@ -79,7 +110,6 @@
 * Updated example custom CSS for Moodle LMS
 * Updated to latest stable Docsify 4.x preview build (including Marked 4.2.12)
 * Support horizontal scrolling in code blocks
-* Updated example Coverpage title
 * Adjusted bottom margin for summary elements
 * Match Docsify-This CSS with Docsify Starter Kits CSS
 * Browser-level image lazy loading via plugin 'docsify-loading' no longer enabled by default to match updated Docsify-This behaviour
@@ -161,7 +191,7 @@
 * Updated example content to include use of footnote
 * Reorganize and update custom assets (as used in Docsify-This)
 
-**Bugfix:**  
+**Bugfix:**   
 * Include missing docsify-footnotes plugin
 
 ## [v1.2.12](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.12)
@@ -171,19 +201,19 @@
 * Added CSS Markdown class for right-aligned columns `column-right`
 * Added CSS Markdown class for full width background gradient header image (`header-image-fade-full-width`)
 
-**Improved:**  
+**Improved:**   
 * ReadMe updated
 
 ## [v1.2.11](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.11)
 ### 01/18/2024
 
-**New:**  
+**New:**   
 * Added CSS Markdown class `reverse-columns`
 * Added CSS Markdown class for taller full width header image `header-tall-image-full-width`
 * Added CSS Markdown class for rounded button `button-rounded`
 * Added CSS Markdown classes for secondary buttons `button-secondary` and `button-secondary-rounded`
 
-**Improved:**  
+**Improved:**   
 * Improved image alignment with two column layouts
 * Improved contrast for unselected Tabs
 * Improved support of logo image in Docsify Sidebar
@@ -192,25 +222,25 @@
 ## [v1.2.10](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.10)
 ### 11/27/2023
 
-**Improved:**  
+**Improved:**   
 * Added 'onedrive.live.com' to domains made responsive through the automatic addition of the CSS Markdown class `video-container-16by9`
 
 ## [v1.2.9](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.9)
 ### 11/15/2023
 
-**Improved:**  
+**Improved:**   
 * ReadMe updated
 
 ## [v1.2.8](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.8)
 ### 08/31/2023
 
-**Improved:**  
+**Improved:**   
 * ReadMe updated
 
 ## [v1.2.7](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.7)
 ### 08/25/2023
 
-**Improved:**  
+**Improved:**   
 * Updated example custom CSS for LMSs
 * Cleanup default CSS
 * Adjusted badge colours for dark theme
@@ -221,31 +251,31 @@
 ## [v1.2.6](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.6)
 ### 08/15/2023
 
-**New:**  
+**New:**   
 *  Support for nav pill (`navpill`) Markdown CSS class
 
-**Improved:**  
+**Improved:**   
 * Added 'youtube-nocookie.com' to domains made responsive through the automatic addition of the CSS Markdown class `video-container-16by9`
 
-**Improved:**  
+**Improved:**   
 * ReadMe updated
 
 ## [v1.2.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.5)
 ### 06/27/2023
 
-**Improved:**  
+**Improved:**   
 * Match Docsify-This Markdown file rendering with Docsify Starter Kits CSS (incl. faded header image ToC adjustments and automatic responsive iFrames for YouTube and Google Docs embeds)
 
 ## [v1.2.4](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.4)
 ### 05/08/2023
 
-**Improved:**  
+**Improved:**   
 * Refined responsize header line heights
 
 ## [v1.2.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.3)
 ### 04/09/2023
 
-**Improved:**  
+**Improved:**   
 * Set font of buttons to sans-serif
 * Set font of badges to sans-serif
 * Refined responsize header font size and line heights
@@ -253,7 +283,7 @@
 ## [v1.2.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.2.2)
 ### 03/13/2023
 
-**Improved:**  
+**Improved:**   
 * Restore initial header spacing except for alerts and blockquotes
 * ReadMe updated
 * Renamed 'coverpage.md' file to default '_coverpage.md'
@@ -265,7 +295,7 @@
 * Support for images with border and rounded border (`image-border`,`image-border-rounded`)
 * Support for 75%, 50% and 25% scaled images with border (`image-75-border`,`image-50-border` and `image-25-border`)
 
-**Improved:**  
+**Improved:**   
 * Consolidate and simplify example custom CSS for LMSs
 * Additional support and improvements for optional dark mode
 * Match Docsify-This CSS with Docsify Starter Kits CSS
@@ -293,7 +323,7 @@
 **Improved:**
 * Adjusted opacity of 'header-image-fade' class for improved accessibility
 
-**Bugfix:**  
+**Bugfix:**   
 * Pass 'navbar' URL parameter for page-to-page navigation links
 
 ## [v1.1.3](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.1.3)
@@ -337,7 +367,7 @@
 * Added new Themeable support for light/dark theme switching (OS-level)
 * Adjusted link colours for dark theme
 
-**Bugfix:**  
+**Bugfix:**   
 * Added missing Sidebar name and link colour settings
 * Support the removal of the '_sidebar.md' file with standalone setting
 * Remove unused CSS resources
@@ -354,7 +384,7 @@
 * Updated example site content
 * Added 'standalone' setting in index.html to permanently alter the display of all pages (i.e. hidden Sidebar and Navbar)
 
-**Bugfix:**  
+**Bugfix:**   
 * Fixed 'hidegitlink' URL parameter detection
 
 ## [v1.0.8](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.8)
@@ -386,7 +416,7 @@
 * Adjusted right margin of navbar to improve alignment
 * Removed background colour from accordions to better support a dark theme
 
-**Bugfix:**  
+**Bugfix:**   
 * Added an additional new line before Edit this Page on GitHub links to ensure proper formatting break
 
 ## [v1.0.5](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v1.0.5)

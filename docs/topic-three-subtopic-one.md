@@ -22,8 +22,8 @@ hastarum sucoque, idem invidet qui possim mactatur insidiosa recentis, **res
 te** totumque [Capysque](http://tumblr.com/)! Modo suos, cum parvo coniuge, iam
 sceleris inquit operatus, abundet **excipit has**.
 
-In locumque *perque* infelix hospite parente adducto aequora Ismarios,
-feritatis. Nomine amantem nexibus te *secum*, genitor est nervo! Putes
+In locumque _perque_ infelix hospite parente adducto aequora Ismarios,
+feritatis. Nomine amantem nexibus te _secum_, genitor est nervo! Putes
 similisque festumque. Dira custodia nec antro inornatos nota aris, ducere nam
 genero, virtus rite.
 

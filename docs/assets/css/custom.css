@@ -10,7 +10,7 @@ Put your custom CSS in this file.
 
 body .markdown-section {
     font-family: "Lato Extended","Lato","Helvetica Neue",Arial,sans-serif;
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 16px;
 }
 */
@@ -18,37 +18,13 @@ body .markdown-section {
 /* Link colors to match SFU branding visual styling (uncomment to use) */
 /*
 :root {
-    --link-color: #CC0633!important;
-    --link-text-decoration: none!important;
-    --link-text-decoration--hover: underline!important;
-
-    --sidebar-name-color: #CC0633!important;
-    --sidebar-nav-link-color: #757575!important;
-    --sidebar-nav-link-color--active: #CC0633!important;
-    --sidebar-nav-link-border-color--active: #CC0633!important;
-
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px
-        linear-gradient(45deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #CC0633 2.75px 4.25px, transparent 4.25px)!important;
-
-    --navbar-root-color: #757575!important;
-    --navbar-root-color--active: #CC0633!important;
-
-    --blockquote-border-color: #757b7f!important;
-
-    --pagination-title-color: #CC0633!important;
+    --theme-color: #CC0633;
+    --link-color: #CC0633;
+    --link-color-hover: var(--link-color);
+    --link-underline-color: #CC0633;
+    --link-underline-thickness: auto;
+    --link-underline-thickness-hover: var(--link-underline-thickness);
+    --blockquote-border-color: #757B7F;
 }
 */
 
@@ -56,32 +32,13 @@ body .markdown-section {
 /*
 @media (prefers-color-scheme: dark) {
 :root {
-
-    --link-color: #EA7688!important;
-    --link-text-decoration: none!important;
-    --link-text-decoration--hover: underline!important;
-
-    --sidebar-background: var(--mono-shade1)!important;
-    --sidebar-border-color: var(--mono-shade2)!important;
-    --sidebar-toggle-background: var(--mono-shade2)!important;
-    --sidebar-name-color: #EA7688!important;
-    --sidebar-nav-link-color: #B2B4B4!important;
-    --sidebar-nav-link-color--active: #EA7688!important;
-    --sidebar-nav-link-border-color--active: #EA7688!important;
-
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4.25px), no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px linear-gradient(45deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4px), no-repeat 2px calc(50% + 2.5px) / 6px 5px linear-gradient(135deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4.25px), no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #EA7688 2.75px 4.25px, transparent 4.25px)!important;
-
-    --navbar-root-color: #B2B4B4!important;
-    --navbar-root-color--active: #EA7688!important;
-
-    --blockquote-border-color: #757B7F!important;
-
-    --pagination-title-color: #EA7688!important;
+    --theme-color: #EA7688;
+    --link-color: #EA7688;
+    --link-color-hover: var(--link-color);
+    --link-underline-color: #EA7688;
+    --link-underline-thickness: auto;
+    --link-underline-thickness-hover: var(--link-underline-thickness);
+    --blockquote-border-color: #757B7F;
     }
 }
 */
@@ -98,35 +55,14 @@ body .markdown-section {
 /* Link colors to match visual styling of Moodle LMS (uncomment to use) */
 /*
 :root {
-    --link-color: #0F6CBF!important;
-    --link-color--hover: #03005D!important;
-    --link-text-decoration: none!important;
-    --link-text-decoration--hover: underline!important;
-
-    --sidebar-name-color: #0F6CBF!important;
-    --sidebar-nav-link-color--active: #0F6CBF!important;
-    --sidebar-nav-link-border-color--active: #0F6CBF!important;
-
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px
-        linear-gradient(45deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px
-        linear-gradient(135deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #0F6CBF 2.75px 4.25px, transparent 4.25px)!important;
-    --navbar-root-color--active: #0F6CBF!important;
-
-    --blockquote-border-color: #0F6CBF!important;
-
-    --pagination-title-color: #0F6CBF!important;
+    --theme-color: #0F6CBF;
+    --link-color: #0F6CBF;
+    --link-color-hover: var(--link-color);
+    --link-underline-color: #0F6CBF;
+    --link-underline-thickness: 0px;
+    --link-underline-color-hover: #0F6CBF;
+    --link-underline-thickness-hover: auto;
+    --blockquote-border-color: #0F6CBF;
 }
 */
 
@@ -144,33 +80,13 @@ body .markdown-section {
 /* Link colors to match visual styling of Sakai LMS (uncomment to use) */
 /*
 :root {
-    --link-color: #0B1660!important;
-
-    --sidebar-name-color: #0B1660!important;
-    --sidebar-nav-link-color--active: #0B1660!important;
-    --sidebar-nav-link-border-color--active: #0B1660!important;
-
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px
-        linear-gradient(45deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px
-        linear-gradient(135deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #0B1660 2.75px 4.25px, transparent 4.25px)!important;
-
-    --navbar-root-color--active: #0B1660!important;
-    --navbar-root-color--active: #0B1660!important;
-
-    --blockquote-border-color: #0B1660!important;
-    
-    --pagination-title-color: #0B1660!important;
+    --theme-color: #0B1660;
+    --link-color: #0B1660;
+    --link-color-hover: var(--link-color);
+    --link-underline-color: #0B1660;
+    --link-underline-thickness: 0px;
+    --link-underline-color-hover: #0B1660;
+    --link-underline-thickness-hover: auto;
+    --blockquote-border-color: #0B1660;
 }
 */

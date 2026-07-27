@@ -9,96 +9,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
-  <!-- Docsify Themeable "develop" branch preview files -->
-  <link rel="stylesheet" href="assets/vendor/themeable/themes/theme-simple.css">
+  <!-- Preload Default Source Sans 3 Fonts -->
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-regular.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.woff2" as="font"
+    type="font/woff2" crossorigin="anonymous">
 
-  <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)"
-    href="assets/vendor/themeable/themes/theme-simple.css"> -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-    href="assets/vendor/themeable/themes/theme-simple-dark.css"> -->
+  <!-- Core Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css" />
 
-  <link rel="stylesheet" href="assets/css/theme.css">
+  <!-- Core Dark (add-on) -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" /> -->
+
+  <link rel="stylesheet" href="assets/css/theme.css" id="theme-css">
   <link rel="stylesheet" href="assets/css/print.css" media="print">
+  <link rel="stylesheet" href="assets/css/docsify-v5-core.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- Font Awesome Stylesheets -->
-  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.css" />
-  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/brands.css" />
-  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/regular.css" />
-  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.6.0/css/solid.css" />
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
-
-  <style>
-    :root {
-      --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-      --base-line-height: 1.4;
-      --base-font-size: 18px;
-
-      --cover-max-width: 45em;
-      --content-max-width: 910px;
-
-      --heading-h2-border-style: none;
-      --heading-h1-margin: 1rem 0rem -0.5rem 0rem;
-      --heading-h2-margin: 1rem 0rem -1.5rem 0rem;
-      --heading-h3-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h4-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h5-margin: 1rem 0rem -.5rem 0rem;
-      --heading-h6-margin: 1rem 0rem 0rem 0rem;
-      --heading-h1-font-size: 1.60rem;
-      --heading-h2-font-size: 1.40rem;
-      --heading-h3-font-size: 1.20rem;
-      --heading-h4-font-size: 1.15rem;
-      --heading-h5-font-size: 1.1rem;
-      --heading-h6-font-size: 1rem;
-      --heading-h1-font-weight: 400;
-      --heading-h2-font-weight: 400;
-      --heading-h3-font-weight: 400;
-      --heading-h4-font-weight: 400;
-      --heading-h5-font-weight: 400;
-      --heading-h6-font-weight: 400;
-
-      --link-color: #0374B5;
-      --link-text-decoration: underline;
-      --link-text-decoration--hover: underline;
-
-      --sidebar-background: #FCFCFC;
-      --sidebar-border-color: #F0F0F0;
-      --sidebar-toggle-background: #F0F0F0;
-      --sidebar-name-color: #0374B5;
-      --sidebar-name-font-weight: 600;
-      --sidebar-nav-link-color--active: #0374B5;
-      --sidebar-nav-link-border-color--active: #0374B5;
-      --sidebar-nav-link-font-weight--active: bold;
-
-      --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
-      --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px linear-gradient(45deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4px);
-      --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px linear-gradient(225deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px linear-gradient(135deg, transparent 2.75px, #0374B5 2.75px 4.25px, transparent 4.25px);
-
-      --navbar-root-margin: 0 0 0 .8em;
-      --navbar-root-color--active: #0374B5;
-
-      --blockquote-border-color: #0374B5;
-
-      --pagination-title-color: #0374B5;
-
-      --docsifytabs-tab-color: var(--base-color);
-    }
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/brands.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/regular.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/solid.css" />
 
 </head>
 
-<body>
+<body class="sidebar-chevron-right sidebar-toggle-kebab">
   <div id="app"></div>
   <script>
     // Enter the URL of your own GitHub Repository in between the two quotes below
@@ -113,11 +57,14 @@
     // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
     var ToC = false;
 
-    // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
+    // Set navbar to true to permanently override the hiding of the Navbar when standalone is true
     var navbar = false;
 
     // Set footer to true to permanently show the Footer ('_footer.md)
     var footer = false;
+
+    // Set corethemestyles to true to apply the Docsify v5 core theme defaults
+    var corethemestyles = false;
 
     // Get value from GET-parameter in URL
     // @param {array} name Parameter-name
@@ -157,17 +104,25 @@
       return exists;
     }
 
+    if (corethemestyles) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var themeLink = document.getElementById('theme-css');
+        if (themeLink) {
+          themeLink.remove();
+        }
+      });
+    }
+
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name: 'Docsify Open Publishing Starter Kit',
-      // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
+      name: 'Docsify\nOpen Publishing Starter Kit',
       homepage: 'home.md',
-      // coverpage      : '_coverpage.md',
+      // coverpage: '_coverpage.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
-      mergeNavbar: false,
+      mergeNavbar: true,
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
@@ -189,13 +144,14 @@
         placeholder: 'Type to search',
         noData: 'No matches found.',
         // Headline depth, 1 - 6
-        depth: 3,
-        namespace: 'docsify-open-publishing-starter-kit',
+        depth: 6,
+        namespace: 'docsify-open-publishing-starter-kit' + Date.now(),
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        insertAfter: '.app-name',
       },
 
       pagination: {
-        previousText: 'PREV',
+        previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: false,
         crossChapterText: false,
@@ -221,54 +177,6 @@
 
             var htmlElement = document.createElement('div');
             htmlElement.innerHTML = html;
-
-            if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
-
-              // Carry any existing URL parms in links
-              var URLparms = '';
-
-              if (getURLParameterByName('standalone') || standalone) {
-                URLparms = `?standalone=true`;
-              }
-
-              if (getURLParameterByName('embedded')) {
-                URLparms = `?embedded=true`;
-              }
-
-              if (getURLParameterByName('hidegitlink')) {
-                URLparms = URLparms + `&hidegitlink=true`;
-              }
-
-              if (getURLParameterByName('navbar') || navbar) {
-                URLparms = URLparms + `&navbar=true`;
-              }
-
-              if (getURLParameterByName('toc') || ToC) {
-                URLparms = URLparms + `&toc=true`;
-              }
-
-              if (getURLParameterByName('footer') || footer) {
-                URLparms = URLparms + `&footer=true`;
-              }
-
-              const links = Array.from(htmlElement.querySelectorAll('a'))
-
-              for (const link of links) {
-                //console.log(link.getAttribute('href'));
-                // Find any local Markdown file links not including Docsify id anchor links
-                if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) === false)) {
-                  // Modify each Markdown file link to include existing parms
-                  var existingLink = link.getAttribute('href');
-                  //console.log(existingLink);
-                  // Update Markdown file link
-                  var newURL = existingLink + URLparms;
-                  //console.log("Changed:");
-                  //console.log(newURL);
-                  link.setAttribute('href', newURL);
-                  //console.log(link.getAttribute('href'));
-                }
-              }
-            }
 
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
@@ -308,7 +216,7 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n'
+            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=edit-link")\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html
@@ -323,14 +231,14 @@
 
             /* Javascript generated/assisted by Anthropic Claude AI */
             // Function to resolve image paths
-            window.resolveImagePath = function (imagePath) {
-              const basePath = vm.config.basePath || (window.location.pathname !== '/' ? '/' + window.location.pathname.split('/')[1] : '');
-              const cleanImagePath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
-              return basePath ? `${basePath}/${cleanImagePath}` : cleanImagePath;
-            };
+            window.resolveImagePath = function(imagePath) {
+            const basePath = vm.config.basePath || (window.location.pathname !== '/' ? '/' + window.location.pathname.split('/')[1] : '');
+            const cleanImagePath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
+            return basePath ? `${basePath}/${cleanImagePath}` : cleanImagePath;
+            };    
             // Auto-update all images with data-src attribute
             document.querySelectorAll('img[data-src]').forEach(img => {
-              img.src = window.resolveImagePath(img.dataset.src);
+            img.src = window.resolveImagePath(img.dataset.src);
             });
 
             var hasEmbedly = document.getElementsByClassName('embedly-card');
@@ -382,59 +290,6 @@
 
           });
 
-          hook.ready(function () {
-            // Original code by @rizdaprasetya and further improved with the assistance of ChatGPT, an AI language model by OpenAI
-            let TARGET_QUERY = 'id';
-            let SCROLL_DELAY = 650; // in milliseconds
-            let location = window.location;
-
-            // Get topMargin from Docsify config or use default
-            let topMargin = (window.$docsify && window.$docsify.topMargin) || 0;
-
-            // Build the current URL without the hash
-            let currentUrlWithoutHash = new URL(
-              location.origin + location.pathname +
-              location.search
-            );
-
-            // Get the search parameters from the URL (before the hash)
-            let urlQueryParam = currentUrlWithoutHash.searchParams;
-            let isUrlHasIdQuery = urlQueryParam.has(TARGET_QUERY);
-
-            // Handle the case where the 'id' is in the fragment (hash) part
-            let hashParams = new URLSearchParams(location.hash.split('?')[1]); // Get the query params after `#`
-            let isHashHasIdQuery = hashParams.has(TARGET_QUERY);
-
-            // Check if the URL contains the 'id' query parameter in either search or hash
-            if (isUrlHasIdQuery || isHashHasIdQuery) {
-
-              // Get the 'id' from either search or hash
-              let urlId = isUrlHasIdQuery ? urlQueryParam.get(TARGET_QUERY) : hashParams.get(TARGET_QUERY);
-
-              // Delay the scrolling to ensure everything is loaded
-              setTimeout(function () {
-                try {
-                  let targetElement = document.querySelector('#' + urlId);
-                  if (targetElement) {
-                    // Calculate the scroll position with topMargin offset
-                    let scrollTop = targetElement.offsetTop - topMargin;
-                    
-                    // Ensure we don't scroll above the top of the page
-                    scrollTop = Math.max(0, scrollTop);
-                    
-                    // Scroll smoothly to the element's top position minus topMargin
-                    window.scrollTo({
-                      top: scrollTop,
-                      behavior: 'smooth'
-                    });
-                  }
-                } catch (e) {
-                  console.log('custom scroll failed', e);
-                }
-              }, SCROLL_DELAY);
-            }
-          });
-
         }
 
       ]
@@ -442,56 +297,56 @@
 
   </script>
 
-  <!-- Docsify "develop" branch preview files -->
-  <script src="assets/vendor/docsify/docsify.min.js"></script>
+  <!-- Docsify v5 release -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
+  <!-- <script src="assets/vendor/docsify/docsify.min.js"></script> -->
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
-    if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
-      var editCSS = document.createElement('style')
-      editCSS.innerHTML = ".markdown-section {padding: 1rem 14px;}";
-      document.body.appendChild(editCSS);
+    if ((getURLParameterByName(['standalone', 'embedded']) || standalone)) {
+      const root_theme = document.querySelector(':root');
+      root_theme.style.setProperty('--content-margin-inline', '14px');
     }
   </script>
 
-  <!-- Customizable Theme-->
-  <script src="assets/vendor/themeable/docsify-themeable.min.js"></script>
-
   <!-- Search Box Plugin -->
-  <script src="assets/vendor/docsify/plugins/search.js"></script>
+  <script src="assets/js/search.min.js"></script>
 
   <!-- Font Awesome Plugin -->
-  <script src="assets/vendor/docsify/plugins/docsify-fontawesome.min.js"></script>
+  <script src="assets/js/docsify-fontawesome.min.js"></script>
 
   <!-- Tabs Plugin-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
 
   <!-- Run External Scripts Plugin -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/external-script.min.js"></script>
 
   <!-- Footnotes Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes@2/dist/index.min.js"></script>
 
   <!-- Footer Plugin -->
-  <script src="assets/vendor/docsify/plugins/docsify-footer.min.js"></script>
+  <script src="assets/js/docsify-footer.min.js"></script>
 
   <!-- Pagination Plugin -->
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2.10.1/dist/docsify-pagination.min.js"></script>
 
   <!-- Docsify Browser-level Image Lazy Loading Plugin -->
   <!-- <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-loading/lib/index.min.js"></script> -->
 
   <!-- Image Grid Plugin -->
-  <script src="assets/vendor/docsify/plugins/docsify-img-grid.js"></script>
+  <script src="assets/js/docsify-img-grid.js"></script>
 
   <!-- Zoom Image Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5/dist/plugins/zoom-image.min.js"></script>
+
+  <!-- Responsive Tables Plugin -->
+  <!-- <script src="assets/js/docsify-responsive-tables.js"></script> -->
 
   <!-- Table of Contents Plugin -->
   <script>
     if (getURLParameterByName('toc') || ToC) {
       document.write('<link rel="stylesheet" type="text/css" href="assets/css/toc.css" />');
-      document.write('<script src="assets/vendor/docsify/plugins/toc.js"><\/script>');
+      document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-toc@1.1.0/dist/toc.min.js"><\/script>');
     }
   </script>
 

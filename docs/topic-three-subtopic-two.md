@@ -1,6 +1,6 @@
 # Subtopic Two
 
-Lorem *markdownum saxum et* telum revellere in victus vultus cogamque ut quoque
+Lorem _markdownum saxum et_ telum revellere in victus vultus cogamque ut quoque
 spectat pestiferaque siquid me molibus, mihi. Terret hinc quem Phoebus? Modo se
 cunctatus sidera. Erat avidas tamen antiquam; ignes igne Pelates
 [morte](http://www.youtube.com/watch?v=MghiBW3r65M) non caecaque canam Ancaeo
@@ -14,7 +14,7 @@ aspiciunt fatorum. Famulumque volvitur vultu terrae ut querellas hosti deponere
 et dixit est; in pondus fonte desertum. Condidit moras, Carpathius viros, tuta
 metum aethera occuluit merito mente tenebrosa et videtur ut Amor et una
 sonantia. Fuit quoque victa et, dum ora rapinae nec ipsa avertere lata, profugum
-*hectora candidus*!
+_hectora candidus_!
 
 ## Et hanc
 
@@ -24,7 +24,7 @@ nitidique! Ignavo tibi in perdam, est tu precantia fuerat
 
 Non Tmolus concussit propter, et setae tum, quod arida, spectata agitur, ferax,
 super. Lucemque adempto, et At tulit navem blandas, et quid rex, inducere? Plebe
-plus *cum ignes nondum*, fata sum arcus lustraverat tantis!
+plus _cum ignes nondum_, fata sum arcus lustraverat tantis!
 
 ## Adulterium tamen instantiaque puniceum et formae patitur
 
@@ -39,7 +39,7 @@ cacumine dei malum solus.
 5. Anxia tota tria
 6. Est quo faece nostri in fretum gurgite
 
-Themis susurro tura collo: cunas setius *norat*, Calydon. Hyaenam terret credens
+Themis susurro tura collo: cunas setius _norat_, Calydon. Hyaenam terret credens
 habenas communia causas vocat fugamque roganti Eleis illa ipsa id est madentis
 loca: Ampyx si quis. Videri grates trifida letum talia pectus sequeretur erat
 ignescere eburno e decolor terga.
