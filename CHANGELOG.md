@@ -1,7 +1,7 @@
 # Changelog
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.0.0)
-### XX/XX/2026
+### 07/27/2026
 
 **New:**
 * Built with the modernized and refactored Docsify v5 platform
