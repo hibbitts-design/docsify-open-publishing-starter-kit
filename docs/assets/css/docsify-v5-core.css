@@ -655,6 +655,11 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
         display: block;
     }
 
+    /* Contain the floated label so long headers stay inside the card */
+    .markdown-section .table-wrapper td {
+        display: flow-root;
+    }
+
     /* Hide original headers */
     .markdown-section .table-wrapper th {
         display: none;
@@ -689,6 +694,7 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
         width: 8em;
         margin-left: -8em;
         padding-left: 0.5em; /* Added space to the left of headers */
+        padding-right: 0.75em; /* Keep long headers from touching the value */
         font-weight: bold;
         text-align: left;
         /* The content is set by your JavaScript */
