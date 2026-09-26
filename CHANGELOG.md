@@ -6,6 +6,7 @@
 **Improved:**
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
 * Add collapsible mobile ToC toggle and fix mobile width/rule bugs
+* Pad and contain responsive table labels so long headers don't collide or overflow on mobile
 
 **Bugfix:**
 * Add top margin to tables and Mermaid diagrams so they don't sit flush against headings
