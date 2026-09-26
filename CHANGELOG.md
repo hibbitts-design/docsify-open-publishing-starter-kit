@@ -8,7 +8,7 @@
 * Add collapsible mobile ToC toggle and fix mobile width/rule bugs
 
 **Bugfix:**
-* Add top margin to tables so they don't sit flush against preceding headings
+* Add top margin to tables and Mermaid diagrams so they don't sit flush against headings
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.0.0)
 ### 07/27/2026
