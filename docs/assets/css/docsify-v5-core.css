@@ -20,6 +20,27 @@
   overflow-wrap: break-word;
 }
 
+/* Keep table links intact instead of breaking character-by-character */
+.markdown-section table a {
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
+/* Same for `code`-wrapped link text - overrides the !important rule above */
+.markdown-section table code {
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Give the column after a link-only cell more room to read, instead of an
+   auto-layout split that squeezes it down to the link's leftover space */
+/* The span form matches cells wrapped by the responsive tables plugin */
+.markdown-section table td:has(> a:only-child, > span > a:only-child) + td {
+  min-width: 14em;
+}
+
 /* Patch for Topics index links with Docsify v5 */
 .markdown-section a[href$="?id=a"],
 .markdown-section a[href$="?id=b"],
@@ -53,6 +74,14 @@
   padding-bottom: 0px;
   padding-left: 4px;
   line-height: 1.4;
+}
+
+#page-actions-menu-dropdown .page-actions-menu-item {
+  font-size: 1rem;
+}
+
+#page-actions-menu-dropdown .page-actions-menu-desc {
+  font-size: .8rem;
 }
 
 /* Support for Docsify-This classes with preview build of Docsify v5 theme */
@@ -648,16 +677,14 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
 
 /* Responsive table layout - mobile */
 @media (max-width: 30em) {
-    /* Convert to block layout */
-    .markdown-section .table-wrapper tbody,
-    .markdown-section .table-wrapper tr,
-    .markdown-section .table-wrapper td {
-        display: block;
+    .markdown-section .table-wrapper {
+        overflow-x: auto;
     }
 
-    /* Contain the floated label so long headers stay inside the card */
-    .markdown-section .table-wrapper td {
-        display: flow-root;
+    /* Convert to block layout */
+    .markdown-section .table-wrapper tbody,
+    .markdown-section .table-wrapper tr {
+        display: block;
     }
 
     /* Hide original headers */
@@ -672,9 +699,16 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
     }
 
     /* Cell styling with space for labels and increased vertical padding */
+    /* Label column sizes to its own content, so an empty header takes ~0
+       width instead of a fixed 8em gutter squeezing the value column */
+    /* Capping it at 40% of the row lets a long header wrap instead of
+       squeezing the value column */
     .markdown-section .table-wrapper td {
-        padding: .35em 0 .35em 8em; /* Increased from .15em to .35em for top/bottom */
-        position: relative;
+        display: grid; /* Contain the floated label so long headers stay inside the card */
+        grid-template-columns: fit-content(40%) minmax(0, 1fr);
+        column-gap: 0.5em; /* Keep long headers from touching the value */
+        align-items: baseline;
+        padding: .35em .5em; /* Increased from .15em to .35em for top/bottom */ /* Added space to the left of headers */
         text-align: left !important;
     }
 
@@ -689,12 +723,7 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
 
     /* This is the KEY part - makes the generated labels visible and positioned */
     .markdown-section .table-wrapper td::before {
-        display: inline-block;
-        float: left;
-        width: 8em;
-        margin-left: -8em;
-        padding-left: 0.5em; /* Added space to the left of headers */
-        padding-right: 0.75em; /* Keep long headers from touching the value */
+        display: block;
         font-weight: bold;
         text-align: left;
         /* The content is set by your JavaScript */
@@ -703,6 +732,13 @@ aside#__sidebar:has(.sidebar-nav > [class*="card-image-sidebar"]:first-child) .a
     /* Hide labels on empty cells */
     .markdown-section .table-wrapper td:empty::before {
         display: none;
+    }
+
+    /* Stacked cards have room to wrap, so let long links and code wrap
+       instead of the table nowrap rules pushing them past the card edge */
+    .markdown-section .table-wrapper a,
+    .markdown-section .table-wrapper code {
+        white-space: normal !important;
     }
 }
 
