@@ -9,6 +9,7 @@
 * Pad and contain responsive table labels so long headers don't collide or overflow on mobile
 * Unify docsify-v5-core.css and responsive tables plugin across docsify-this and starter kits
 * Sync print.css image grid print rules from Docsify-This
+* Add optional Mermaid and LaTeX support, commented out by default
 
 **Bugfix:**
 * Add top margin to tables and Mermaid diagrams so they don't sit flush against headings
