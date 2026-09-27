@@ -393,6 +393,7 @@ body {
 .markdown-section .edit-link {
   display: inline-flex;
   align-items: center;
+  vertical-align: bottom;
 }
 
 .markdown-section .edit-link .emoji {

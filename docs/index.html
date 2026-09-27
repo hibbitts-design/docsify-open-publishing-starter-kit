@@ -52,7 +52,11 @@
     // Enter the URL of your own GitHub Repository in between the two quotes below
     var gitLinkRepoURL = '';
 
+    // Choose where the Edit this Page link appears, either 'top' or 'bottom'
+    var editThisPageLinkPosition = 'top';
+
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
+    // Put the link text in [ ] and use \n to start a new line, such as ---\n for a horizontal rule or <br />\n for extra space
     var editThisPageLinkText = 'Edit this Page';
 
     // Set standalone to true to permanently hide the Sidebar and Navbar
@@ -262,10 +266,24 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=edit-link")\n'
+            // Each line of editThisPageLinkText becomes its own paragraph, and the text in [ ] becomes the link
+            // If there are no [ ], the last line becomes the link
+            var lines = editThisPageLinkText.split('\n').map(function (line) { return line.trim(); }).filter(Boolean);
+            if (!/\[[^\]]+\](?!\()/.test(editThisPageLinkText)) {
+              lines[lines.length - 1] = '[' + lines[lines.length - 1] + ']';
+            }
+            var editHtml = lines.map(function (line) {
+              return line.replace(/\[([^\]]+)\](?!\()/, function (match, linkText) {
+                return '[:memo:' + linkText + '](' + url + ' ":class=edit-link")';
+              });
+            }).join('\n\n') + '\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
-              return editHtml + '\n' + html
+              if (editThisPageLinkPosition === 'top') {
+                return editHtml + '\n' + html
+              } else {
+                return html + '<br />' + '\n\n' + editHtml
+              }
             } else {
               return html
             }
