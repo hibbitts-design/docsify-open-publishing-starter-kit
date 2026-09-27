@@ -40,6 +40,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/regular.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/solid.css" />
 
+  <!-- Mermaid -->
+  <!-- Uncomment the line below to render ```mermaid code blocks as diagrams -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script> -->
+
 </head>
 
 <body class="sidebar-chevron-right sidebar-toggle-kebab">
@@ -114,6 +118,13 @@
     }
 
     // Docsify
+
+    // Mermaid setup, which only runs when the Mermaid script in the <head> is uncommented
+    let num = 0;
+    if (typeof mermaid !== 'undefined') {
+      mermaid.initialize({ startOnLoad: false });
+    }
+
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
@@ -163,11 +174,46 @@
         title: '',
       },
 
+      // Render ```mermaid code blocks as diagrams when the Mermaid script in the <head> is uncommented
+      markdown: {
+        renderer: {
+          code({ text, lang }) {
+            if (lang === 'mermaid' && typeof mermaid !== 'undefined') {
+              // Output a hidden placeholder, the diagram is drawn in the doneEach hook below
+              const source = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+              return /* html */ `<div class="mermaid" style="visibility: hidden">${source}</div>`;
+            }
+            return this.origin.code.apply(this, arguments);
+          },
+        },
+      },
+
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
 
         function (hook, vm) {
+
+          // Draw Mermaid diagrams once the Font Awesome icon font has loaded, so labels with icons are sized correctly
+          hook.doneEach(function () {
+            const diagrams = document.querySelectorAll('.markdown-section .mermaid:not([data-processed])');
+            if (typeof mermaid === 'undefined' || !diagrams.length) {
+              return;
+            }
+            const iconFont = document.fonts ? document.fonts.load('900 1em "Font Awesome 6 Free"') : Promise.resolve();
+            const timeout = new Promise(function (resolve) { setTimeout(resolve, 3000); });
+            Promise.race([iconFont, timeout]).catch(function () {}).then(function () {
+              diagrams.forEach(function (diagram) {
+                diagram.setAttribute('data-processed', 'true');
+                try {
+                  diagram.innerHTML = mermaid.render('mermaid-svg-' + num++, diagram.textContent);
+                } catch (error) {
+                  console.error(error);
+                }
+                diagram.style.visibility = '';
+              });
+            });
+          });
 
           hook.afterEach(function (html, next) {
             // Invoked each time after the Markdown file is parsed.
@@ -305,6 +351,10 @@
 
   <!-- Font Awesome Plugin -->
   <script src="assets/js/docsify-fontawesome.min.js"></script>
+
+  <!-- LaTeX Plugin (uncomment both lines to use, note that text between $ signs will be treated as math) -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-latex@0.5.2/dist/docsify-latex.min.js"></script> -->
 
   <!-- Tabs Plugin-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
