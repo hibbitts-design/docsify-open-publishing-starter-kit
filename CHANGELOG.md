@@ -1,6 +1,6 @@
 # Changelog
 
-## [v2.0.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.0.1)
+## [v2.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.0)
 ### XX/XX7/2026
 
 **Improved:**
