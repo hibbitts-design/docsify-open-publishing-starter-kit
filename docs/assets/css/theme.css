@@ -82,9 +82,9 @@ body {
   font-weight: bold;
 }
 
-.pagination-item:not(:last-child) a .pagination-item-label,
-.pagination-item:not(:last-child) a .pagination-item-subtitle,
-.pagination-item:not(:last-child) a .pagination-item-title {
+.pagination-item a .pagination-item-label,
+.pagination-item a .pagination-item-subtitle,
+.pagination-item a .pagination-item-title {
   opacity: 1 !important;
   transition: all 0.2s;
 }
