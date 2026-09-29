@@ -280,6 +280,24 @@
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               if (editThisPageLinkPosition === 'top') {
+                // If the page starts with a full-width header image, place the link below the header instead of above it
+                // (right after the image, or after the title and subtitle when they overlay the image)
+                var pageLines = html.split('\n');
+                if (/^!\[.*header-(tall-)?image-(fade-)?full-width/.test(pageLines[0])) {
+                  var insertAt = 1; // right after the header image
+
+                  // With overlaid headings, go past the title (# ) and optional subtitle (## ) after the image
+                  if (pageLines[0].includes('-headings-overlay')) {
+                    var titleLine = pageLines.findIndex(function (line, i) { return i > 0 && line.trim() !== ''; });
+                    if (titleLine > 0 && pageLines[titleLine].startsWith('# ')) {
+                      var hasSubtitle = (pageLines[titleLine + 1] || '').startsWith('## ');
+                      insertAt = hasSubtitle ? titleLine + 2 : titleLine + 1;
+                    }
+                  }
+
+                  pageLines.splice(insertAt, 0, '', editHtml);
+                  return pageLines.join('\n')
+                }
                 return editHtml + '\n' + html
               } else {
                 return html + '<br />' + '\n\n' + editHtml
