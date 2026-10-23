@@ -6,6 +6,7 @@
 **Improved:**
 * Updated Mermaid to 11.17.2 (same as the Grav Mermaid plugin), turned on with the new mermaidDiagrams setting and loaded only on pages with diagrams
 * Updated MathJax from 2 to 3.2.2 in the optional LaTeX Plugin lines, adding chemistry (\ce) and other LaTeX extras
+* Draw Mermaid diagrams in Mermaid's dark theme when the page is in dark mode (as the Grav Mermaid plugin does)
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
 * Add collapsible mobile ToC toggle and fix mobile width/rule bugs
 * Pad and contain responsive table labels so long headers don't collide or overflow on mobile
