@@ -4,6 +4,7 @@
 ### XX/XX7/2026
 
 **Improved:**
+* Updated Mermaid to 11.17.2 (same as the Grav Mermaid plugin), turned on with the new mermaidDiagrams setting and loaded only on pages with diagrams
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
 * Add collapsible mobile ToC toggle and fix mobile width/rule bugs
 * Pad and contain responsive table labels so long headers don't collide or overflow on mobile
