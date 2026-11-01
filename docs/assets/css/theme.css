@@ -82,6 +82,12 @@ body {
   font-weight: bold;
 }
 
+/* A bold first line in a sidebar (for example **Guide Name** or **Course Name** at the top of a _sidebar.md)
+   is a little larger, so it reads as a label for the list and stands apart from the bold current page */
+.sidebar-nav > p:first-child > strong:only-child {
+  font-size: 1.1em;
+}
+
 .pagination-item a .pagination-item-label,
 .pagination-item a .pagination-item-subtitle,
 .pagination-item a .pagination-item-title {
