@@ -1,5 +1,11 @@
 # Changelog
 
+## [v2.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.1)
+### XX/XX/2026
+
+**New:**
+* Guide cover: `guide-cover` shows a small cover image with a guide's details and Start Reading beside it, at the top of a guide home
+
 ## [v2.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.0)
 ### 11/02/2026
 
