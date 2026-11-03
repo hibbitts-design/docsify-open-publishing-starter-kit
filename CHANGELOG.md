@@ -7,6 +7,9 @@
 * Guide cover: `guide-cover` shows a small cover image with a guide's details and Start Reading beside it, at the top of a guide home
 * Site title: a navbar link with `:class=site-title` shows the site's name at the top of pages that hide the sidebar, and on phones
 
+**Improved:**
+* A Topics letter bar (`[A](#a)|[B](#b)|…`) is styled wherever it is on the page, not only as the first paragraph
+
 ## [v2.1.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.0)
 ### 11/02/2026
 
