@@ -1,5 +1,11 @@
 # Changelog
 
+## [v2.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.2)
+### XX/XX/2026
+
+**Improved:**
+* Search stays within the current course or guide on sites with a folder per course or guide
+
 ## [v2.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.1)
 ### 11/17/2026
 
