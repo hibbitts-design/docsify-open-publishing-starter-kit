@@ -359,7 +359,7 @@ When the Docsify v5 theme is enabled, to style Blockquotes similarly to the defa
 </div>
 ```
 
-`card-list-guides` / `card-list-sections` (three cards in a row, for a list of guides or a guide's sections; for just two cards, use `card-list`)
+`card-list-guides` / `card-list-courses` / `card-list-sections` (three cards in a row, for a list of guides, a list of courses or a guide's sections; for just two cards, use `card-list`)
 
 ```html
 <div class="card-list-guides">
