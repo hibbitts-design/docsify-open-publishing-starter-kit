@@ -3,6 +3,9 @@
 ## [v2.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.2)
 ### XX/XX/2026
 
+**New:**
+* Card list in rows: `card-list-rows` shows one card per row, for cards without images, such as a guide's sections
+
 **Improved:**
 * Search stays within the current course or guide on sites with a folder per course or guide
 
