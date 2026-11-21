@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Docsify Open Publishing Starter Kit</title>
+  <title>Open Education Essentials</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Docsify Open Publishing Starter Kit">
+  <meta name="description" content="Open Education Essentials">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
@@ -51,7 +51,7 @@
     var gitLinkRepoURL = '';
 
     // Choose where the Edit this Page link appears, either 'top' or 'bottom'
-    var editThisPageLinkPosition = 'top';
+    var editThisPageLinkPosition = 'bottom';
 
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     // Put the link text in [ ] and use \n to start a new line, such as ---\n for a horizontal rule or <br />\n for extra space
@@ -161,9 +161,8 @@
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name: 'Docsify\nOpen Publishing Starter Kit',
+      name: 'Open Education Essentials',
       homepage: 'home.md',
-      // coverpage: '_coverpage.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       mergeNavbar: false,
@@ -176,6 +175,9 @@
       maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 2,
+      // Sidebar groups (such as a guide's sections) can be opened and closed, and start open
+      collapsibleSidebarGroups: true,
+      collapseSidebarGroups: false,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
       skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
@@ -192,7 +194,7 @@
         namespace: 'docsify-open-publishing-starter-kit' + Date.now(),
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
         pathNamespaces: /^\/[^\/]+(?=\/)/, // a separate search index for each top-level folder (each course or guide)
-        insertAfter: '.app-name',
+        insertBefore: '.sidebar-nav', // the search box goes below the site name
       },
 
       pagination: {
