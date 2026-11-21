@@ -26,11 +26,11 @@ Here's an example guide to explore and build on: **Open Education Essentials** �
 
 <div class="card">
 
-[![What is Open Education?](what-is-open-education/kevin-grieve-B8ciJlFvaBQ-unsplash.jpg ":no-zoom")](what-is-open-education/README.md)
+![What is Open Education?](what-is-open-education/kevin-grieve-B8ciJlFvaBQ-unsplash.jpg ":no-zoom")
 
 Section 1
 
-<h2><a href="#/what-is-open-education/README">What is Open Education?</a></h2>
+## [What is Open Education?](what-is-open-education/README.md)
 
 An introduction to open education principles, the 5Rs framework, and why content ownership matters.
 
@@ -38,11 +38,11 @@ An introduction to open education principles, the 5Rs framework, and why content
 
 <div class="card">
 
-[![Tools for Open Course Design](tools-for-open-course-design/vitaly-gariev-tnikNZcsQjk-unsplash.jpg ":no-zoom")](tools-for-open-course-design/README.md)
+![Tools for Open Course Design](tools-for-open-course-design/vitaly-gariev-tnikNZcsQjk-unsplash.jpg ":no-zoom")
 
 Section 2
 
-<h2><a href="#/tools-for-open-course-design/README">Tools for Open Course Design</a></h2>
+## [Tools for Open Course Design](tools-for-open-course-design/README.md)
 
 Practical tools for creating Git-backed, LMS-embeddable open course content – from Grav to Docsify-This.
 
@@ -50,11 +50,11 @@ Practical tools for creating Git-backed, LMS-embeddable open course content – 
 
 <div class="card">
 
-[![Getting Started with Open Authoring](getting-started-with-open-authoring/natalia-y-YqeS71-42c4-unsplash.jpg ":no-zoom")](getting-started-with-open-authoring/README.md)
+![Getting Started with Open Authoring](getting-started-with-open-authoring/natalia-y-YqeS71-42c4-unsplash.jpg ":no-zoom")
 
 Section 3
 
-<h2><a href="#/getting-started-with-open-authoring/README">Getting Started with Open Authoring</a></h2>
+## [Getting Started with Open Authoring](getting-started-with-open-authoring/README.md)
 
 How to invite readers to suggest edits, view source, and contribute to your open course content via GitHub or Codeberg.
 
@@ -62,11 +62,11 @@ How to invite readers to suggest edits, view source, and contribute to your open
 
 <div class="card">
 
-[![Growing Your Guide](growing-your-guide/unsplash-sidney-perry.jpg ":no-zoom")](growing-your-guide/README.md)
+![Growing Your Guide](growing-your-guide/unsplash-sidney-perry.jpg ":no-zoom")
 
 Section 4
 
-<h2><a href="#/growing-your-guide/README">Growing Your Guide</a></h2>
+## [Growing Your Guide](growing-your-guide/README.md)
 
 Blogging alongside your guide, and knowing when to move to Helios Open Reader.
 
