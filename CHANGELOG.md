@@ -1,9 +1,10 @@
 # Changelog
 
-## [v2.1.2](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.2)
+## [v2.2.0](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.2.0)
 ### XX/XX/2026
 
 **New:**
+* Example guide: the sample pages are now a guide, Open Education Essentials (as in Grav Open Publishing Space), with a cover and a card for each section on its home page, a folder per section and collapsible section groups in the sidebar
 * Card list in rows: `card-list-rows` shows one card per row, for cards without images, such as a guide's sections
 * Portrait guide cover: `guide-cover-portrait`, added to `guide-cover`, shows a book cover whole at its own shape
 * Keep My Place: a Continue reading bar on the home page (on each course's or guide's home page in sites with several), to the Sidebar page last read
@@ -15,6 +16,7 @@
 * A card whose title is a link can be clicked anywhere – on its image, title or text – yet is still one link for keyboard and screen reader users, so its image no longer needs to be a second link
 * Each page has its own Browser tab title, such as "Week 1 | CPT-363" or "Module 2 | CPT363-1"
 * The ← → keys go to the previous and next page
+* Updated ReadMe with how the example guide is put together, how to make it your own and how to add a section, and a link to the multiple guides example
 
 ## [v2.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.1)
 ### 11/17/2026
