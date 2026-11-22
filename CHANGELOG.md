@@ -20,6 +20,7 @@
 * Updated ReadMe with how the example guide is put together, how to make it your own and how to add a section, and a link to the multiple guides example
 * Badges have WCAG AA contrast: the default background is a little darker
 * Start Reading again after the guide's section cards, as in Grav Open Publishing Space
+* Previous/Next no longer briefly shows the new page partway down before it scrolls to the top
 
 ## [v2.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.1)
 ### 11/17/2026
