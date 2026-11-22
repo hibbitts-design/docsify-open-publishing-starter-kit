@@ -74,6 +74,8 @@ Blogging alongside your guide, and knowing when to move to Helios Open Reader.
 
 </div>
 
+**[Start Reading →](what-is-open-education/README.md)**
+
 ## About This Guide
 
 This guide covers the foundational ideas, practical tools, and real-world examples you need to get started with open educational resources (OER) and open course design.
