@@ -40,6 +40,7 @@ A few tips:
 - Learning Objectives and other boxes are callouts, such as `> [!TIP]` – there's also `[!NOTE]`, `[!IMPORTANT]`, `[!WARNING]` and `[!CAUTION]`
 - The home page hides the sidebar with the `<style>` line at its end – copy that line to any other page that isn't part of the reading order
 - Returning readers see a **Continue reading** link on the home page, right above the section cards, to the last page they read – remove the Keep My Place line in `docs/index.html` to turn it off
+- On phones, Previous/Next stay in a bar at the bottom of the screen – remove `class="sticky-pagination"` from the `<html>` tag in `docs/index.html` to turn it off
 
 > [!NOTE]
 > For a site with more than one guide, see the [multiple guides example](https://github.com/hibbitts-design/demo-docsify-open-publishing-starter-kit-guides), with a Guides page and a Sample Guide.
