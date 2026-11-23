@@ -26,7 +26,7 @@ Here's an example guide to explore and build on: **Open Education Essentials** â
 
 <div class="card">
 
-![What is Open Education?](what-is-open-education/kevin-grieve-B8ciJlFvaBQ-unsplash.jpg ":no-zoom")
+![](what-is-open-education/kevin-grieve-B8ciJlFvaBQ-unsplash.jpg ":no-zoom")
 
 Section 1
 
@@ -38,7 +38,7 @@ An introduction to open education principles, the 5Rs framework, and why content
 
 <div class="card">
 
-![Tools for Open Course Design](tools-for-open-course-design/vitaly-gariev-tnikNZcsQjk-unsplash.jpg ":no-zoom")
+![](tools-for-open-course-design/vitaly-gariev-tnikNZcsQjk-unsplash.jpg ":no-zoom")
 
 Section 2
 
@@ -50,7 +50,7 @@ Practical tools for creating Git-backed, LMS-embeddable open course content â€“ 
 
 <div class="card">
 
-![Getting Started with Open Authoring](getting-started-with-open-authoring/natalia-y-YqeS71-42c4-unsplash.jpg ":no-zoom")
+![](getting-started-with-open-authoring/natalia-y-YqeS71-42c4-unsplash.jpg ":no-zoom")
 
 Section 3
 
@@ -62,7 +62,7 @@ How to invite readers to suggest edits, view source, and contribute to your open
 
 <div class="card">
 
-![Growing Your Guide](growing-your-guide/unsplash-sidney-perry.jpg ":no-zoom")
+![](growing-your-guide/unsplash-sidney-perry.jpg ":no-zoom")
 
 Section 4
 
