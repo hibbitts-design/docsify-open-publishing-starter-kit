@@ -26,7 +26,7 @@ _Figure 1. The original version of the Docsify Open Publishing Starter Kit, befo
 
 To make it your own:
 
-1. Edit `docs/home.md` with your guide's cover and its section cards
+1. Edit `docs/home.md` with your guide's cover and its section cards, and change or remove its Use this Template button and Project Info links
 2. Replace the section folders with your own, and list their pages in `docs/_sidebar.md` (links start from the `docs` folder)
 3. Set your site's name – see **Setting the Name of your Docsify Site** below
 
