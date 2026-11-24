@@ -52,7 +52,7 @@ A few tips:
 > [!NOTE]
 > For a site with more than one guide, see the [multiple guides example](https://github.com/hibbitts-design/demo-docsify-open-publishing-starter-kit-multiple-guides), with a Guides page and a Sample Guide.
 
-🧩 Variations
+🗂 Variations
 ---
 Each variation is built on this kit and is a template of its own – open its demo to see it, or start your own site from its template, as in the Quickstart below:
 
