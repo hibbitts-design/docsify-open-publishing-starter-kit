@@ -21,6 +21,7 @@
 * Badges have WCAG AA contrast: the default background is a little darker
 * Start Reading again after the guide's section cards, as in Grav Open Publishing Space
 * Previous/Next no longer briefly shows the new page partway down before it scrolls to the top
+* The home page has the Use this Template button and Project Info links instead of the Sidebar, which it hides, and no About This Guide section
 
 ## [v2.1.1](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/releases/tag/v2.1.1)
 ### 11/17/2026
