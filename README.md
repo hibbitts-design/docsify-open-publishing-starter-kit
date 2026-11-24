@@ -34,7 +34,12 @@ To add a section:
 
 1. Add a folder for it in `docs`, with a `README.md` and its other pages
 2. List them in `docs/_sidebar.md`, under the section's name
-3. Add a card for it to `docs/home.md` – copy one of the cards and change its picture, title, link and text
+3. Add a card for it to `docs/home.md` – copy one of the cards and change its title, link and text
+
+To show a picture on each section card, as in the [guide with image cards](https://github.com/hibbitts-design/demo-docsify-open-publishing-starter-kit-guide):
+
+1. In `docs/home.md`, change `card-list-rows` to `card-list-sections`
+2. Add a picture line at the top of each card, such as `![](what-is-open-education/kevin-grieve-B8ciJlFvaBQ-unsplash.jpg ":no-zoom")` – each example section folder already has a picture to try
 
 A few tips:
 
