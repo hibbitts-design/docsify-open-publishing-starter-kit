@@ -8,6 +8,7 @@ Section 2
 > - Compare Grav and Docsify-based approaches for open course content
 > - Explain how Git Sync enables version-controlled course content
 > - Embed a Grav or Docsify page into an LMS using a URL parameter
+
 Building open course content doesn't require learning a new authoring system from scratch. The tools covered here are designed to layer on top of workflows you likely already use.
 
 ## A Full Site with Grav
